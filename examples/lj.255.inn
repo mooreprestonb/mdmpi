@@ -1,0 +1,22 @@
+
+<simulation>
+
+<natoms> 255 </natoms>
+<nsteps> 10000 </nsteps>
+<timestep> 0.01 </timestep>
+<box> 10 </box>
+<systemfile> lj.sys </systemfile>
+<paramfile> lj.parm </paramfile>
+<neighbor> 0 </neighbor>
+<periodicity> 3 </periodicity>
+<coordsfile> lj.255.rest </coordsfile>
+<restartfile> lj.rest </restartfile>
+<trajectoryfile> lj.traj </trajectoryfile>
+<energyfile> lj.eng </energyfile>
+<logfile> lj.log </logfile>
+<ncell> 3 </ncell>
+<rcut> 2.5 </rcut>
+<skin> 1 </skin>
+<writefreq> 1 </writefreq>
+</simulation>
+

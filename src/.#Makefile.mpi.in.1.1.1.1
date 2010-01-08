@@ -1,0 +1,31 @@
+#  Makefile
+
+# common definitions...
+# HOME = /home/moore
+
+# CC = insure -n32
+# CFLAGS = -g -fullwarn -DPARA
+# LIBS = -lmpi -lm 
+# CC = cc -n32 -fullwarn -g
+
+CXX = @MPICC@
+MV = @MV@
+CP = @CP@
+RM = @RM@ 
+TOUCH = @TOUCH@
+LIBS = @LIBS@
+DEST = $(HOME)/bin/
+CXXFLAGS = @CXXFLAGS@ -DPARA
+
+#targets
+
+all :: mdmol.mpi
+
+include Makefile.mdmol
+
+mdmol.mpi : $(MDFILES) mdmol.h++ 
+	$(CXX) -o $@ $(CXXFLAGS) $(INCLUDE) $(MDFILES) $(LLIBS) $(LIBS)
+	$(MV) $@ ../$@
+
+
+

@@ -1,0 +1,23 @@
+
+SHELL = /bin/sh
+
+CXX = @CXX@
+MV = @MV@
+CP = @CP@
+RM = @RM@ 
+TOUCH = @TOUCH@
+LIBS = @LIBS@
+DEST = $(HOME)/bin/
+CXXFLAGS = @CXXFLAGS@
+@SET_MAKE@
+
+mdmol :
+	$(MAKE) -C src
+
+gor :
+	$(MAKE) -C analysis
+
+clean :
+	$(MAKE) -C src clean
+	$(MAKE) -C analysis clean
+	$(RM) -rf mdmol

@@ -1,0 +1,103 @@
+MDFILES = mdmol.o mdSetup.o mdOut.o mdIn.o integrate.o \
+	neighbor.o ngbrlist.o ngbrlink.o ngbrplink.o ngbrpara.o \
+	energy.o lj_energy.o coords.o periodic.o parallel.o \
+	dmatrix.o timing.o force.o electrostatic.o freeze.o mathutil.o \
+	simvars.o simkeys.o zerotm.o memory.o parsexmll.o flags.o
+
+mdmol.h++ : coords.h++ energy.h++ simvars.h++ neighbor.h++ mdOut.h++ \
+	periodic.h++ parallel.h++ timing.h++ electrostatic.h++ freeze.h++ mathutil.h++\
+	lj_energy.h++ integrate.h++ zerotm.h++ mdinclude.h++ flags.H
+	$(TOUCH) mdmol.h++
+
+mdmol.o : mdmol.cc mdmol.h++
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) mdmol.cc 
+
+mdOut.o : mdOut.cc mdmol.h++
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) mdOut.cc 
+
+mdIn.o : mdIn.cc mdmol.h++ xml.h++
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) mdIn.cc 
+
+parsexmll.o : parsexmll.c++ xml.h++
+	$(CXX) -c -o $@  $(CXXFLAGS) $(INCLUDE) parsexmll.c++
+
+mdSetup.o : mdSetup.cc mdmol.h++
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) mdSetup.cc 
+
+lj_energy.o : lj_energy.cc mdmol.h++
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) lj_energy.cc 
+
+neighbor.h++: coords.h++ 
+	$(TOUCH) neighbor.h++
+
+neighbor.o : mdmol.h++ neighbor.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) neighbor.cc 
+
+ngbrpara.o : mdmol.h++ ngbrpara.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) ngbrpara.cc 
+
+ngbrlist.o : mdmol.h++ ngbrlist.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) ngbrlist.cc 
+
+ngbrlink.o : mdmol.h++ ngbrlink.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) ngbrlink.cc 
+
+ngbrplink.o : mdmol.h++ ngbrplink.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) ngbrplink.cc 
+
+integrate.o : integrate.cc mdmol.h++
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) integrate.cc 
+
+simvars.o : simvars.cc simvars.h++ simkeys.h++
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) simvars.cc
+
+simkeys.o : simkeys.cc simkeys.h++
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) simkeys.cc
+
+force.o : mdmol.h++ force.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) force.cc
+
+energy.o : energy.h++ energy.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) energy.cc
+
+electrostatic.o : mdmol.h++ electrostatic.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) electrostatic.cc
+
+freeze.o : freeze.h++ freeze.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) freeze.cc
+
+zerotm.o : zerotm.h++ zerotm.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) zerotm.cc
+
+coords.o : coords.h++ mdOut.h++ xml.h++ parsexmll.h++ periodic.h++ coords.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) coords.cc
+
+coords.h++: simvars.h++ mdinclude.h++
+	$(TOUCH) coords.h++
+
+periodic.o : periodic.cc periodic.h++
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) periodic.cc
+
+parallel.o : parallel.cc parallel.h++
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) parallel.cc
+
+mathutil.o : mathutil.cc mathutil.h++
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) mathutil.cc
+
+flags.o : flags.cc flags.H
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) flags.cc
+
+dmatrix.o : dmatrix.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) dmatrix.cc
+
+timing.o : timing.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) timing.cc
+
+cmalloc.o : cmalloc.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) cmalloc.cc
+
+memory.o : memory.cc
+	$(CXX) -c -o $@ $(CXXFLAGS) $(INCLUDE) memory.cc
+
+clean : 
+	$(RM) -rf mdmol $(MDFILES) *~

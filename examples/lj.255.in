@@ -1,0 +1,15 @@
+natoms 255
+nsteps 1
+timestep 0.01
+box_length 7.70307
+neighbor_type 0
+periodicity 3
+initial_file lj.255.coord
+restart_file lj.rest
+energy_file lj.eng    energy file
+ncell_link 3
+rcut 3.5
+skin 1
+kmax 40
+alpha .5 
+nfreeze 0

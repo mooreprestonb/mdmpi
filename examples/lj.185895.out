@@ -1,0 +1,19 @@
+# nmol=185895, ntime=100, dt=0.01, xbox=69.3276, ipot=4, perd=0, ncell=21
+# rest="lj.rest" ham="lj.ham" conf="lj.conf"
+Link list being used ncell=21 ~ 3.30132A.
+Getting initial energy and force
+Initial values: h= -565560, ke=173566, pe=-739126
+Starting MD ntime = 100 with 557685 dof
+0 -565633 173088 -738721
+10 -565966 171705 -737670
+20 -566262 178350 -744612
+30 -566006 175844 -741850
+40 -566215 179258 -745473
+50 -566494 180112 -746606
+60 -566256 178732 -744987
+70 -566466 180963 -747429
+80 -566662 182841 -749503
+90 -567242 188212 -755453
+Timing of lj on butanol.cmm.upenn.edu (id=21521)
+(id=21521) cputime = 1923.58 sec, walltime = 2231 sec
+Writing restart file lj.rest.100

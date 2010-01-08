@@ -1,0 +1,56 @@
+
+<simulation> 
+<natoms> 2 </natoms>         number of molecules
+<nsteps> 10 </nsteps>      number of steps
+<timestep> 0.01 </timestep>      dt 
+<box> 10 </box>        box lenght
+<neighbor> 1 </ neighbor> neighbor type (0,1) n^2, (2,3) verlet, (4,5) link
+<periodicity> 3 </periodicity>      periodicity 0-3
+<coordsfile> lj.2.in </coordsfile>  initial coordininate file
+<restartfile> lj.2.rest </restartfile>   restart file
+<trajectoryfile> lj.2.traj </trajectoryfile> configurations
+<energyfile> lj.2.eng </energyfile>
+<ncell> 3 </ncell> (number of cells for the link list)
+<rcut> 5. </rcut>         rcut shortrange cut off distance
+<skin> 1 </skin>         skin skin for neighbor list
+<kmax> 11 </kmax>       kmax max of |k| vectors for ewald sum 
+<alpha> .8 </alpha>        alpha ~ alpha = 3/rcut
+<esurf> -1 </esurf>        esurf ~ 1 for vacuum or -1 for infinity
+<logfile> lj.log </logfile>
+# cutoff on
+# 2         nfreeze (number of atoms to freeze)
+<paramfile> lj.2.in </paramfile>
+<systemfile> lj.2.in </systemfile>
+</simulation>
+
+<coords>
+<natoms> 2 </natoms> <step> 0 </step>
+<atom> 1 <xyz> -0.5 0 0 </xyz> <vxyz> 0 0 0</vxyz><charge>  1 </charge><mass> 1 </mass> </atom>
+<atom> 2 <xyz>  0.5 0 0 </xyz> <vxyz> 0 0 0</vxyz><charge> -1 </charge><mass> 1 </mass> </atom>
+</coords>
+
+<system>
+<molecule>
+ <name> argon </name> <index> 1 </index> <nmol> 2 </nmol>
+ <moleculefile> lj.2.in </moleculefile>
+</molecule>
+</system>
+
+<moleculedef> argon 
+<name> argon </name> <numatoms> 1 </numatoms>
+<atomdef> 
+<atomindex> 1 </atomindex> <atomtype> argon </atomtype>
+<mass> 39.95 </mass> <charge> 0 </charge>
+</atomdef>
+</moleculedef>
+
+<forceparm>
+<inter> 
+<atom1> argon </atom1> <atom2> argon </atom2> <pottype> lj </pottype>
+<sigma> 3.405 </sigma> <epsilon>  119.8 </epsilon>
+</inter>
+<inter> 
+<atom1> neon </atom1> <atom2> neon </atom2> <pottype> lj </pottype>
+<sigma> 2.75 </sigma> <epsilon>  35.8 </epsilon>
+</inter>
+</forceparm>

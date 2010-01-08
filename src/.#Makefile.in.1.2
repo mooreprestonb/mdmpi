@@ -1,0 +1,33 @@
+#  Makefile
+
+# common definitions...
+# HOME = /home/moore
+
+# Compiler flages, paths for include files and libraries
+# CC = insure -n32
+# CFLAGS = -g -fullwarn -DPARA
+# LIBS = -lmpi -lm 
+# CC = cc -n32 -fullwarn -g
+# CFLAGS = -O -fullwarn
+# INCLUDE = -I/home/moore/software/fftw-1.3/src
+# LLIBS = -L/home/moore/software/fftw-1.3/src
+
+CXX = @CXX@
+MV = @MV@
+CP = @CP@
+RM = @RM@ 
+TOUCH = @TOUCH@
+LIBS = @LIBS@
+DEST = $(HOME)/bin/
+CXXFLAGS = @CXXFLAGS@
+
+#targets
+
+all :: mdmol
+
+include Makefile.mdmol
+
+mdmol : $(MDFILES) mdmol.h++ 
+	$(CXX) -o $@ $(CXXFLAGS) $(INCLUDE) $(MDFILES) $(LLIBS) $(LIBS)
+	$(MV) $@ ../$@
+

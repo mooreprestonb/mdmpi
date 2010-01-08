@@ -1,0 +1,37 @@
+nmol = 2, istep = 0, nstep = 10, iperd=3, xbox=10, dt=0.01
+rank = 0, size = 1, write = 10, itype = 0
+ipair=1, ncell=3, rcut = 5, skin = 1
+kmax = 11, alpha = 0.8, esurf = -1, icutoff = 0, nfreeze = 0
+hostname = hydrogen.usip.edu, pid = 29723
+zerotm = 1, resetpos = 1, writebox = 1
+setname = "lj.2.in", restname = "lj.2.rest"
+coordname = "lj.2.in", trajname = "lj.2.traj", hamname = "lj.2.eng"
+logname = "lj.log", errname = ""
+systemfile = "lj.2.in"
+paramfile = "lj.2.in"
+Reading in coords from file lj.2.in
+
+There were 0 k-vectors set up.
+Self correction term = 0 K
+Back ground term = 0 K
+Bytes of memory allocated for electrostatic = 0
+N^2 algorithm2 being used.
+Getting initial energy and force
+Starting MD ntime = 10 with 6 dof
+<step>        0 
+<energyAVG>
+<ham>        nan ~        nan </ham>
+<ke>  0.00000e+00 ~  0.00000e+00 </ke> 
+<pe>        nan ~        nan </pe>
+</energyAVG>
+</step>
+<step>       10 
+<energyAVG>
+<ham>        nan ~        nan </ham>
+<ke>        nan ~        nan </ke> 
+<pe>        nan ~  0.00000e+00 </pe>
+</energyAVG>
+</step>
+
+Timing of ./mdmol on hydrogen.usip.edu (id=29723)
+(id=29723) cputime = 0 sec, walltime = 0 sec

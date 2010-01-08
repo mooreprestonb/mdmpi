@@ -1,0 +1,289 @@
+Getting initial energy and force
+Starting MD ntime = 400 with 765 dof
+<step>        0 
+<energyAVG>
+<ham> -6.60587e+02 ~ -6.60587e+02 </ham>
+<ke>  2.38088e+02 ~  2.38088e+02 </ke> 
+<pe> -8.98675e+02 ~ -8.98675e+02 </pe>
+</energyAVG>
+</step>
+<step>       10 
+<energyAVG>
+<ham> -6.60809e+02 ~ -6.61135e+02 </ham>
+<ke>  2.33520e+02 ~  2.34111e+02 </ke> 
+<pe> -8.94329e+02 ~ -8.95246e+02 </pe>
+</energyAVG>
+</step>
+<step>       20 
+<energyAVG>
+<ham> -6.61113e+02 ~ -6.61604e+02 </ham>
+<ke>  2.37886e+02 ~  2.46857e+02 </ke> 
+<pe> -8.98999e+02 ~ -9.08461e+02 </pe>
+</energyAVG>
+</step>
+<step>       30 
+<energyAVG>
+<ham> -6.61295e+02 ~ -6.61952e+02 </ham>
+<ke>  2.39728e+02 ~  2.44377e+02 </ke> 
+<pe> -9.01023e+02 ~ -9.06329e+02 </pe>
+</energyAVG>
+</step>
+<step>       40 
+<energyAVG>
+<ham> -6.61502e+02 ~ -6.62106e+02 </ham>
+<ke>  2.41029e+02 ~  2.53746e+02 </ke> 
+<pe> -9.02531e+02 ~ -9.15851e+02 </pe>
+</energyAVG>
+</step>
+<step>       50 
+<energyAVG>
+<ham> -6.61747e+02 ~ -6.62797e+02 </ham>
+<ke>  2.46504e+02 ~  2.60763e+02 </ke> 
+<pe> -9.08251e+02 ~ -9.23559e+02 </pe>
+</energyAVG>
+</step>
+<step>       60 
+<energyAVG>
+<ham> -6.61984e+02 ~ -6.63192e+02 </ham>
+<ke>  2.48157e+02 ~  2.52557e+02 </ke> 
+<pe> -9.10140e+02 ~ -9.15748e+02 </pe>
+</energyAVG>
+</step>
+<step>       70 
+<energyAVG>
+<ham> -6.62146e+02 ~ -6.63243e+02 </ham>
+<ke>  2.49717e+02 ~  2.60593e+02 </ke> 
+<pe> -9.11863e+02 ~ -9.23836e+02 </pe>
+</energyAVG>
+</step>
+<step>       80 
+<energyAVG>
+<ham> -6.62316e+02 ~ -6.63629e+02 </ham>
+<ke>  2.51571e+02 ~  2.60712e+02 </ke> 
+<pe> -9.13888e+02 ~ -9.24342e+02 </pe>
+</energyAVG>
+</step>
+<step>       90 
+<energyAVG>
+<ham> -6.62492e+02 ~ -6.63918e+02 </ham>
+<ke>  2.52922e+02 ~  2.61134e+02 </ke> 
+<pe> -9.15414e+02 ~ -9.25052e+02 </pe>
+</energyAVG>
+</step>
+<step>      100 
+<energyAVG>
+<ham> -6.62658e+02 ~ -6.64137e+02 </ham>
+<ke>  2.53791e+02 ~  2.61233e+02 </ke> 
+<pe> -9.16449e+02 ~ -9.25370e+02 </pe>
+</energyAVG>
+</step>
+<step>      110 
+<energyAVG>
+<ham> -6.62851e+02 ~ -6.65170e+02 </ham>
+<ke>  2.55243e+02 ~  2.74901e+02 </ke> 
+<pe> -9.18094e+02 ~ -9.40071e+02 </pe>
+</energyAVG>
+</step>
+<step>      120 
+<energyAVG>
+<ham> -6.63013e+02 ~ -6.64436e+02 </ham>
+<ke>  2.56557e+02 ~  2.65059e+02 </ke> 
+<pe> -9.19571e+02 ~ -9.29495e+02 </pe>
+</energyAVG>
+</step>
+<step>      130 
+<energyAVG>
+<ham> -6.63147e+02 ~ -6.64625e+02 </ham>
+<ke>  2.57589e+02 ~  2.75008e+02 </ke> 
+<pe> -9.20736e+02 ~ -9.39633e+02 </pe>
+</energyAVG>
+</step>
+<step>      140 
+<energyAVG>
+<ham> -6.63262e+02 ~ -6.64864e+02 </ham>
+<ke>  2.58133e+02 ~  2.70975e+02 </ke> 
+<pe> -9.21396e+02 ~ -9.35838e+02 </pe>
+</energyAVG>
+</step>
+<step>      150 
+<energyAVG>
+<ham> -6.63352e+02 ~ -6.64556e+02 </ham>
+<ke>  2.59124e+02 ~  2.73411e+02 </ke> 
+<pe> -9.22475e+02 ~ -9.37967e+02 </pe>
+</energyAVG>
+</step>
+<step>      160 
+<energyAVG>
+<ham> -6.63423e+02 ~ -6.64743e+02 </ham>
+<ke>  2.59653e+02 ~  2.68952e+02 </ke> 
+<pe> -9.23077e+02 ~ -9.33696e+02 </pe>
+</energyAVG>
+</step>
+<step>      170 
+<energyAVG>
+<ham> -6.63506e+02 ~ -6.64869e+02 </ham>
+<ke>  2.60614e+02 ~  2.74101e+02 </ke> 
+<pe> -9.24120e+02 ~ -9.38970e+02 </pe>
+</energyAVG>
+</step>
+<step>      180 
+<energyAVG>
+<ham> -6.63569e+02 ~ -6.64480e+02 </ham>
+<ke>  2.60977e+02 ~  2.66050e+02 </ke> 
+<pe> -9.24546e+02 ~ -9.30530e+02 </pe>
+</energyAVG>
+</step>
+<step>      190 
+<energyAVG>
+<ham> -6.63615e+02 ~ -6.64281e+02 </ham>
+<ke>  2.61624e+02 ~  2.75548e+02 </ke> 
+<pe> -9.25239e+02 ~ -9.39829e+02 </pe>
+</energyAVG>
+</step>
+<step>      200 
+<energyAVG>
+<ham> -6.63634e+02 ~ -6.63729e+02 </ham>
+<ke>  2.62011e+02 ~  2.69247e+02 </ke> 
+<pe> -9.25645e+02 ~ -9.32975e+02 </pe>
+</energyAVG>
+</step>
+<step>      210 
+<energyAVG>
+<ham> -6.63631e+02 ~ -6.63407e+02 </ham>
+<ke>  2.62312e+02 ~  2.66893e+02 </ke> 
+<pe> -9.25944e+02 ~ -9.30301e+02 </pe>
+</energyAVG>
+</step>
+<step>      220 
+<energyAVG>
+<ham> -6.63625e+02 ~ -6.63612e+02 </ham>
+<ke>  2.62648e+02 ~  2.64903e+02 </ke> 
+<pe> -9.26273e+02 ~ -9.28516e+02 </pe>
+</energyAVG>
+</step>
+<step>      230 
+<energyAVG>
+<ham> -6.63613e+02 ~ -6.63456e+02 </ham>
+<ke>  2.62531e+02 ~  2.58908e+02 </ke> 
+<pe> -9.26144e+02 ~ -9.22364e+02 </pe>
+</energyAVG>
+</step>
+<step>      240 
+<energyAVG>
+<ham> -6.63613e+02 ~ -6.63632e+02 </ham>
+<ke>  2.62143e+02 ~  2.55551e+02 </ke> 
+<pe> -9.25756e+02 ~ -9.19183e+02 </pe>
+</energyAVG>
+</step>
+<step>      250 
+<energyAVG>
+<ham> -6.63624e+02 ~ -6.63791e+02 </ham>
+<ke>  2.62241e+02 ~  2.57121e+02 </ke> 
+<pe> -9.25865e+02 ~ -9.20912e+02 </pe>
+</energyAVG>
+</step>
+<step>      260 
+<energyAVG>
+<ham> -6.63637e+02 ~ -6.64069e+02 </ham>
+<ke>  2.62152e+02 ~  2.69263e+02 </ke> 
+<pe> -9.25789e+02 ~ -9.33331e+02 </pe>
+</energyAVG>
+</step>
+<step>      270 
+<energyAVG>
+<ham> -6.63658e+02 ~ -6.64427e+02 </ham>
+<ke>  2.62274e+02 ~  2.72242e+02 </ke> 
+<pe> -9.25932e+02 ~ -9.36669e+02 </pe>
+</energyAVG>
+</step>
+<step>      280 
+<energyAVG>
+<ham> -6.63672e+02 ~ -6.63907e+02 </ham>
+<ke>  2.62315e+02 ~  2.65784e+02 </ke> 
+<pe> -9.25987e+02 ~ -9.29691e+02 </pe>
+</energyAVG>
+</step>
+<step>      290 
+<energyAVG>
+<ham> -6.63691e+02 ~ -6.64238e+02 </ham>
+<ke>  2.62638e+02 ~  2.75143e+02 </ke> 
+<pe> -9.26328e+02 ~ -9.39382e+02 </pe>
+</energyAVG>
+</step>
+<step>      300 
+<energyAVG>
+<ham> -6.63700e+02 ~ -6.64069e+02 </ham>
+<ke>  2.63026e+02 ~  2.70018e+02 </ke> 
+<pe> -9.26726e+02 ~ -9.34088e+02 </pe>
+</energyAVG>
+</step>
+<step>      310 
+<energyAVG>
+<ham> -6.63712e+02 ~ -6.64036e+02 </ham>
+<ke>  2.63127e+02 ~  2.73207e+02 </ke> 
+<pe> -9.26839e+02 ~ -9.37243e+02 </pe>
+</energyAVG>
+</step>
+<step>      320 
+<energyAVG>
+<ham> -6.63714e+02 ~ -6.63996e+02 </ham>
+<ke>  2.63171e+02 ~  2.59307e+02 </ke> 
+<pe> -9.26885e+02 ~ -9.23303e+02 </pe>
+</energyAVG>
+</step>
+<step>      330 
+<energyAVG>
+<ham> -6.63721e+02 ~ -6.63615e+02 </ham>
+<ke>  2.63204e+02 ~  2.63507e+02 </ke> 
+<pe> -9.26925e+02 ~ -9.27122e+02 </pe>
+</energyAVG>
+</step>
+<step>      340 
+<energyAVG>
+<ham> -6.63721e+02 ~ -6.63612e+02 </ham>
+<ke>  2.62957e+02 ~  2.54849e+02 </ke> 
+<pe> -9.26679e+02 ~ -9.18460e+02 </pe>
+</energyAVG>
+</step>
+<step>      350 
+<energyAVG>
+<ham> -6.63721e+02 ~ -6.63561e+02 </ham>
+<ke>  2.62910e+02 ~  2.61555e+02 </ke> 
+<pe> -9.26631e+02 ~ -9.25116e+02 </pe>
+</energyAVG>
+</step>
+<step>      360 
+<energyAVG>
+<ham> -6.63720e+02 ~ -6.63731e+02 </ham>
+<ke>  2.62690e+02 ~  2.48547e+02 </ke> 
+<pe> -9.26409e+02 ~ -9.12278e+02 </pe>
+</energyAVG>
+</step>
+<step>      370 
+<energyAVG>
+<ham> -6.63724e+02 ~ -6.64042e+02 </ham>
+<ke>  2.62506e+02 ~  2.68433e+02 </ke> 
+<pe> -9.26230e+02 ~ -9.32475e+02 </pe>
+</energyAVG>
+</step>
+<step>      380 
+<energyAVG>
+<ham> -6.63720e+02 ~ -6.63686e+02 </ham>
+<ke>  2.62466e+02 ~  2.69340e+02 </ke> 
+<pe> -9.26186e+02 ~ -9.33026e+02 </pe>
+</energyAVG>
+</step>
+<step>      390 
+<energyAVG>
+<ham> -6.63717e+02 ~ -6.63490e+02 </ham>
+<ke>  2.62403e+02 ~  2.57769e+02 </ke> 
+<pe> -9.26120e+02 ~ -9.21259e+02 </pe>
+</energyAVG>
+</step>
+<step>      400 
+<energyAVG>
+<ham> -6.63710e+02 ~ -6.63289e+02 </ham>
+<ke>  2.62340e+02 ~  2.55972e+02 </ke> 
+<pe> -9.26050e+02 ~ -9.19261e+02 </pe>
+</energyAVG>
+</step>

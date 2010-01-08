@@ -1,0 +1,79 @@
+Getting initial energy and force
+Starting MD ntime = 100 with 765 dof
+<step>        0 
+<energyAVG>
+<ham> -6.60587e+02 ~ -6.60587e+02 </ham>
+<ke>  2.38088e+02 ~  2.38088e+02 </ke> 
+<pe> -8.98675e+02 ~ -8.98675e+02 </pe>
+</energyAVG>
+</step>
+<step>       10 
+<energyAVG>
+<ham> -6.60809e+02 ~ -6.61134e+02 </ham>
+<ke>  2.33520e+02 ~  2.34111e+02 </ke> 
+<pe> -8.94329e+02 ~ -8.95246e+02 </pe>
+</energyAVG>
+</step>
+<step>       20 
+<energyAVG>
+<ham> -6.61113e+02 ~ -6.61604e+02 </ham>
+<ke>  2.37886e+02 ~  2.46858e+02 </ke> 
+<pe> -8.98999e+02 ~ -9.08461e+02 </pe>
+</energyAVG>
+</step>
+<step>       30 
+<energyAVG>
+<ham> -6.61295e+02 ~ -6.61951e+02 </ham>
+<ke>  2.39728e+02 ~  2.44377e+02 </ke> 
+<pe> -9.01023e+02 ~ -9.06328e+02 </pe>
+</energyAVG>
+</step>
+<step>       40 
+<energyAVG>
+<ham> -6.61501e+02 ~ -6.62105e+02 </ham>
+<ke>  2.41029e+02 ~  2.53745e+02 </ke> 
+<pe> -9.02531e+02 ~ -9.15850e+02 </pe>
+</energyAVG>
+</step>
+<step>       50 
+<energyAVG>
+<ham> -6.61747e+02 ~ -6.62796e+02 </ham>
+<ke>  2.46504e+02 ~  2.60763e+02 </ke> 
+<pe> -9.08250e+02 ~ -9.23559e+02 </pe>
+</energyAVG>
+</step>
+<step>       60 
+<energyAVG>
+<ham> -6.61983e+02 ~ -6.63190e+02 </ham>
+<ke>  2.48157e+02 ~  2.52556e+02 </ke> 
+<pe> -9.10140e+02 ~ -9.15747e+02 </pe>
+</energyAVG>
+</step>
+<step>       70 
+<energyAVG>
+<ham> -6.62145e+02 ~ -6.63242e+02 </ham>
+<ke>  2.49717e+02 ~  2.60594e+02 </ke> 
+<pe> -9.11863e+02 ~ -9.23836e+02 </pe>
+</energyAVG>
+</step>
+<step>       80 
+<energyAVG>
+<ham> -6.62316e+02 ~ -6.63630e+02 </ham>
+<ke>  2.51572e+02 ~  2.60717e+02 </ke> 
+<pe> -9.13887e+02 ~ -9.24347e+02 </pe>
+</energyAVG>
+</step>
+<step>       90 
+<energyAVG>
+<ham> -6.62492e+02 ~ -6.63917e+02 </ham>
+<ke>  2.52922e+02 ~  2.61134e+02 </ke> 
+<pe> -9.15414e+02 ~ -9.25052e+02 </pe>
+</energyAVG>
+</step>
+<step>      100 
+<energyAVG>
+<ham> -6.62657e+02 ~ -6.64121e+02 </ham>
+<ke>  2.53791e+02 ~  2.61221e+02 </ke> 
+<pe> -9.16448e+02 ~ -9.25342e+02 </pe>
+</energyAVG>
+</step>

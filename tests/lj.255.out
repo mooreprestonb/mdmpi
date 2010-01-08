@@ -1,0 +1,18 @@
+Running ../src/lj on METHANE.CMM.UPENN.EDU (id=24458)
+# nmol=255, ntime=100, dt=0.01, xbox=6.70307, ipot=3, perd=3, ncell=5
+# rest="lj.255.rest" ham="lj.255.ham" conf="lj.255.conf"
+Verlist2 being used.
+Getting initial energy and force
+Initial values = h= -1158.12, ke=289.022, pe=-1447.14
+Starting MD ntime = 100 with 765 dof
+0 -1158.32 289.83 -1448.15
+10 -1158.58 287.571 -1446.15
+20 -1157.67 279.496 -1437.17
+30 -1158.03 278.084 -1436.12
+40 -1157.65 276.03 -1433.68
+50 -1157.69 278.305 -1435.99
+60 -1158.08 282.45 -1440.53
+70 -1158.45 274.02 -1432.47
+80 -1158.23 278.389 -1436.62
+90 -1157.98 271.926 -1429.91
+Writing restart file lj.255.rest.100

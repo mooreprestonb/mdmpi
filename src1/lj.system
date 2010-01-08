@@ -1,0 +1,21 @@
+<systemconfig> 
+
+<moldef>
+<molname> lennard-jones </molname>
+<molindex> 1 </molindex>
+<nmol> 128 </nmol>
+<moltopfile> lj.top </moltopfile>
+</moldef>
+
+</systemconfig>
+
+<moltop>
+<molname> lennard-jones </molname>
+<natoms> 1 </natoms>
+<atomdef> 
+<atomtype> lj </atomtype>
+<atomindx> 1 </atomindx>
+<atommass> .831441 </atommass>
+<atomchrg> 0 </atomchrg>
+</atomdef>
+</moltop>

@@ -1,0 +1,776 @@
+<coords>
+<natoms> 255 </natoms>
+<step> 401 </step>
+<timestep> 0.01 </timestep>
+<boxsize> 7.70307 </boxsize>
+<coordFileName> lj.255e.coord </coordFileName>
+<restartFileName> lj.rest</restartFileName>
+<energyFileName> lj.eng </energyFileName>
+<trajectorFileName> lj.traj </trajectorFileName>
+<xyz id="0"> 0.234452 0.272027 3.27387 	</xyz> 
+ <vxyz id="0"> 0.383396 0.696733 0.295956 	</vxyz> 
+ <charge id="0"> 0.01 </charge> <mass id="0"> 1 </mass>
+<xyz id="1"> -2.11426 -0.835584 3.81602 	</xyz> 
+ <vxyz id="1"> -1.61167 -0.416107 -0.0240782 	</vxyz> 
+ <charge id="1"> -0.01 </charge> <mass id="1"> 1 </mass>
+<xyz id="2"> -0.554009 -0.408795 0.906345 	</xyz> 
+ <vxyz id="2"> 0.814717 -0.132791 0.0315328 	</vxyz> 
+ <charge id="2"> 0.01 </charge> <mass id="2"> 1 </mass>
+<xyz id="3"> -1.77989 3.05117 0.740199 	</xyz> 
+ <vxyz id="3"> 0.302142 -1.60962 0.29294 	</vxyz> 
+ <charge id="3"> -0.01 </charge> <mass id="3"> 1 </mass>
+<xyz id="4"> -3.45976 3.13827 2.07371 	</xyz> 
+ <vxyz id="4"> -0.868436 1.2258 -0.674563 	</vxyz> 
+ <charge id="4"> 0.01 </charge> <mass id="4"> 1 </mass>
+<xyz id="5"> 2.48543 0.452131 0.812076 	</xyz> 
+ <vxyz id="5"> 0.0950411 -1.44178 -0.25406 	</vxyz> 
+ <charge id="5"> -0.01 </charge> <mass id="5"> 1 </mass>
+<xyz id="6"> 1.9525 -1.06058 -0.39456 	</xyz> 
+ <vxyz id="6"> 1.00028 -0.519025 -1.57331 	</vxyz> 
+ <charge id="6"> 0.01 </charge> <mass id="6"> 1 </mass>
+<xyz id="7"> 0.58357 1.34412 -3.00955 	</xyz> 
+ <vxyz id="7"> -0.180593 -0.139096 -0.495986 	</vxyz> 
+ <charge id="7"> -0.01 </charge> <mass id="7"> 1 </mass>
+<xyz id="8"> 3.80209 0.149171 0.0245899 	</xyz> 
+ <vxyz id="8"> 0.0620331 -0.134687 -0.51361 	</vxyz> 
+ <charge id="8"> 0.01 </charge> <mass id="8"> 1 </mass>
+<xyz id="9"> -1.92616 -0.418719 -0.733966 	</xyz> 
+ <vxyz id="9"> 0.9584 1.16323 -0.237076 	</vxyz> 
+ <charge id="9"> -0.01 </charge> <mass id="9"> 1 </mass>
+<xyz id="10"> 3.46671 -2.59536 -0.060066 	</xyz> 
+ <vxyz id="10"> 0.373649 1.28459 -0.719519 	</vxyz> 
+ <charge id="10"> 0.01 </charge> <mass id="10"> 1 </mass>
+<xyz id="11"> 2.17376 -0.701154 -1.55077 	</xyz> 
+ <vxyz id="11"> -0.3472 0.983307 -0.0186706 	</vxyz> 
+ <charge id="11"> -0.01 </charge> <mass id="11"> 1 </mass>
+<xyz id="12"> -0.392414 -2.5007 -0.478027 	</xyz> 
+ <vxyz id="12"> -0.279941 -0.140447 0.382322 	</vxyz> 
+ <charge id="12"> 0.01 </charge> <mass id="12"> 1 </mass>
+<xyz id="13"> 1.2496 -1.04394 -1.33157 	</xyz> 
+ <vxyz id="13"> 0.496731 -0.131421 -1.06795 	</vxyz> 
+ <charge id="13"> -0.01 </charge> <mass id="13"> 1 </mass>
+<xyz id="14"> 3.61535 -1.71676 -1.60015 	</xyz> 
+ <vxyz id="14"> 1.51687 0.0472622 0.0552365 	</vxyz> 
+ <charge id="14"> 0.01 </charge> <mass id="14"> 1 </mass>
+<xyz id="15"> -0.205778 0.287561 -3.37617 	</xyz> 
+ <vxyz id="15"> -0.491818 -0.0213651 -0.860435 	</vxyz> 
+ <charge id="15"> -0.01 </charge> <mass id="15"> 1 </mass>
+<xyz id="16"> -1.86874 3.56515 -0.144399 	</xyz> 
+ <vxyz id="16"> -0.491862 0.441312 -0.964879 	</vxyz> 
+ <charge id="16"> 0.01 </charge> <mass id="16"> 1 </mass>
+<xyz id="17"> -2.81177 -3.71662 -0.848634 	</xyz> 
+ <vxyz id="17"> 1.1529 -0.443826 0.14251 	</vxyz> 
+ <charge id="17"> -0.01 </charge> <mass id="17"> 1 </mass>
+<xyz id="18"> -2.1789 -0.989973 0.671503 	</xyz> 
+ <vxyz id="18"> 0.259957 -0.749123 -0.219941 	</vxyz> 
+ <charge id="18"> 0.01 </charge> <mass id="18"> 1 </mass>
+<xyz id="19"> -0.691543 -2.51455 2.03865 	</xyz> 
+ <vxyz id="19"> -0.571766 -1.86926 -1.31277 	</vxyz> 
+ <charge id="19"> -0.01 </charge> <mass id="19"> 1 </mass>
+<xyz id="20"> 0.616717 3.70492 1.57456 	</xyz> 
+ <vxyz id="20"> -0.0402152 -1.63733 -1.12768 	</vxyz> 
+ <charge id="20"> 0.01 </charge> <mass id="20"> 1 </mass>
+<xyz id="21"> 1.35808 -0.168021 -2.11109 	</xyz> 
+ <vxyz id="21"> -0.363885 -1.88325 0.848477 	</vxyz> 
+ <charge id="21"> -0.01 </charge> <mass id="21"> 1 </mass>
+<xyz id="22"> 0.722354 2.44789 0.639349 	</xyz> 
+ <vxyz id="22"> -0.105059 0.4804 -0.807601 	</vxyz> 
+ <charge id="22"> 0.01 </charge> <mass id="22"> 1 </mass>
+<xyz id="23"> -0.401064 2.12854 0.26092 	</xyz> 
+ <vxyz id="23"> 0.630133 -0.615427 -0.910623 	</vxyz> 
+ <charge id="23"> -0.01 </charge> <mass id="23"> 1 </mass>
+<xyz id="24"> -0.340779 1.1185 -2.31293 	</xyz> 
+ <vxyz id="24"> 1.02606 0.0360279 -1.49308 	</vxyz> 
+ <charge id="24"> 0.01 </charge> <mass id="24"> 1 </mass>
+<xyz id="25"> -0.762377 -3.14384 -1.80911 	</xyz> 
+ <vxyz id="25"> -0.181042 0.491726 -0.956725 	</vxyz> 
+ <charge id="25"> -0.01 </charge> <mass id="25"> 1 </mass>
+<xyz id="26"> -2.72613 2.25827 -1.60614 	</xyz> 
+ <vxyz id="26"> -0.231714 0.30478 0.244644 	</vxyz> 
+ <charge id="26"> 0.01 </charge> <mass id="26"> 1 </mass>
+<xyz id="27"> -1.47684 -2.62904 -0.84881 	</xyz> 
+ <vxyz id="27"> 1.07463 -0.303761 0.127459 	</vxyz> 
+ <charge id="27"> -0.01 </charge> <mass id="27"> 1 </mass>
+<xyz id="28"> -0.84914 3.37393 -1.50495 	</xyz> 
+ <vxyz id="28"> -0.151019 0.9006 -0.196685 	</vxyz> 
+ <charge id="28"> 0.01 </charge> <mass id="28"> 1 </mass>
+<xyz id="29"> 0.679578 1.87897 -1.78818 	</xyz> 
+ <vxyz id="29"> -0.523032 0.435361 0.548043 	</vxyz> 
+ <charge id="29"> -0.01 </charge> <mass id="29"> 1 </mass>
+<xyz id="30"> -1.60378 1.57514 -2.37293 	</xyz> 
+ <vxyz id="30"> -0.336868 -0.269579 0.0123735 	</vxyz> 
+ <charge id="30"> 0.01 </charge> <mass id="30"> 1 </mass>
+<xyz id="31"> 0.499517 2.47183 -2.74775 	</xyz> 
+ <vxyz id="31"> 0.922007 -0.288929 0.555412 	</vxyz> 
+ <charge id="31"> -0.01 </charge> <mass id="31"> 1 </mass>
+<xyz id="32"> -1.58997 -1.40136 2.3976 	</xyz> 
+ <vxyz id="32"> -0.987136 1.08846 0.199874 	</vxyz> 
+ <charge id="32"> 0.01 </charge> <mass id="32"> 1 </mass>
+<xyz id="33"> 0.877751 -0.0176998 -0.946282 	</xyz> 
+ <vxyz id="33"> -0.595545 0.0973583 0.819508 	</vxyz> 
+ <charge id="33"> -0.01 </charge> <mass id="33"> 1 </mass>
+<xyz id="34"> -0.265775 -1.53215 -0.267878 	</xyz> 
+ <vxyz id="34"> 0.432648 -0.964356 -0.143704 	</vxyz> 
+ <charge id="34"> 0.01 </charge> <mass id="34"> 1 </mass>
+<xyz id="35"> -2.52022 2.915 1.63838 	</xyz> 
+ <vxyz id="35"> -0.0162503 -0.00812581 0.464723 	</vxyz> 
+ <charge id="35"> -0.01 </charge> <mass id="35"> 1 </mass>
+<xyz id="36"> -0.866666 -3.61701 1.24462 	</xyz> 
+ <vxyz id="36"> 0.493229 0.00211123 0.455248 	</vxyz> 
+ <charge id="36"> 0.01 </charge> <mass id="36"> 1 </mass>
+<xyz id="37"> 3.26608 1.25936 0.199253 	</xyz> 
+ <vxyz id="37"> 0.440161 -0.338596 -0.780186 	</vxyz> 
+ <charge id="37"> -0.01 </charge> <mass id="37"> 1 </mass>
+<xyz id="38"> -2.48903 -3.7079 1.85746 	</xyz> 
+ <vxyz id="38"> -1.27719 0.196474 -2.17893 	</vxyz> 
+ <charge id="38"> 0.01 </charge> <mass id="38"> 1 </mass>
+<xyz id="39"> 0.557662 1.67953 2.39463 	</xyz> 
+ <vxyz id="39"> 0.212072 -0.455017 -0.00894522 	</vxyz> 
+ <charge id="39"> -0.01 </charge> <mass id="39"> 1 </mass>
+<xyz id="40"> -3.58752 -3.10801 1.96229 	</xyz> 
+ <vxyz id="40"> 0.416516 0.99643 0.00803097 	</vxyz> 
+ <charge id="40"> 0.01 </charge> <mass id="40"> 1 </mass>
+<xyz id="41"> 0.110198 2.19197 -3.72232 	</xyz> 
+ <vxyz id="41"> -1.05196 1.33921 0.591194 	</vxyz> 
+ <charge id="41"> -0.01 </charge> <mass id="41"> 1 </mass>
+<xyz id="42"> -1.3325 -1.1145 1.33233 	</xyz> 
+ <vxyz id="42"> 0.338107 -0.115314 -0.965866 	</vxyz> 
+ <charge id="42"> 0.01 </charge> <mass id="42"> 1 </mass>
+<xyz id="43"> -0.0386951 -2.55336 -1.52762 	</xyz> 
+ <vxyz id="43"> -0.524696 -0.342444 0.366782 	</vxyz> 
+ <charge id="43"> -0.01 </charge> <mass id="43"> 1 </mass>
+<xyz id="44"> 2.4252 3.11413 -1.99917 	</xyz> 
+ <vxyz id="44"> -0.311477 -0.392264 -0.704052 	</vxyz> 
+ <charge id="44"> 0.01 </charge> <mass id="44"> 1 </mass>
+<xyz id="45"> 0.717307 3.64497 -2.86688 	</xyz> 
+ <vxyz id="45"> 0.456227 1.0948 0.494063 	</vxyz> 
+ <charge id="45"> -0.01 </charge> <mass id="45"> 1 </mass>
+<xyz id="46"> -1.83126 -3.50656 -1.80815 	</xyz> 
+ <vxyz id="46"> -0.0786237 1.01166 0.885889 	</vxyz> 
+ <charge id="46"> 0.01 </charge> <mass id="46"> 1 </mass>
+<xyz id="47"> -0.849133 1.52999 -1.32649 	</xyz> 
+ <vxyz id="47"> -0.34936 -0.251738 -0.636599 	</vxyz> 
+ <charge id="47"> -0.01 </charge> <mass id="47"> 1 </mass>
+<xyz id="48"> 0.221123 0.556655 -0.34263 	</xyz> 
+ <vxyz id="48"> 0.184089 -0.517301 -0.13013 	</vxyz> 
+ <charge id="48"> 0.01 </charge> <mass id="48"> 1 </mass>
+<xyz id="49"> 1.54489 2.19381 -0.00487567 	</xyz> 
+ <vxyz id="49"> 0.706236 -0.245244 -1.0654 	</vxyz> 
+ <charge id="49"> -0.01 </charge> <mass id="49"> 1 </mass>
+<xyz id="50"> -0.146606 -1.61141 1.10312 	</xyz> 
+ <vxyz id="50"> -0.238733 0.140071 -1.10641 	</vxyz> 
+ <charge id="50"> 0.01 </charge> <mass id="50"> 1 </mass>
+<xyz id="51"> 0.675404 -1.03673 -2.38176 	</xyz> 
+ <vxyz id="51"> -1.37167 0.174368 0.581777 	</vxyz> 
+ <charge id="51"> -0.01 </charge> <mass id="51"> 1 </mass>
+<xyz id="52"> -2.52656 -2.55966 -2.13889 	</xyz> 
+ <vxyz id="52"> -0.487692 -0.119437 -0.158702 	</vxyz> 
+ <charge id="52"> 0.01 </charge> <mass id="52"> 1 </mass>
+<xyz id="53"> 0.0445851 0.688836 1.78188 	</xyz> 
+ <vxyz id="53"> 1.35819 0.455341 -0.27119 	</vxyz> 
+ <charge id="53"> -0.01 </charge> <mass id="53"> 1 </mass>
+<xyz id="54"> 3.30812 -2.06904 -2.80964 	</xyz> 
+ <vxyz id="54"> -0.976496 0.276241 1.0804 	</vxyz> 
+ <charge id="54"> 0.01 </charge> <mass id="54"> 1 </mass>
+<xyz id="55"> 1.1056 0.616634 2.45889 	</xyz> 
+ <vxyz id="55"> 0.0851283 -0.986333 -0.0348458 	</vxyz> 
+ <charge id="55"> -0.01 </charge> <mass id="55"> 1 </mass>
+<xyz id="56"> 1.00506 2.44142 2.98815 	</xyz> 
+ <vxyz id="56"> -0.111569 -0.523266 0.0277076 	</vxyz> 
+ <charge id="56"> 0.01 </charge> <mass id="56"> 1 </mass>
+<xyz id="57"> 2.87399 -2.06945 -0.798365 	</xyz> 
+ <vxyz id="57"> -0.231168 -0.734729 -0.0289829 	</vxyz> 
+ <charge id="57"> -0.01 </charge> <mass id="57"> 1 </mass>
+<xyz id="58"> 2.33705 -2.07722 0.162695 	</xyz> 
+ <vxyz id="58"> -2.04065 1.09971 1.40494 	</vxyz> 
+ <charge id="58"> 0.01 </charge> <mass id="58"> 1 </mass>
+<xyz id="59"> -2.87937 -0.0718736 3.41594 	</xyz> 
+ <vxyz id="59"> -0.095306 2.4132 1.46759 	</vxyz> 
+ <charge id="59"> -0.01 </charge> <mass id="59"> 1 </mass>
+<xyz id="60"> 0.599977 -0.826401 0.647287 	</xyz> 
+ <vxyz id="60"> 0.108621 1.20101 0.869905 	</vxyz> 
+ <charge id="60"> 0.01 </charge> <mass id="60"> 1 </mass>
+<xyz id="61"> -2.11141 1.01244 -1.67439 	</xyz> 
+ <vxyz id="61"> 0.215995 -0.0203569 -0.0850901 	</vxyz> 
+ <charge id="61"> -0.01 </charge> <mass id="61"> 1 </mass>
+<xyz id="62"> 0.400572 -2.81577 1.57604 	</xyz> 
+ <vxyz id="62"> -0.26642 -1.11436 -0.620829 	</vxyz> 
+ <charge id="62"> 0.01 </charge> <mass id="62"> 1 </mass>
+<xyz id="63"> 0.961404 -3.28889 -0.355658 	</xyz> 
+ <vxyz id="63"> -0.727801 -0.0552607 -0.120366 	</vxyz> 
+ <charge id="63"> -0.01 </charge> <mass id="63"> 1 </mass>
+<xyz id="64"> 2.35963 1.57193 -0.258809 	</xyz> 
+ <vxyz id="64"> 0.363049 0.804355 1.25181 	</vxyz> 
+ <charge id="64"> 0.01 </charge> <mass id="64"> 1 </mass>
+<xyz id="65"> 0.80074 0.810963 -1.84154 	</xyz> 
+ <vxyz id="65"> -0.765023 -0.147351 -0.439408 	</vxyz> 
+ <charge id="65"> -0.01 </charge> <mass id="65"> 1 </mass>
+<xyz id="66"> 1.47655 1.82924 -2.4671 	</xyz> 
+ <vxyz id="66"> 0.665671 -0.266466 -0.587344 	</vxyz> 
+ <charge id="66"> 0.01 </charge> <mass id="66"> 1 </mass>
+<xyz id="67"> 2.28542 -0.57195 3.06827 	</xyz> 
+ <vxyz id="67"> 0.571196 -0.053382 -0.98629 	</vxyz> 
+ <charge id="67"> -0.01 </charge> <mass id="67"> 1 </mass>
+<xyz id="68"> 1.55542 -0.358692 0.182472 	</xyz> 
+ <vxyz id="68"> -1.79766 2.07938 -0.0722184 	</vxyz> 
+ <charge id="68"> 0.01 </charge> <mass id="68"> 1 </mass>
+<xyz id="69"> -1.99586 -2.2528 -3.73283 	</xyz> 
+ <vxyz id="69"> 0.996542 -0.163556 0.255911 	</vxyz> 
+ <charge id="69"> -0.01 </charge> <mass id="69"> 1 </mass>
+<xyz id="70"> 2.87573 0.15312 -3.48255 	</xyz> 
+ <vxyz id="70"> 1.90489 -0.646979 0.458265 	</vxyz> 
+ <charge id="70"> 0.01 </charge> <mass id="70"> 1 </mass>
+<xyz id="71"> -1.66272 -2.98461 2.3667 	</xyz> 
+ <vxyz id="71"> -1.72391 0.543788 -0.277842 	</vxyz> 
+ <charge id="71"> -0.01 </charge> <mass id="71"> 1 </mass>
+<xyz id="72"> 2.88239 0.24432 2.21592 	</xyz> 
+ <vxyz id="72"> 0.933035 0.858488 0.528695 	</vxyz> 
+ <charge id="72"> 0.01 </charge> <mass id="72"> 1 </mass>
+<xyz id="73"> -1.38346 -1.32751 -0.746982 	</xyz> 
+ <vxyz id="73"> 0.520227 -0.890649 0.828351 	</vxyz> 
+ <charge id="73"> -0.01 </charge> <mass id="73"> 1 </mass>
+<xyz id="74"> -2.70503 0.602649 -0.328248 	</xyz> 
+ <vxyz id="74"> 0.345259 0.54804 0.418326 	</vxyz> 
+ <charge id="74"> 0.01 </charge> <mass id="74"> 1 </mass>
+<xyz id="75"> 1.25336 3.02821 -2.15341 	</xyz> 
+ <vxyz id="75"> 0.733592 -2.90065 -0.256274 	</vxyz> 
+ <charge id="75"> -0.01 </charge> <mass id="75"> 1 </mass>
+<xyz id="76"> 1.63308 3.30654 2.76088 	</xyz> 
+ <vxyz id="76"> 0.566907 -1.34988 -0.191909 	</vxyz> 
+ <charge id="76"> 0.01 </charge> <mass id="76"> 1 </mass>
+<xyz id="77"> 2.71667 -0.547256 0.433056 	</xyz> 
+ <vxyz id="77"> -0.294656 1.0499 0.0356193 	</vxyz> 
+ <charge id="77"> -0.01 </charge> <mass id="77"> 1 </mass>
+<xyz id="78"> 2.32944 -2.87524 -1.48365 	</xyz> 
+ <vxyz id="78"> 0.427931 -1.06202 -0.7487 	</vxyz> 
+ <charge id="78"> 0.01 </charge> <mass id="78"> 1 </mass>
+<xyz id="79"> 1.83459 -3.66964 -2.21949 	</xyz> 
+ <vxyz id="79"> 0.223688 0.500342 -0.745906 	</vxyz> 
+ <charge id="79"> -0.01 </charge> <mass id="79"> 1 </mass>
+<xyz id="80"> 1.40702 -3.22656 2.08432 	</xyz> 
+ <vxyz id="80"> -0.622623 -1.11114 1.40683 	</vxyz> 
+ <charge id="80"> 0.01 </charge> <mass id="80"> 1 </mass>
+<xyz id="81"> 3.02826 -3.08998 1.26028 	</xyz> 
+ <vxyz id="81"> -0.261572 -0.66352 -1.86947 	</vxyz> 
+ <charge id="81"> -0.01 </charge> <mass id="81"> 1 </mass>
+<xyz id="82"> -1.63763 0.164039 3.58387 	</xyz> 
+ <vxyz id="82"> -1.35885 -0.992832 0.235639 	</vxyz> 
+ <charge id="82"> 0.01 </charge> <mass id="82"> 1 </mass>
+<xyz id="83"> 1.1164 -3.59626 0.778487 	</xyz> 
+ <vxyz id="83"> 1.65285 -0.715997 0.465086 	</vxyz> 
+ <charge id="83"> -0.01 </charge> <mass id="83"> 1 </mass>
+<xyz id="84"> 0.992792 3.26805 -0.0922419 	</xyz> 
+ <vxyz id="84"> -0.435745 0.00474498 -1.6875 	</vxyz> 
+ <charge id="84"> 0.01 </charge> <mass id="84"> 1 </mass>
+<xyz id="85"> 0.388371 0.219521 0.749375 	</xyz> 
+ <vxyz id="85"> -0.517515 0.177404 0.715282 	</vxyz> 
+ <charge id="85"> -0.01 </charge> <mass id="85"> 1 </mass>
+<xyz id="86"> -2.19938 0.851451 -2.90797 	</xyz> 
+ <vxyz id="86"> -0.0944364 0.848133 0.416728 	</vxyz> 
+ <charge id="86"> 0.01 </charge> <mass id="86"> 1 </mass>
+<xyz id="87"> 1.69156 0.784481 -2.36852 	</xyz> 
+ <vxyz id="87"> -0.478182 -1.24484 0.43425 	</vxyz> 
+ <charge id="87"> -0.01 </charge> <mass id="87"> 1 </mass>
+<xyz id="88"> -0.564316 3.72614 2.47554 	</xyz> 
+ <vxyz id="88"> 0.679383 -0.994768 0.516353 	</vxyz> 
+ <charge id="88"> 0.01 </charge> <mass id="88"> 1 </mass>
+<xyz id="89"> 2.09786 2.38343 3.30963 	</xyz> 
+ <vxyz id="89"> -0.0187989 -0.5285 -0.313828 	</vxyz> 
+ <charge id="89"> -0.01 </charge> <mass id="89"> 1 </mass>
+<xyz id="90"> 3.27422 -0.303494 -0.974131 	</xyz> 
+ <vxyz id="90"> 0.579952 0.0811378 -0.286797 	</vxyz> 
+ <charge id="90"> 0.01 </charge> <mass id="90"> 1 </mass>
+<xyz id="91"> -1.16201 -0.429111 2.29176 	</xyz> 
+ <vxyz id="91"> -2.51528 0.820169 -0.0154501 	</vxyz> 
+ <charge id="91"> -0.01 </charge> <mass id="91"> 1 </mass>
+<xyz id="92"> 1.4071 0.0312943 1.09696 	</xyz> 
+ <vxyz id="92"> -0.424564 -0.588638 -1.46756 	</vxyz> 
+ <charge id="92"> 0.01 </charge> <mass id="92"> 1 </mass>
+<xyz id="93"> 1.13444 -1.65009 0.29315 	</xyz> 
+ <vxyz id="93"> -0.655367 0.235766 1.31079 	</vxyz> 
+ <charge id="93"> -0.01 </charge> <mass id="93"> 1 </mass>
+<xyz id="94"> 2.90974 0.90566 -1.32979 	</xyz> 
+ <vxyz id="94"> 0.560081 0.228409 -0.970222 	</vxyz> 
+ <charge id="94"> 0.01 </charge> <mass id="94"> 1 </mass>
+<xyz id="95"> -0.0622395 -3.44323 -0.0957835 	</xyz> 
+ <vxyz id="95"> -1.2357 0.00419538 -0.0652907 	</vxyz> 
+ <charge id="95"> -0.01 </charge> <mass id="95"> 1 </mass>
+<xyz id="96"> 2.83919 -0.453432 1.45156 	</xyz> 
+ <vxyz id="96"> 0.0437696 -1.14232 -0.00938624 	</vxyz> 
+ <charge id="96"> 0.01 </charge> <mass id="96"> 1 </mass>
+<xyz id="97"> 2.7773 -2.09913 1.18742 	</xyz> 
+ <vxyz id="97"> -0.756772 -0.664949 0.409177 	</vxyz> 
+ <charge id="97"> -0.01 </charge> <mass id="97"> 1 </mass>
+<xyz id="98"> -1.97825 0.40346 2.38926 	</xyz> 
+ <vxyz id="98"> -2.0169 0.319205 -0.732815 	</vxyz> 
+ <charge id="98"> 0.01 </charge> <mass id="98"> 1 </mass>
+<xyz id="99"> 1.91635 -1.2402 1.00034 	</xyz> 
+ <vxyz id="99"> 1.55183 -0.529403 0.113496 	</vxyz> 
+ <charge id="99"> -0.01 </charge> <mass id="99"> 1 </mass>
+<xyz id="100"> 3.02188 -0.95547 -3.12391 	</xyz> 
+ <vxyz id="100"> 1.62733 0.637621 -0.044146 	</vxyz> 
+ <charge id="100"> 0.01 </charge> <mass id="100"> 1 </mass>
+<xyz id="101"> 1.27603 2.70646 -3.36876 	</xyz> 
+ <vxyz id="101"> 1.68008 -0.529814 -1.9038 	</vxyz> 
+ <charge id="101"> -0.01 </charge> <mass id="101"> 1 </mass>
+<xyz id="102"> 1.5859 0.317562 -3.44408 	</xyz> 
+ <vxyz id="102"> 0.435976 0.885615 1.71141 	</vxyz> 
+ <charge id="102"> 0.01 </charge> <mass id="102"> 1 </mass>
+<xyz id="103"> 0.356834 -1.90315 2.28793 	</xyz> 
+ <vxyz id="103"> -0.168962 0.622855 0.638688 	</vxyz> 
+ <charge id="103"> -0.01 </charge> <mass id="103"> 1 </mass>
+<xyz id="104"> 1.23939 2.20423 1.53907 	</xyz> 
+ <vxyz id="104"> 0.501701 0.566547 0.530886 	</vxyz> 
+ <charge id="104"> 0.01 </charge> <mass id="104"> 1 </mass>
+<xyz id="105"> -3.25934 -0.799121 2.23389 	</xyz> 
+ <vxyz id="105"> -0.179376 0.82436 0.97699 	</vxyz> 
+ <charge id="105"> -0.01 </charge> <mass id="105"> 1 </mass>
+<xyz id="106"> 2.83884 -3.35613 -2.34781 	</xyz> 
+ <vxyz id="106"> -0.222532 0.386728 1.73206 	</vxyz> 
+ <charge id="106"> 0.01 </charge> <mass id="106"> 1 </mass>
+<xyz id="107"> 2.21755 3.74117 -3.84243 	</xyz> 
+ <vxyz id="107"> -0.55379 -0.280917 -0.964872 	</vxyz> 
+ <charge id="107"> -0.01 </charge> <mass id="107"> 1 </mass>
+<xyz id="108"> -2.85744 3.0669 -0.376607 	</xyz> 
+ <vxyz id="108"> 0.236038 2.06131 0.141471 	</vxyz> 
+ <charge id="108"> 0.01 </charge> <mass id="108"> 1 </mass>
+<xyz id="109"> 1.10254 3.75046 -1.30658 	</xyz> 
+ <vxyz id="109"> -0.118188 0.421206 2.07862 	</vxyz> 
+ <charge id="109"> -0.01 </charge> <mass id="109"> 1 </mass>
+<xyz id="110"> 3.11648 3.34055 1.29784 	</xyz> 
+ <vxyz id="110"> 0.955201 0.255879 -0.539496 	</vxyz> 
+ <charge id="110"> 0.01 </charge> <mass id="110"> 1 </mass>
+<xyz id="111"> 0.370475 -0.725931 -0.412286 	</xyz> 
+ <vxyz id="111"> 0.2048 1.49924 -0.0410886 	</vxyz> 
+ <charge id="111"> -0.01 </charge> <mass id="111"> 1 </mass>
+<xyz id="112"> -2.48262 -0.885592 -1.88468 	</xyz> 
+ <vxyz id="112"> -0.0271378 -0.444402 0.229794 	</vxyz> 
+ <charge id="112"> 0.01 </charge> <mass id="112"> 1 </mass>
+<xyz id="113"> 3.34971 1.12347 1.40273 	</xyz> 
+ <vxyz id="113"> 0.234803 0.215876 0.583186 	</vxyz> 
+ <charge id="113"> -0.01 </charge> <mass id="113"> 1 </mass>
+<xyz id="114"> 3.65643 -3.5281 0.48894 	</xyz> 
+ <vxyz id="114"> 0.533394 1.1823 -0.967531 	</vxyz> 
+ <charge id="114"> 0.01 </charge> <mass id="114"> 1 </mass>
+<xyz id="115"> 3.55541 -1.33336 0.876262 	</xyz> 
+ <vxyz id="115"> -0.228824 -0.686969 -0.10071 	</vxyz> 
+ <charge id="115"> -0.01 </charge> <mass id="115"> 1 </mass>
+<xyz id="116"> 1.37391 0.885145 0.182004 	</xyz> 
+ <vxyz id="116"> 0.587978 -0.140069 -0.645201 	</vxyz> 
+ <charge id="116"> 0.01 </charge> <mass id="116"> 1 </mass>
+<xyz id="117"> 1.39089 -2.52465 1.2368 	</xyz> 
+ <vxyz id="117"> 1.52694 -1.07203 -1.10497 	</vxyz> 
+ <charge id="117"> -0.01 </charge> <mass id="117"> 1 </mass>
+<xyz id="118"> -2.65611 0.19022 -1.77094 	</xyz> 
+ <vxyz id="118"> -0.367082 -0.169609 0.653315 	</vxyz> 
+ <charge id="118"> 0.01 </charge> <mass id="118"> 1 </mass>
+<xyz id="119"> 1.8844 -0.194143 2.20694 	</xyz> 
+ <vxyz id="119"> -1.45822 0.1696 -0.19369 	</vxyz> 
+ <charge id="119"> -0.01 </charge> <mass id="119"> 1 </mass>
+<xyz id="120"> 2.33889 -1.2416 2.05539 	</xyz> 
+ <vxyz id="120"> 0.749828 -0.953413 0.165067 	</vxyz> 
+ <charge id="120"> 0.01 </charge> <mass id="120"> 1 </mass>
+<xyz id="121"> 3.09391 -0.512921 -2.13215 	</xyz> 
+ <vxyz id="121"> 1.73435 -0.972681 0.528439 	</vxyz> 
+ <charge id="121"> -0.01 </charge> <mass id="121"> 1 </mass>
+<xyz id="122"> -3.33187 -1.28354 -2.23628 	</xyz> 
+ <vxyz id="122"> 0.238535 -0.0452109 -0.472755 	</vxyz> 
+ <charge id="122"> 0.01 </charge> <mass id="122"> 1 </mass>
+<xyz id="123"> -2.88409 -1.21807 3.17814 	</xyz> 
+ <vxyz id="123"> -0.0253868 0.589383 -0.999531 	</vxyz> 
+ <charge id="123"> -0.01 </charge> <mass id="123"> 1 </mass>
+<xyz id="124"> -2.58509 -0.322761 -2.92028 	</xyz> 
+ <vxyz id="124"> 0.399213 -1.38578 1.02777 	</vxyz> 
+ <charge id="124"> 0.01 </charge> <mass id="124"> 1 </mass>
+<xyz id="125"> 3.03666 1.88738 -1.03593 	</xyz> 
+ <vxyz id="125"> -1.1034 -0.15072 1.43458 	</vxyz> 
+ <charge id="125"> -0.01 </charge> <mass id="125"> 1 </mass>
+<xyz id="126"> 1.54861 1.48412 2.77004 	</xyz> 
+ <vxyz id="126"> -0.448917 0.315773 0.331479 	</vxyz> 
+ <charge id="126"> 0.01 </charge> <mass id="126"> 1 </mass>
+<xyz id="127"> 2.23374 -3.70027 -0.769104 	</xyz> 
+ <vxyz id="127"> 1.18276 0.0185942 1.32394 	</vxyz> 
+ <charge id="127"> -0.01 </charge> <mass id="127"> 1 </mass>
+<xyz id="128"> -3.47965 0.276426 1.98189 	</xyz> 
+ <vxyz id="128"> -0.258576 -0.897707 0.796073 	</vxyz> 
+ <charge id="128"> 0.01 </charge> <mass id="128"> 1 </mass>
+<xyz id="129"> 3.17121 3.1324 -0.0845304 	</xyz> 
+ <vxyz id="129"> -1.16382 -0.836193 -0.825902 	</vxyz> 
+ <charge id="129"> -0.01 </charge> <mass id="129"> 1 </mass>
+<xyz id="130"> 3.84616 2.59056 -0.751427 	</xyz> 
+ <vxyz id="130"> -0.507346 0.206971 -0.858475 	</vxyz> 
+ <charge id="130"> 0.01 </charge> <mass id="130"> 1 </mass>
+<xyz id="131"> -0.754107 -0.446471 3.36342 	</xyz> 
+ <vxyz id="131"> 0.55357 -0.992625 0.283748 	</vxyz> 
+ <charge id="131"> -0.01 </charge> <mass id="131"> 1 </mass>
+<xyz id="132"> 3.09083 2.48164 3.14427 	</xyz> 
+ <vxyz id="132"> 0.477343 -0.701477 0.491732 	</vxyz> 
+ <charge id="132"> 0.01 </charge> <mass id="132"> 1 </mass>
+<xyz id="133"> -3.6223 1.44698 -0.501273 	</xyz> 
+ <vxyz id="133"> 0.0912213 0.770405 -0.825262 	</vxyz> 
+ <charge id="133"> -0.01 </charge> <mass id="133"> 1 </mass>
+<xyz id="134"> 3.77517 1.57217 3.53146 	</xyz> 
+ <vxyz id="134"> -1.06457 1.05196 -1.24291 	</vxyz> 
+ <charge id="134"> 0.01 </charge> <mass id="134"> 1 </mass>
+<xyz id="135"> -1.19928 0.345315 -1.88664 	</xyz> 
+ <vxyz id="135"> 0.518287 0.325321 -0.366685 	</vxyz> 
+ <charge id="135"> -0.01 </charge> <mass id="135"> 1 </mass>
+<xyz id="136"> 3.73357 1.96711 2.44273 	</xyz> 
+ <vxyz id="136"> -0.858466 0.489294 -0.370047 	</vxyz> 
+ <charge id="136"> 0.01 </charge> <mass id="136"> 1 </mass>
+<xyz id="137"> -0.849151 -0.43216 -1.00733 	</xyz> 
+ <vxyz id="137"> -0.505132 1.02309 -0.0258918 	</vxyz> 
+ <charge id="137"> -0.01 </charge> <mass id="137"> 1 </mass>
+<xyz id="138"> -1.42422 0.540239 -0.769201 	</xyz> 
+ <vxyz id="138"> -0.0518352 0.0170908 0.147816 	</vxyz> 
+ <charge id="138"> 0.01 </charge> <mass id="138"> 1 </mass>
+<xyz id="139"> 1.22589 -0.573317 -3.12805 	</xyz> 
+ <vxyz id="139"> 0.469067 0.66664 0.735011 	</vxyz> 
+ <charge id="139"> -0.01 </charge> <mass id="139"> 1 </mass>
+<xyz id="140"> -3.67517 -0.237526 -1.95282 	</xyz> 
+ <vxyz id="140"> -0.464738 -0.575324 0.31537 	</vxyz> 
+ <charge id="140"> 0.01 </charge> <mass id="140"> 1 </mass>
+<xyz id="141"> -1.23341 0.443294 0.259614 	</xyz> 
+ <vxyz id="141"> 0.571437 -0.0295334 0.0727609 	</vxyz> 
+ <charge id="141"> -0.01 </charge> <mass id="141"> 1 </mass>
+<xyz id="142"> -0.42557 2.29055 -2.25862 	</xyz> 
+ <vxyz id="142"> 0.855992 0.597425 -0.140195 	</vxyz> 
+ <charge id="142"> 0.01 </charge> <mass id="142"> 1 </mass>
+<xyz id="143"> -0.770172 2.57808 1.16903 	</xyz> 
+ <vxyz id="143"> 0.258778 -0.324539 0.065935 	</vxyz> 
+ <charge id="143"> -0.01 </charge> <mass id="143"> 1 </mass>
+<xyz id="144"> -3.23487 -0.815789 -3.58198 	</xyz> 
+ <vxyz id="144"> 2.05273 0.761945 0.265427 	</vxyz> 
+ <charge id="144"> 0.01 </charge> <mass id="144"> 1 </mass>
+<xyz id="145"> -2.83388 -2.67241 -0.32237 	</xyz> 
+ <vxyz id="145"> 0.0553171 1.78775 -0.745127 	</vxyz> 
+ <charge id="145"> -0.01 </charge> <mass id="145"> 1 </mass>
+<xyz id="146"> 2.18637 -3.74861 1.15107 	</xyz> 
+ <vxyz id="146"> 0.404668 -1.93252 0.919755 	</vxyz> 
+ <charge id="146"> 0.01 </charge> <mass id="146"> 1 </mass>
+<xyz id="147"> 0.139122 2.30511 1.60877 	</xyz> 
+ <vxyz id="147"> -1.19517 1.78984 -0.631071 	</vxyz> 
+ <charge id="147"> -0.01 </charge> <mass id="147"> 1 </mass>
+<xyz id="148"> -0.720484 1.46956 2.12041 	</xyz> 
+ <vxyz id="148"> 0.0204132 -2.14121 -0.0372913 	</vxyz> 
+ <charge id="148"> 0.01 </charge> <mass id="148"> 1 </mass>
+<xyz id="149"> 0.778389 -1.94392 -1.92224 	</xyz> 
+ <vxyz id="149"> 0.57601 -0.525206 -0.304084 	</vxyz> 
+ <charge id="149"> -0.01 </charge> <mass id="149"> 1 </mass>
+<xyz id="150"> -1.89317 1.14542 0.687888 	</xyz> 
+ <vxyz id="150"> -0.646914 1.55137 0.727218 	</vxyz> 
+ <charge id="150"> 0.01 </charge> <mass id="150"> 1 </mass>
+<xyz id="151"> 2.14203 -3.17831 -3.14147 	</xyz> 
+ <vxyz id="151"> -0.927721 -1.06083 0.787605 	</vxyz> 
+ <charge id="151"> -0.01 </charge> <mass id="151"> 1 </mass>
+<xyz id="152"> 1.65161 2.57305 -1.15166 	</xyz> 
+ <vxyz id="152"> 0.387942 2.7177 0.319074 	</vxyz> 
+ <charge id="152"> 0.01 </charge> <mass id="152"> 1 </mass>
+<xyz id="153"> 0.245381 -1.94611 3.40398 	</xyz> 
+ <vxyz id="153"> -0.494861 -1.0214 1.40959 	</vxyz> 
+ <charge id="153"> -0.01 </charge> <mass id="153"> 1 </mass>
+<xyz id="154"> 0.442818 2.64659 -0.982047 	</xyz> 
+ <vxyz id="154"> -0.00116006 0.696853 -0.0131158 	</vxyz> 
+ <charge id="154"> 0.01 </charge> <mass id="154"> 1 </mass>
+<xyz id="155"> 0.434655 -3.5016 2.52238 	</xyz> 
+ <vxyz id="155"> -0.197034 -0.90465 1.08768 	</vxyz> 
+ <charge id="155"> -0.01 </charge> <mass id="155"> 1 </mass>
+<xyz id="156"> 2.04636 1.53011 -1.38505 	</xyz> 
+ <vxyz id="156"> -0.48944 -0.7818 -0.0977589 	</vxyz> 
+ <charge id="156"> 0.01 </charge> <mass id="156"> 1 </mass>
+<xyz id="157"> 2.48115 0.183366 -0.30504 	</xyz> 
+ <vxyz id="157"> -0.224382 0.444335 0.334483 	</vxyz> 
+ <charge id="157"> -0.01 </charge> <mass id="157"> 1 </mass>
+<xyz id="158"> -0.826319 1.47859 1.08437 	</xyz> 
+ <vxyz id="158"> -1.48025 0.908152 -1.32133 	</vxyz> 
+ <charge id="158"> 0.01 </charge> <mass id="158"> 1 </mass>
+<xyz id="159"> 2.00784 1.50628 0.911542 	</xyz> 
+ <vxyz id="159"> 0.525595 0.328431 -1.16533 	</vxyz> 
+ <charge id="159"> -0.01 </charge> <mass id="159"> 1 </mass>
+<xyz id="160"> 0.999556 -2.73542 3.11688 	</xyz> 
+ <vxyz id="160"> -0.190221 -0.513857 1.24832 	</vxyz> 
+ <charge id="160"> 0.01 </charge> <mass id="160"> 1 </mass>
+<xyz id="161"> 3.41957 -0.657924 2.45391 	</xyz> 
+ <vxyz id="161"> 1.65621 -2.27622 1.12231 	</vxyz> 
+ <charge id="161"> -0.01 </charge> <mass id="161"> 1 </mass>
+<xyz id="162"> -2.86037 3.60714 0.910816 	</xyz> 
+ <vxyz id="162"> 0.425751 -0.319404 1.85049 	</vxyz> 
+ <charge id="162"> 0.01 </charge> <mass id="162"> 1 </mass>
+<xyz id="163"> -0.821549 -1.9357 -1.4308 	</xyz> 
+ <vxyz id="163"> 0.917203 -0.699238 -1.15355 	</vxyz> 
+ <charge id="163"> -0.01 </charge> <mass id="163"> 1 </mass>
+<xyz id="164"> 0.939087 -0.640917 2.20952 	</xyz> 
+ <vxyz id="164"> 0.481818 0.428039 -0.673556 	</vxyz> 
+ <charge id="164"> 0.01 </charge> <mass id="164"> 1 </mass>
+<xyz id="165"> -3.32784 2.6034 0.80784 	</xyz> 
+ <vxyz id="165"> 0.970467 -1.49342 -1.25068 	</vxyz> 
+ <charge id="165"> -0.01 </charge> <mass id="165"> 1 </mass>
+<xyz id="166"> 2.5782 1.33156 2.60021 	</xyz> 
+ <vxyz id="166"> -0.983972 0.403448 1.95194 	</vxyz> 
+ <charge id="166"> 0.01 </charge> <mass id="166"> 1 </mass>
+<xyz id="167"> 3.51715 0.575318 3.06599 	</xyz> 
+ <vxyz id="167"> 1.19394 1.11274 -0.445177 	</vxyz> 
+ <charge id="167"> -0.01 </charge> <mass id="167"> 1 </mass>
+<xyz id="168"> -1.29377 -0.949227 -1.77242 	</xyz> 
+ <vxyz id="168"> 0.186006 -1.04076 -0.108154 	</vxyz> 
+ <charge id="168"> 0.01 </charge> <mass id="168"> 1 </mass>
+<xyz id="169"> -0.150494 -0.446026 -1.79736 	</xyz> 
+ <vxyz id="169"> 1.28059 1.06625 0.11497 	</vxyz> 
+ <charge id="169"> -0.01 </charge> <mass id="169"> 1 </mass>
+<xyz id="170"> -2.93281 -1.72418 0.56885 	</xyz> 
+ <vxyz id="170"> -1.14863 -0.689781 0.409487 	</vxyz> 
+ <charge id="170"> 0.01 </charge> <mass id="170"> 1 </mass>
+<xyz id="171"> 1.81148 -1.64727 -3.30018 	</xyz> 
+ <vxyz id="171"> 0.549664 -0.344323 1.14465 	</vxyz> 
+ <charge id="171"> -0.01 </charge> <mass id="171"> 1 </mass>
+<xyz id="172"> 0.519517 1.48964 -0.560486 	</xyz> 
+ <vxyz id="172"> -0.273682 -0.511725 0.744263 	</vxyz> 
+ <charge id="172"> 0.01 </charge> <mass id="172"> 1 </mass>
+<xyz id="173"> 2.47993 -1.68758 -2.02688 	</xyz> 
+ <vxyz id="173"> 1.34831 0.000447323 1.05512 	</vxyz> 
+ <charge id="173"> -0.01 </charge> <mass id="173"> 1 </mass>
+<xyz id="174"> -2.15039 -1.86785 -0.196045 	</xyz> 
+ <vxyz id="174"> 0.169916 0.384812 -0.149087 	</vxyz> 
+ <charge id="174"> 0.01 </charge> <mass id="174"> 1 </mass>
+<xyz id="175"> -0.93468 -0.644329 -0.0288402 	</xyz> 
+ <vxyz id="175"> 0.00302431 0.43385 -1.68248 	</vxyz> 
+ <charge id="175"> -0.01 </charge> <mass id="175"> 1 </mass>
+<xyz id="176"> -2.62448 -1.62559 1.83994 	</xyz> 
+ <vxyz id="176"> 0.311158 -1.60061 -1.67295 	</vxyz> 
+ <charge id="176"> 0.01 </charge> <mass id="176"> 1 </mass>
+<xyz id="177"> 0.741751 -2.05515 -0.729303 	</xyz> 
+ <vxyz id="177"> -0.58205 1.95444 -0.81363 	</vxyz> 
+ <charge id="177"> -0.01 </charge> <mass id="177"> 1 </mass>
+<xyz id="178"> -0.812849 1.21328 -0.157323 	</xyz> 
+ <vxyz id="178"> 0.226862 -0.811487 -0.673143 	</vxyz> 
+ <charge id="178"> 0.01 </charge> <mass id="178"> 1 </mass>
+<xyz id="179"> -1.75272 -2.52687 0.594631 	</xyz> 
+ <vxyz id="179"> 0.331694 0.985112 1.14006 	</vxyz> 
+ <charge id="179"> -0.01 </charge> <mass id="179"> 1 </mass>
+<xyz id="180"> 2.94106 2.89552 -1.16247 	</xyz> 
+ <vxyz id="180"> -0.106156 -1.11525 0.731276 	</vxyz> 
+ <charge id="180"> 0.01 </charge> <mass id="180"> 1 </mass>
+<xyz id="181"> -0.670663 -2.59336 0.828926 	</xyz> 
+ <vxyz id="181"> -0.551611 0.660943 0.313068 	</vxyz> 
+ <charge id="181"> -0.01 </charge> <mass id="181"> 1 </mass>
+<xyz id="182"> -3.81314 -2.54106 0.981928 	</xyz> 
+ <vxyz id="182"> 0.984384 -0.681454 0.84831 	</vxyz> 
+ <charge id="182"> 0.01 </charge> <mass id="182"> 1 </mass>
+<xyz id="183"> 0.948795 -1.64031 1.48674 	</xyz> 
+ <vxyz id="183"> 0.649857 1.33281 0.0860565 	</vxyz> 
+ <charge id="183"> -0.01 </charge> <mass id="183"> 1 </mass>
+<xyz id="184"> -0.854473 -3.56352 -0.783099 	</xyz> 
+ <vxyz id="184"> 0.0869239 1.28794 -1.51531 	</vxyz> 
+ <charge id="184"> 0.01 </charge> <mass id="184"> 1 </mass>
+<xyz id="185"> -0.993435 -0.975264 -3.46708 	</xyz> 
+ <vxyz id="185"> 0.268036 -0.802004 -0.120369 	</vxyz> 
+ <charge id="185"> -0.01 </charge> <mass id="185"> 1 </mass>
+<xyz id="186"> -1.49079 0.0790552 -2.8179 	</xyz> 
+ <vxyz id="186"> -0.316564 -0.450369 0.875925 	</vxyz> 
+ <charge id="186"> 0.01 </charge> <mass id="186"> 1 </mass>
+<xyz id="187"> 1.56818 3.26312 1.64398 	</xyz> 
+ <vxyz id="187"> 1.06274 0.037672 -0.513899 	</vxyz> 
+ <charge id="187"> -0.01 </charge> <mass id="187"> 1 </mass>
+<xyz id="188"> -3.53346 1.4827 -1.59992 	</xyz> 
+ <vxyz id="188"> 0.502417 1.21779 -0.170773 	</vxyz> 
+ <charge id="188"> 0.01 </charge> <mass id="188"> 1 </mass>
+<xyz id="189"> -1.89573 3.33581 -1.18457 	</xyz> 
+ <vxyz id="189"> -0.116426 1.70997 0.190377 	</vxyz> 
+ <charge id="189"> -0.01 </charge> <mass id="189"> 1 </mass>
+<xyz id="190"> 0.432188 0.128237 -2.63058 	</xyz> 
+ <vxyz id="190"> -0.510208 -0.496342 -0.535909 	</vxyz> 
+ <charge id="190"> 0.01 </charge> <mass id="190"> 1 </mass>
+<xyz id="191"> 0.124366 -1.4649 -1.32227 	</xyz> 
+ <vxyz id="191"> 0.629558 -1.00606 0.956869 	</vxyz> 
+ <charge id="191"> -0.01 </charge> <mass id="191"> 1 </mass>
+<xyz id="192"> 2.37424 -3.13959 0.229755 	</xyz> 
+ <vxyz id="192"> -0.594392 -0.575371 -0.291669 	</vxyz> 
+ <charge id="192"> 0.01 </charge> <mass id="192"> 1 </mass>
+<xyz id="193"> 0.382701 -2.61813 0.408049 	</xyz> 
+ <vxyz id="193"> -2.64452 0.68282 0.773128 	</vxyz> 
+ <charge id="193"> -0.01 </charge> <mass id="193"> 1 </mass>
+<xyz id="194"> 0.17991 1.37126 0.519544 	</xyz> 
+ <vxyz id="194"> -0.461948 0.447636 -0.995997 	</vxyz> 
+ <charge id="194"> 0.01 </charge> <mass id="194"> 1 </mass>
+<xyz id="195"> 0.108476 -3.70243 -1.23119 	</xyz> 
+ <vxyz id="195"> -0.860798 1.31915 0.635502 	</vxyz> 
+ <charge id="195"> -0.01 </charge> <mass id="195"> 1 </mass>
+<xyz id="196"> -3.65888 -0.362247 1.01188 	</xyz> 
+ <vxyz id="196"> -0.407554 0.687414 -0.0298832 	</vxyz> 
+ <charge id="196"> 0.01 </charge> <mass id="196"> 1 </mass>
+<xyz id="197"> -0.107601 1.31141 3.32458 	</xyz> 
+ <vxyz id="197"> -1.68059 0.531059 -0.296666 	</vxyz> 
+ <charge id="197"> -0.01 </charge> <mass id="197"> 1 </mass>
+<xyz id="198"> 0.988216 0.977672 3.69577 	</xyz> 
+ <vxyz id="198"> -0.809567 -0.535885 0.286788 	</vxyz> 
+ <charge id="198"> 0.01 </charge> <mass id="198"> 1 </mass>
+<xyz id="199"> -1.10652 -1.74914 0.252193 	</xyz> 
+ <vxyz id="199"> 0.47236 -1.46369 0.0716168 	</vxyz> 
+ <charge id="199"> -0.01 </charge> <mass id="199"> 1 </mass>
+<xyz id="200"> -2.06884 -0.534881 2.83379 	</xyz> 
+ <vxyz id="200"> 1.45822 0.251743 -0.24252 	</vxyz> 
+ <charge id="200"> 0.01 </charge> <mass id="200"> 1 </mass>
+<xyz id="201"> -0.616716 -1.32824 2.69912 	</xyz> 
+ <vxyz id="201"> 0.378034 -0.582654 1.25755 	</vxyz> 
+ <charge id="201"> -0.01 </charge> <mass id="201"> 1 </mass>
+<xyz id="202"> -1.90597 -3.54963 0.973289 	</xyz> 
+ <vxyz id="202"> -0.998273 -0.798167 -0.0994835 	</vxyz> 
+ <charge id="202"> 0.01 </charge> <mass id="202"> 1 </mass>
+<xyz id="203"> 2.56303 1.46326 3.68352 	</xyz> 
+ <vxyz id="203"> -1.9424 -0.0486516 0.103039 	</vxyz> 
+ <charge id="203"> -0.01 </charge> <mass id="203"> 1 </mass>
+<xyz id="204"> -1.56278 3.39304 2.00583 	</xyz> 
+ <vxyz id="204"> -1.70496 -0.407024 -0.319343 	</vxyz> 
+ <charge id="204"> 0.01 </charge> <mass id="204"> 1 </mass>
+<xyz id="205"> -2.59518 0.18385 0.637048 	</xyz> 
+ <vxyz id="205"> 0.9339 -0.673964 0.0176863 	</vxyz> 
+ <charge id="205"> -0.01 </charge> <mass id="205"> 1 </mass>
+<xyz id="206"> -1.25167 2.48028 -1.19182 	</xyz> 
+ <vxyz id="206"> -0.769655 -0.719041 1.27295 	</vxyz> 
+ <charge id="206"> 0.01 </charge> <mass id="206"> 1 </mass>
+<xyz id="207"> 0.829587 1.28119 1.40695 	</xyz> 
+ <vxyz id="207"> -0.952442 -1.16895 -0.193741 	</vxyz> 
+ <charge id="207"> -0.01 </charge> <mass id="207"> 1 </mass>
+<xyz id="208"> 3.32118 -3.52963 -0.857597 	</xyz> 
+ <vxyz id="208"> -0.544589 0.0367588 -0.927499 	</vxyz> 
+ <charge id="208"> 0.01 </charge> <mass id="208"> 1 </mass>
+<xyz id="209"> -1.12395 -3.5543 0.160902 	</xyz> 
+ <vxyz id="209"> 0.0789095 0.113046 0.318071 	</vxyz> 
+ <charge id="209"> -0.01 </charge> <mass id="209"> 1 </mass>
+<xyz id="210"> -2.82423 1.07203 1.84232 	</xyz> 
+ <vxyz id="210"> -0.850205 0.412307 -0.329632 	</vxyz> 
+ <charge id="210"> 0.01 </charge> <mass id="210"> 1 </mass>
+<xyz id="211"> 0.227775 3.23852 -1.92915 	</xyz> 
+ <vxyz id="211"> -0.574362 1.18492 1.4241 	</vxyz> 
+ <charge id="211"> -0.01 </charge> <mass id="211"> 1 </mass>
+<xyz id="212"> -2.28229 -0.555191 1.63268 	</xyz> 
+ <vxyz id="212"> -0.374083 0.417844 0.336254 	</vxyz> 
+ <charge id="212"> 0.01 </charge> <mass id="212"> 1 </mass>
+<xyz id="213"> 1.1079 3.66574 3.66961 	</xyz> 
+ <vxyz id="213"> 0.685771 0.884711 0.0502619 	</vxyz> 
+ <charge id="213"> -0.01 </charge> <mass id="213"> 1 </mass>
+<xyz id="214"> 2.09484 3.08668 0.0788174 	</xyz> 
+ <vxyz id="214"> 0.71624 1.18844 0.817639 	</vxyz> 
+ <charge id="214"> 0.01 </charge> <mass id="214"> 1 </mass>
+<xyz id="215"> -0.830361 1.62456 -3.6163 	</xyz> 
+ <vxyz id="215"> 0.165206 -0.331607 -0.596497 	</vxyz> 
+ <charge id="215"> -0.01 </charge> <mass id="215"> 1 </mass>
+<xyz id="216"> -0.646702 0.439652 2.63959 	</xyz> 
+ <vxyz id="216"> -0.46328 -0.426 0.297209 	</vxyz> 
+ <charge id="216"> 0.01 </charge> <mass id="216"> 1 </mass>
+<xyz id="217"> 1.92358 0.444652 -1.24231 	</xyz> 
+ <vxyz id="217"> -1.02448 0.129289 0.0689448 	</vxyz> 
+ <charge id="217"> -0.01 </charge> <mass id="217"> 1 </mass>
+<xyz id="218"> 1.27746 -0.0895872 3.30062 	</xyz> 
+ <vxyz id="218"> 0.0306091 -0.731671 -0.409927 	</vxyz> 
+ <charge id="218"> 0.01 </charge> <mass id="218"> 1 </mass>
+<xyz id="219"> 0.816396 -3.03799 -2.401 	</xyz> 
+ <vxyz id="219"> 0.441517 -0.938517 -0.0487252 	</vxyz> 
+ <charge id="219"> -0.01 </charge> <mass id="219"> 1 </mass>
+<xyz id="220"> 2.69508 0.480448 -2.36718 	</xyz> 
+ <vxyz id="220"> -0.425913 -0.00967998 -0.644881 	</vxyz> 
+ <charge id="220"> 0.01 </charge> <mass id="220"> 1 </mass>
+<xyz id="221"> -1.70605 3.21754 -2.2392 	</xyz> 
+ <vxyz id="221"> -0.784744 0.521863 0.0826419 	</vxyz> 
+ <charge id="221"> -0.01 </charge> <mass id="221"> 1 </mass>
+<xyz id="222"> -1.44068 2.18192 -0.173383 	</xyz> 
+ <vxyz id="222"> 0.539918 -0.348155 0.545008 	</vxyz> 
+ <charge id="222"> 0.01 </charge> <mass id="222"> 1 </mass>
+<xyz id="223"> -1.99535 1.7776 -0.953213 	</xyz> 
+ <vxyz id="223"> 0.360805 -0.215386 1.16048 	</vxyz> 
+ <charge id="223"> -0.01 </charge> <mass id="223"> 1 </mass>
+<xyz id="224"> -3.53794 -1.7442 -0.551202 	</xyz> 
+ <vxyz id="224"> 0.0594124 -0.0799282 -1.20512 	</vxyz> 
+ <charge id="224"> 0.01 </charge> <mass id="224"> 1 </mass>
+<xyz id="225"> -1.33308 -2.99575 -3.16451 	</xyz> 
+ <vxyz id="225"> 1.12245 -0.578419 0.968773 	</vxyz> 
+ <charge id="225"> -0.01 </charge> <mass id="225"> 1 </mass>
+<xyz id="226"> 3.83519 3.37296 -1.77344 	</xyz> 
+ <vxyz id="226"> -0.34919 0.154529 0.011802 	</vxyz> 
+ <charge id="226"> 0.01 </charge> <mass id="226"> 1 </mass>
+<xyz id="227"> 2.25023 -2.89228 3.29172 	</xyz> 
+ <vxyz id="227"> 0.408309 -0.288288 0.272202 	</vxyz> 
+ <charge id="227"> -0.01 </charge> <mass id="227"> 1 </mass>
+<xyz id="228"> 2.75082 2.22997 0.535996 	</xyz> 
+ <vxyz id="228"> 0.0897291 -0.639094 -0.941642 	</vxyz> 
+ <charge id="228"> 0.01 </charge> <mass id="228"> 1 </mass>
+<xyz id="229"> 2.1431 2.39248 2.20818 	</xyz> 
+ <vxyz id="229"> -0.654964 1.37745 -1.3527 	</vxyz> 
+ <charge id="229"> -0.01 </charge> <mass id="229"> 1 </mass>
+<xyz id="230"> -0.0901017 3.59597 0.742536 	</xyz> 
+ <vxyz id="230"> 0.613333 0.0234196 0.376294 	</vxyz> 
+ <charge id="230"> 0.01 </charge> <mass id="230"> 1 </mass>
+<xyz id="231"> -0.360382 3.07077 -0.449624 	</xyz> 
+ <vxyz id="231"> -0.150345 0.749675 -0.390923 	</vxyz> 
+ <charge id="231"> -0.01 </charge> <mass id="231"> 1 </mass>
+<xyz id="232"> 0.118167 -0.912126 -3.44155 	</xyz> 
+ <vxyz id="232"> 0.0124352 -0.0798048 0.422315 	</vxyz> 
+ <charge id="232"> 0.01 </charge> <mass id="232"> 1 </mass>
+<xyz id="233"> -3.6589 0.536098 -1.13007 	</xyz> 
+ <vxyz id="233"> -0.342195 -0.634429 1.78267 	</vxyz> 
+ <charge id="233"> -0.01 </charge> <mass id="233"> 1 </mass>
+<xyz id="234"> 1.8425 0.879777 1.77043 	</xyz> 
+ <vxyz id="234"> 0.853226 -0.877796 -1.00491 	</vxyz> 
+ <charge id="234"> 0.01 </charge> <mass id="234"> 1 </mass>
+<xyz id="235"> 2.09992 0.575645 3.19293 	</xyz> 
+ <vxyz id="235"> -0.184625 0.696875 -0.900429 	</vxyz> 
+ <charge id="235"> -0.01 </charge> <mass id="235"> 1 </mass>
+<xyz id="236"> 3.04038 1.60724 -2.11623 	</xyz> 
+ <vxyz id="236"> 1.59017 1.64649 0.616829 	</vxyz> 
+ <charge id="236"> 0.01 </charge> <mass id="236"> 1 </mass>
+<xyz id="237"> -2.64738 -1.92588 -1.14126 	</xyz> 
+ <vxyz id="237"> -0.784675 -0.915404 -1.0404 	</vxyz> 
+ <charge id="237"> -0.01 </charge> <mass id="237"> 1 </mass>
+<xyz id="238"> -2.84281 -2.52114 2.5442 	</xyz> 
+ <vxyz id="238"> 0.00613728 1.10032 0.0521353 	</vxyz> 
+ <charge id="238"> 0.01 </charge> <mass id="238"> 1 </mass>
+<xyz id="239"> 3.25895 -1.27829 -0.196069 	</xyz> 
+ <vxyz id="239"> 0.469059 0.164495 0.68427 	</vxyz> 
+ <charge id="239"> -0.01 </charge> <mass id="239"> 1 </mass>
+<xyz id="240"> 2.15673 -0.59482 -2.61828 	</xyz> 
+ <vxyz id="240"> -0.647867 0.773283 -0.0747634 	</vxyz> 
+ <charge id="240"> 0.01 </charge> <mass id="240"> 1 </mass>
+<xyz id="241"> 1.72026 -2.36727 -2.47428 	</xyz> 
+ <vxyz id="241"> -2.32108 0.637945 0.3271 	</vxyz> 
+ <charge id="241"> -0.01 </charge> <mass id="241"> 1 </mass>
+<xyz id="242"> 0.799267 -2.1837 -3.25388 	</xyz> 
+ <vxyz id="242"> 0.518132 -0.987288 -0.075862 	</vxyz> 
+ <charge id="242"> 0.01 </charge> <mass id="242"> 1 </mass>
+<xyz id="243"> -0.145441 0.545054 -1.34858 	</xyz> 
+ <vxyz id="243"> -0.235811 0.33345 -0.0564638 	</vxyz> 
+ <charge id="243"> -0.01 </charge> <mass id="243"> 1 </mass>
+<xyz id="244"> -1.47753 -2.17209 -2.16428 	</xyz> 
+ <vxyz id="244"> 2.01478 -1.32805 -1.0315 	</vxyz> 
+ <charge id="244"> 0.01 </charge> <mass id="244"> 1 </mass>
+<xyz id="245"> -2.90649 -0.603854 -0.0786798 	</xyz> 
+ <vxyz id="245"> -0.625611 0.586772 0.337481 	</vxyz> 
+ <charge id="245"> -0.01 </charge> <mass id="245"> 1 </mass>
+<xyz id="246"> -0.550878 -1.86417 -3.67852 	</xyz> 
+ <vxyz id="246"> 0.56971 0.274688 0.01639 	</vxyz> 
+ <charge id="246"> 0.01 </charge> <mass id="246"> 1 </mass>
+<xyz id="247"> -0.978105 0.501931 1.66557 	</xyz> 
+ <vxyz id="247"> 0.223236 0.293453 -0.16252 	</vxyz> 
+ <charge id="247"> -0.01 </charge> <mass id="247"> 1 </mass>
+<xyz id="248"> 0.42618 3.12766 2.39258 	</xyz> 
+ <vxyz id="248"> -0.106233 0.499935 -1.33014 	</vxyz> 
+ <charge id="248"> 0.01 </charge> <mass id="248"> 1 </mass>
+<xyz id="249"> 1.83734 -1.99261 -1.11152 	</xyz> 
+ <vxyz id="249"> -0.822652 -0.317795 1.80088 	</vxyz> 
+ <charge id="249"> -0.01 </charge> <mass id="249"> 1 </mass>
+<xyz id="250"> 1.02606 -1.13207 3.64941 	</xyz> 
+ <vxyz id="250"> -0.134548 0.537278 1.13615 	</vxyz> 
+ <charge id="250"> 0.01 </charge> <mass id="250"> 1 </mass>
+<xyz id="251"> -0.102174 -0.50222 1.82888 	</xyz> 
+ <vxyz id="251"> -0.337651 -0.0590181 0.707644 	</vxyz> 
+ <charge id="251"> -0.01 </charge> <mass id="251"> 1 </mass>
+<xyz id="252"> -1.78065 -1.29941 -2.90289 	</xyz> 
+ <vxyz id="252"> -0.16273 -0.426095 0.156181 	</vxyz> 
+ <charge id="252"> 0.01 </charge> <mass id="252"> 1 </mass>
+<xyz id="253"> 0.199714 -0.838099 3.083 	</xyz> 
+ <vxyz id="253"> -0.101332 0.0575887 -0.277626 	</vxyz> 
+ <charge id="253"> -0.01 </charge> <mass id="253"> 1 </mass>
+<xyz id="254"> 1.11325 -2.83066 -1.32438 	</xyz> 
+ <vxyz id="254"> 2.00101 0.482132 -0.981508 	</vxyz> 
+ <charge id="254"> 0 </charge> <mass id="254"> 1 </mass>
+<hmatrix> 7.70307 0 0  0 7.70307 0  0 0 7.70307 </hmatrix>
+<energy> <dof> 765 </dof> <navg> 401 </navg> <tke> 103117 </tke> <tpe> -421221 </tpe> </energy></coords>

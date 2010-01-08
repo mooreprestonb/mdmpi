@@ -1,0 +1,105 @@
+dnl Process this file with autoconf to produce a configure script.
+
+AC_INIT(src/mdmol.cc)
+
+dnl I don't know why the next line causes errors :-(
+dnl AM_INIT_AUTOMAKE(mdmol, 1.0)
+dnl Checks for programs.
+
+CXXFLAGS_SET_BY_USER=no;
+if test -n "$CXXFLAGS"; then 
+   CXXFLAGS_SET_BY_USER=yes;
+fi
+
+CXX_SET_BY_USER=no;
+if test -n "$CXX"; then 
+   CXX_SET_BY_USER=yes;
+fi
+
+dnl if test $CXX_SET_BY_USER = "no"; then
+dnl echo -n "checking if CC (sgi's compiler) ..."
+dnl CXXT=$CXX;CXX=CC
+dnl AC_TRY_RUN(main(){},echo "yes";
+dnl CXX=CC;CXX_SET_BY_USER=yes;,echo "no";CXX=$CXXT,CXX=$CXXT)
+dnl fi
+
+if test -z "$CXX"; then 
+AC_PROG_CXX
+dnl AC_PROG_CXX(CC c++ g++)
+fi
+
+dnl AC_PROG_CXXCPP
+
+AC_LANG_CPLUSPLUS
+
+AC_PROG_RANLIB
+AC_PROG_MAKE_SET
+AC_PATH_PROG(MV,mv)
+AC_PATH_PROG(CP,cp)
+AC_PATH_PROG(RM,rm)
+AC_PATH_PROG(TOUCH,touch)
+AC_PATH_PROG(MPICC,mpiCC)
+
+AC_PROG_INSTALL
+AC_ARG_PROGRAM
+
+dnl the following is for striping out -O2
+dnl for token in $CXXFLAGS; do 
+dnl case $token in 
+dnl   -O2) 
+dnl     if test "$CXXFLAGS_SET_BY_USER" = "no"; then 
+dnl        CXXFLAGS="`echo $CXXFLAGS | sed 's/-O2//'`";
+dnl     fi;;
+dnl esac       
+dnl done
+
+dnl add -O2 flag for all cases check -Wall
+case $CXXFLAGS in 
+   *-O2*) ;;
+   *)       CXXFLAGS="$CXXFLAGS -O2" ;;
+esac
+
+echo -n "checking if CXXFLAGS can take -Wall..."
+CXXT=$CXXFLAGS
+CXXFLAGS="-Wall"
+AC_TRY_RUN(main(){},echo "yes";CXXFLAGS="$CXXT -Wall",
+echo "no";CXXFLAGS=$CXXT,CXXFLAGS=$CXXT)
+
+echo -n "checking if CXXFLAGS can take -fullwarn..."
+CXXT=$CXXFLAGS
+CXXFLAGS="-fullwarn"
+AC_TRY_RUN(main(){},echo "yes";CXXFLAGS="$CXXT -fullwarn",echo "no";
+CXXFLAGS=$CXXT,CXXFLAGS=$CXXT)
+
+dnl Checks for libraries.
+
+AC_CHECK_LIB(m,cbrt,
+if eval "echo $LIBS | grep '\-lm'"; then echo "Already have -lm in LIBS";
+else LIBS="$LIBS -lm"; fi
+)
+
+AC_CHECK_LIB(m,pow,
+if eval "echo $LIBS | grep '\-lm'"; then echo "Already have -lm in LIBS";
+else LIBS="$LIBS -lm"; fi
+)
+
+AC_CHECK_LIB(mpi,MPI_Init,
+if eval "echo $LIBS | grep '\-lmpi'"; then echo "Already have -lmpi in LIBS";
+else LIBS="$LIBS -lmpi"; fi
+)
+
+dnl if eval "echo $LIBS | grep '\-lm'"; then echo "Already have -lm in LIBS";
+dnl else LIBS="$LIBS -lm"; fi
+
+dnl Checks for header files.
+
+AC_HEADER_STDC
+
+dnl Checks for typedefs, structures, and compiler characteristics.
+
+dnl Checks for library functions.
+AC_CHECK_FUNCS(strdup)
+
+dnl create Makefiles
+
+AC_OUTPUT(Makefile src/Makefile.mdmol src/Makefile analysis/Makefile src/Makefile.mpi)

@@ -1,0 +1,7030 @@
+nmol = 4, istep = 0, nstep = 1000, iperd=4, xbox=10, dt=0.01
+rank = 0, size = 1, write = 1, itype = 0
+ipair=0, ncell=3, rcut = 2.5, skin = 1
+kmax = 10, alpha = 1, esurf = -1, icutoff = 0, nfreeze = 0
+hostname = radon, pid = 8500
+zerotm = 1, resetpos = 1, writebox = 1
+setname = "lj.4.mpi.in", restname = "ljmpi.rest"
+coordname = "lj.4.coords", trajname = "ljmpi.traj", hamname = "ljmpi.eng"
+logname = "ljmpi.log", errname = ""
+systemfile = "lj.sys"
+paramfile = "lj.parm"
+Reading in coords from file lj.4.coords
+
+There were 0 k-vectors set up.
+Self correction term = 0 K
+Back ground term = 0 K
+Bytes of memory allocated for electrostatic = 0
+N^2 algorithm being used.
+Getting initial energy and force
+Starting MD ntime = 1000 with 12 dof
+<step>        0 
+<energyAVG>
+<ham>  4.98771e+01 ~  4.98771e+01 </ham>
+<ke>  5.00000e+01 ~  5.00000e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>        1 
+<energyAVG>
+<ham>  4.98862e+01 ~  4.98952e+01 </ham>
+<ke>  5.00091e+01 ~  5.00181e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>        2 
+<energyAVG>
+<ham>  4.98952e+01 ~  4.99134e+01 </ham>
+<ke>  5.00181e+01 ~  5.00362e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>        3 
+<energyAVG>
+<ham>  4.99043e+01 ~  4.99315e+01 </ham>
+<ke>  5.00272e+01 ~  5.00544e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>        4 
+<energyAVG>
+<ham>  4.99134e+01 ~  4.99496e+01 </ham>
+<ke>  5.00362e+01 ~  5.00725e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>        5 
+<energyAVG>
+<ham>  4.99224e+01 ~  4.99678e+01 </ham>
+<ke>  5.00453e+01 ~  5.00907e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>        6 
+<energyAVG>
+<ham>  4.99315e+01 ~  4.99860e+01 </ham>
+<ke>  5.00544e+01 ~  5.01089e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>        7 
+<energyAVG>
+<ham>  4.99406e+01 ~  5.00042e+01 </ham>
+<ke>  5.00635e+01 ~  5.01270e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>        8 
+<energyAVG>
+<ham>  4.99497e+01 ~  5.00224e+01 </ham>
+<ke>  5.00726e+01 ~  5.01452e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>        9 
+<energyAVG>
+<ham>  4.99588e+01 ~  5.00406e+01 </ham>
+<ke>  5.00817e+01 ~  5.01635e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       10 
+<energyAVG>
+<ham>  4.99679e+01 ~  5.00588e+01 </ham>
+<ke>  5.00907e+01 ~  5.01817e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       11 
+<energyAVG>
+<ham>  4.99770e+01 ~  5.00771e+01 </ham>
+<ke>  5.00998e+01 ~  5.01999e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       12 
+<energyAVG>
+<ham>  4.99861e+01 ~  5.00953e+01 </ham>
+<ke>  5.01090e+01 ~  5.02182e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       13 
+<energyAVG>
+<ham>  4.99952e+01 ~  5.01136e+01 </ham>
+<ke>  5.01181e+01 ~  5.02365e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       14 
+<energyAVG>
+<ham>  5.00043e+01 ~  5.01319e+01 </ham>
+<ke>  5.01272e+01 ~  5.02547e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       15 
+<energyAVG>
+<ham>  5.00134e+01 ~  5.01502e+01 </ham>
+<ke>  5.01363e+01 ~  5.02730e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       16 
+<energyAVG>
+<ham>  5.00225e+01 ~  5.01685e+01 </ham>
+<ke>  5.01454e+01 ~  5.02913e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       17 
+<energyAVG>
+<ham>  5.00317e+01 ~  5.01868e+01 </ham>
+<ke>  5.01545e+01 ~  5.03097e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       18 
+<energyAVG>
+<ham>  5.00408e+01 ~  5.02051e+01 </ham>
+<ke>  5.01637e+01 ~  5.03280e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       19 
+<energyAVG>
+<ham>  5.00499e+01 ~  5.02235e+01 </ham>
+<ke>  5.01728e+01 ~  5.03463e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       20 
+<energyAVG>
+<ham>  5.00591e+01 ~  5.02418e+01 </ham>
+<ke>  5.01819e+01 ~  5.03647e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       21 
+<energyAVG>
+<ham>  5.00682e+01 ~  5.02602e+01 </ham>
+<ke>  5.01911e+01 ~  5.03831e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       22 
+<energyAVG>
+<ham>  5.00774e+01 ~  5.02786e+01 </ham>
+<ke>  5.02002e+01 ~  5.04015e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       23 
+<energyAVG>
+<ham>  5.00865e+01 ~  5.02970e+01 </ham>
+<ke>  5.02094e+01 ~  5.04199e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       24 
+<energyAVG>
+<ham>  5.00957e+01 ~  5.03154e+01 </ham>
+<ke>  5.02185e+01 ~  5.04383e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       25 
+<energyAVG>
+<ham>  5.01048e+01 ~  5.03338e+01 </ham>
+<ke>  5.02277e+01 ~  5.04567e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       26 
+<energyAVG>
+<ham>  5.01140e+01 ~  5.03523e+01 </ham>
+<ke>  5.02369e+01 ~  5.04751e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       27 
+<energyAVG>
+<ham>  5.01232e+01 ~  5.03707e+01 </ham>
+<ke>  5.02460e+01 ~  5.04936e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       28 
+<energyAVG>
+<ham>  5.01323e+01 ~  5.03892e+01 </ham>
+<ke>  5.02552e+01 ~  5.05121e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       29 
+<energyAVG>
+<ham>  5.01415e+01 ~  5.04077e+01 </ham>
+<ke>  5.02644e+01 ~  5.05305e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       30 
+<energyAVG>
+<ham>  5.01507e+01 ~  5.04262e+01 </ham>
+<ke>  5.02736e+01 ~  5.05490e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       31 
+<energyAVG>
+<ham>  5.01599e+01 ~  5.04447e+01 </ham>
+<ke>  5.02827e+01 ~  5.05675e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       32 
+<energyAVG>
+<ham>  5.01691e+01 ~  5.04632e+01 </ham>
+<ke>  5.02919e+01 ~  5.05860e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       33 
+<energyAVG>
+<ham>  5.01783e+01 ~  5.04817e+01 </ham>
+<ke>  5.03011e+01 ~  5.06046e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       34 
+<energyAVG>
+<ham>  5.01875e+01 ~  5.05003e+01 </ham>
+<ke>  5.03103e+01 ~  5.06231e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       35 
+<energyAVG>
+<ham>  5.01967e+01 ~  5.05188e+01 </ham>
+<ke>  5.03195e+01 ~  5.06417e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       36 
+<energyAVG>
+<ham>  5.02059e+01 ~  5.05374e+01 </ham>
+<ke>  5.03287e+01 ~  5.06603e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       37 
+<energyAVG>
+<ham>  5.02151e+01 ~  5.05560e+01 </ham>
+<ke>  5.03380e+01 ~  5.06788e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       38 
+<energyAVG>
+<ham>  5.02243e+01 ~  5.05746e+01 </ham>
+<ke>  5.03472e+01 ~  5.06974e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       39 
+<energyAVG>
+<ham>  5.02335e+01 ~  5.05932e+01 </ham>
+<ke>  5.03564e+01 ~  5.07160e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       40 
+<energyAVG>
+<ham>  5.02427e+01 ~  5.06118e+01 </ham>
+<ke>  5.03656e+01 ~  5.07347e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       41 
+<energyAVG>
+<ham>  5.02520e+01 ~  5.06304e+01 </ham>
+<ke>  5.03749e+01 ~  5.07533e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       42 
+<energyAVG>
+<ham>  5.02612e+01 ~  5.06491e+01 </ham>
+<ke>  5.03841e+01 ~  5.07720e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       43 
+<energyAVG>
+<ham>  5.02705e+01 ~  5.06677e+01 </ham>
+<ke>  5.03933e+01 ~  5.07906e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       44 
+<energyAVG>
+<ham>  5.02797e+01 ~  5.06864e+01 </ham>
+<ke>  5.04026e+01 ~  5.08093e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       45 
+<energyAVG>
+<ham>  5.02889e+01 ~  5.07051e+01 </ham>
+<ke>  5.04118e+01 ~  5.08280e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       46 
+<energyAVG>
+<ham>  5.02982e+01 ~  5.07238e+01 </ham>
+<ke>  5.04211e+01 ~  5.08467e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       47 
+<energyAVG>
+<ham>  5.03075e+01 ~  5.07425e+01 </ham>
+<ke>  5.04303e+01 ~  5.08654e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       48 
+<energyAVG>
+<ham>  5.03167e+01 ~  5.07613e+01 </ham>
+<ke>  5.04396e+01 ~  5.08841e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       49 
+<energyAVG>
+<ham>  5.03260e+01 ~  5.07800e+01 </ham>
+<ke>  5.04489e+01 ~  5.09029e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       50 
+<energyAVG>
+<ham>  5.03353e+01 ~  5.07987e+01 </ham>
+<ke>  5.04581e+01 ~  5.09216e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       51 
+<energyAVG>
+<ham>  5.03445e+01 ~  5.08175e+01 </ham>
+<ke>  5.04674e+01 ~  5.09404e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       52 
+<energyAVG>
+<ham>  5.03538e+01 ~  5.08363e+01 </ham>
+<ke>  5.04767e+01 ~  5.09592e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       53 
+<energyAVG>
+<ham>  5.03631e+01 ~  5.08551e+01 </ham>
+<ke>  5.04860e+01 ~  5.09780e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       54 
+<energyAVG>
+<ham>  5.03724e+01 ~  5.08739e+01 </ham>
+<ke>  5.04952e+01 ~  5.09968e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       55 
+<energyAVG>
+<ham>  5.03817e+01 ~  5.08927e+01 </ham>
+<ke>  5.05045e+01 ~  5.10156e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       56 
+<energyAVG>
+<ham>  5.03910e+01 ~  5.09116e+01 </ham>
+<ke>  5.05138e+01 ~  5.10344e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       57 
+<energyAVG>
+<ham>  5.04003e+01 ~  5.09304e+01 </ham>
+<ke>  5.05231e+01 ~  5.10533e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       58 
+<energyAVG>
+<ham>  5.04096e+01 ~  5.09493e+01 </ham>
+<ke>  5.05324e+01 ~  5.10721e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       59 
+<energyAVG>
+<ham>  5.04189e+01 ~  5.09681e+01 </ham>
+<ke>  5.05418e+01 ~  5.10910e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       60 
+<energyAVG>
+<ham>  5.04282e+01 ~  5.09870e+01 </ham>
+<ke>  5.05511e+01 ~  5.11099e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       61 
+<energyAVG>
+<ham>  5.04375e+01 ~  5.10059e+01 </ham>
+<ke>  5.05604e+01 ~  5.11288e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       62 
+<energyAVG>
+<ham>  5.04468e+01 ~  5.10248e+01 </ham>
+<ke>  5.05697e+01 ~  5.11477e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       63 
+<energyAVG>
+<ham>  5.04562e+01 ~  5.10438e+01 </ham>
+<ke>  5.05790e+01 ~  5.11666e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       64 
+<energyAVG>
+<ham>  5.04655e+01 ~  5.10627e+01 </ham>
+<ke>  5.05884e+01 ~  5.11856e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       65 
+<energyAVG>
+<ham>  5.04748e+01 ~  5.10816e+01 </ham>
+<ke>  5.05977e+01 ~  5.12045e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       66 
+<energyAVG>
+<ham>  5.04842e+01 ~  5.11006e+01 </ham>
+<ke>  5.06070e+01 ~  5.12235e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       67 
+<energyAVG>
+<ham>  5.04935e+01 ~  5.11196e+01 </ham>
+<ke>  5.06164e+01 ~  5.12425e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       68 
+<energyAVG>
+<ham>  5.05029e+01 ~  5.11386e+01 </ham>
+<ke>  5.06257e+01 ~  5.12615e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       69 
+<energyAVG>
+<ham>  5.05122e+01 ~  5.11576e+01 </ham>
+<ke>  5.06351e+01 ~  5.12805e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       70 
+<energyAVG>
+<ham>  5.05216e+01 ~  5.11766e+01 </ham>
+<ke>  5.06444e+01 ~  5.12995e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       71 
+<energyAVG>
+<ham>  5.05309e+01 ~  5.11956e+01 </ham>
+<ke>  5.06538e+01 ~  5.13185e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       72 
+<energyAVG>
+<ham>  5.05403e+01 ~  5.12147e+01 </ham>
+<ke>  5.06632e+01 ~  5.13376e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       73 
+<energyAVG>
+<ham>  5.05497e+01 ~  5.12337e+01 </ham>
+<ke>  5.06725e+01 ~  5.13566e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       74 
+<energyAVG>
+<ham>  5.05590e+01 ~  5.12528e+01 </ham>
+<ke>  5.06819e+01 ~  5.13757e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       75 
+<energyAVG>
+<ham>  5.05684e+01 ~  5.12719e+01 </ham>
+<ke>  5.06913e+01 ~  5.13948e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       76 
+<energyAVG>
+<ham>  5.05778e+01 ~  5.12910e+01 </ham>
+<ke>  5.07007e+01 ~  5.14139e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       77 
+<energyAVG>
+<ham>  5.05872e+01 ~  5.13101e+01 </ham>
+<ke>  5.07101e+01 ~  5.14330e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       78 
+<energyAVG>
+<ham>  5.05966e+01 ~  5.13292e+01 </ham>
+<ke>  5.07195e+01 ~  5.14521e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       79 
+<energyAVG>
+<ham>  5.06060e+01 ~  5.13484e+01 </ham>
+<ke>  5.07289e+01 ~  5.14712e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       80 
+<energyAVG>
+<ham>  5.06154e+01 ~  5.13675e+01 </ham>
+<ke>  5.07383e+01 ~  5.14904e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       81 
+<energyAVG>
+<ham>  5.06248e+01 ~  5.13867e+01 </ham>
+<ke>  5.07477e+01 ~  5.15095e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       82 
+<energyAVG>
+<ham>  5.06342e+01 ~  5.14058e+01 </ham>
+<ke>  5.07571e+01 ~  5.15287e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       83 
+<energyAVG>
+<ham>  5.06436e+01 ~  5.14250e+01 </ham>
+<ke>  5.07665e+01 ~  5.15479e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       84 
+<energyAVG>
+<ham>  5.06530e+01 ~  5.14442e+01 </ham>
+<ke>  5.07759e+01 ~  5.15671e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       85 
+<energyAVG>
+<ham>  5.06625e+01 ~  5.14634e+01 </ham>
+<ke>  5.07853e+01 ~  5.15863e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       86 
+<energyAVG>
+<ham>  5.06719e+01 ~  5.14827e+01 </ham>
+<ke>  5.07948e+01 ~  5.16055e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       87 
+<energyAVG>
+<ham>  5.06813e+01 ~  5.15019e+01 </ham>
+<ke>  5.08042e+01 ~  5.16248e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       88 
+<energyAVG>
+<ham>  5.06908e+01 ~  5.15212e+01 </ham>
+<ke>  5.08136e+01 ~  5.16440e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       89 
+<energyAVG>
+<ham>  5.07002e+01 ~  5.15404e+01 </ham>
+<ke>  5.08231e+01 ~  5.16633e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       90 
+<energyAVG>
+<ham>  5.07096e+01 ~  5.15597e+01 </ham>
+<ke>  5.08325e+01 ~  5.16826e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       91 
+<energyAVG>
+<ham>  5.07191e+01 ~  5.15790e+01 </ham>
+<ke>  5.08420e+01 ~  5.17019e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       92 
+<energyAVG>
+<ham>  5.07285e+01 ~  5.15983e+01 </ham>
+<ke>  5.08514e+01 ~  5.17212e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       93 
+<energyAVG>
+<ham>  5.07380e+01 ~  5.16176e+01 </ham>
+<ke>  5.08609e+01 ~  5.17405e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       94 
+<energyAVG>
+<ham>  5.07475e+01 ~  5.16370e+01 </ham>
+<ke>  5.08703e+01 ~  5.17598e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       95 
+<energyAVG>
+<ham>  5.07569e+01 ~  5.16563e+01 </ham>
+<ke>  5.08798e+01 ~  5.17792e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       96 
+<energyAVG>
+<ham>  5.07664e+01 ~  5.16757e+01 </ham>
+<ke>  5.08893e+01 ~  5.17986e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       97 
+<energyAVG>
+<ham>  5.07759e+01 ~  5.16951e+01 </ham>
+<ke>  5.08988e+01 ~  5.18179e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       98 
+<energyAVG>
+<ham>  5.07854e+01 ~  5.17144e+01 </ham>
+<ke>  5.09082e+01 ~  5.18373e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>       99 
+<energyAVG>
+<ham>  5.07948e+01 ~  5.17338e+01 </ham>
+<ke>  5.09177e+01 ~  5.18567e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      100 
+<energyAVG>
+<ham>  5.08043e+01 ~  5.17533e+01 </ham>
+<ke>  5.09272e+01 ~  5.18761e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      101 
+<energyAVG>
+<ham>  5.08138e+01 ~  5.17727e+01 </ham>
+<ke>  5.09367e+01 ~  5.18955e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      102 
+<energyAVG>
+<ham>  5.08233e+01 ~  5.17921e+01 </ham>
+<ke>  5.09462e+01 ~  5.19150e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      103 
+<energyAVG>
+<ham>  5.08328e+01 ~  5.18116e+01 </ham>
+<ke>  5.09557e+01 ~  5.19344e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      104 
+<energyAVG>
+<ham>  5.08423e+01 ~  5.18310e+01 </ham>
+<ke>  5.09652e+01 ~  5.19539e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      105 
+<energyAVG>
+<ham>  5.08518e+01 ~  5.18505e+01 </ham>
+<ke>  5.09747e+01 ~  5.19734e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      106 
+<energyAVG>
+<ham>  5.08614e+01 ~  5.18700e+01 </ham>
+<ke>  5.09842e+01 ~  5.19929e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      107 
+<energyAVG>
+<ham>  5.08709e+01 ~  5.18895e+01 </ham>
+<ke>  5.09938e+01 ~  5.20124e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      108 
+<energyAVG>
+<ham>  5.08804e+01 ~  5.19090e+01 </ham>
+<ke>  5.10033e+01 ~  5.20319e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      109 
+<energyAVG>
+<ham>  5.08899e+01 ~  5.19286e+01 </ham>
+<ke>  5.10128e+01 ~  5.20514e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      110 
+<energyAVG>
+<ham>  5.08995e+01 ~  5.19481e+01 </ham>
+<ke>  5.10223e+01 ~  5.20710e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      111 
+<energyAVG>
+<ham>  5.09090e+01 ~  5.19677e+01 </ham>
+<ke>  5.10319e+01 ~  5.20905e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      112 
+<energyAVG>
+<ham>  5.09185e+01 ~  5.19872e+01 </ham>
+<ke>  5.10414e+01 ~  5.21101e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      113 
+<energyAVG>
+<ham>  5.09281e+01 ~  5.20068e+01 </ham>
+<ke>  5.10510e+01 ~  5.21297e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      114 
+<energyAVG>
+<ham>  5.09376e+01 ~  5.20264e+01 </ham>
+<ke>  5.10605e+01 ~  5.21493e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      115 
+<energyAVG>
+<ham>  5.09472e+01 ~  5.20460e+01 </ham>
+<ke>  5.10701e+01 ~  5.21689e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      116 
+<energyAVG>
+<ham>  5.09568e+01 ~  5.20656e+01 </ham>
+<ke>  5.10796e+01 ~  5.21885e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      117 
+<energyAVG>
+<ham>  5.09663e+01 ~  5.20853e+01 </ham>
+<ke>  5.10892e+01 ~  5.22081e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      118 
+<energyAVG>
+<ham>  5.09759e+01 ~  5.21049e+01 </ham>
+<ke>  5.10988e+01 ~  5.22278e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      119 
+<energyAVG>
+<ham>  5.09855e+01 ~  5.21246e+01 </ham>
+<ke>  5.11083e+01 ~  5.22475e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      120 
+<energyAVG>
+<ham>  5.09950e+01 ~  5.21443e+01 </ham>
+<ke>  5.11179e+01 ~  5.22671e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      121 
+<energyAVG>
+<ham>  5.10046e+01 ~  5.21640e+01 </ham>
+<ke>  5.11275e+01 ~  5.22868e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      122 
+<energyAVG>
+<ham>  5.10142e+01 ~  5.21837e+01 </ham>
+<ke>  5.11371e+01 ~  5.23065e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      123 
+<energyAVG>
+<ham>  5.10238e+01 ~  5.22034e+01 </ham>
+<ke>  5.11467e+01 ~  5.23262e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      124 
+<energyAVG>
+<ham>  5.10334e+01 ~  5.22231e+01 </ham>
+<ke>  5.11563e+01 ~  5.23460e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      125 
+<energyAVG>
+<ham>  5.10430e+01 ~  5.22428e+01 </ham>
+<ke>  5.11659e+01 ~  5.23657e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      126 
+<energyAVG>
+<ham>  5.10526e+01 ~  5.22626e+01 </ham>
+<ke>  5.11755e+01 ~  5.23855e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      127 
+<energyAVG>
+<ham>  5.10622e+01 ~  5.22824e+01 </ham>
+<ke>  5.11851e+01 ~  5.24052e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      128 
+<energyAVG>
+<ham>  5.10718e+01 ~  5.23021e+01 </ham>
+<ke>  5.11947e+01 ~  5.24250e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      129 
+<energyAVG>
+<ham>  5.10814e+01 ~  5.23219e+01 </ham>
+<ke>  5.12043e+01 ~  5.24448e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      130 
+<energyAVG>
+<ham>  5.10911e+01 ~  5.23417e+01 </ham>
+<ke>  5.12139e+01 ~  5.24646e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      131 
+<energyAVG>
+<ham>  5.11007e+01 ~  5.23616e+01 </ham>
+<ke>  5.12235e+01 ~  5.24844e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      132 
+<energyAVG>
+<ham>  5.11103e+01 ~  5.23814e+01 </ham>
+<ke>  5.12332e+01 ~  5.25043e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      133 
+<energyAVG>
+<ham>  5.11199e+01 ~  5.24012e+01 </ham>
+<ke>  5.12428e+01 ~  5.25241e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      134 
+<energyAVG>
+<ham>  5.11296e+01 ~  5.24211e+01 </ham>
+<ke>  5.12524e+01 ~  5.25440e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      135 
+<energyAVG>
+<ham>  5.11392e+01 ~  5.24410e+01 </ham>
+<ke>  5.12621e+01 ~  5.25638e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      136 
+<energyAVG>
+<ham>  5.11489e+01 ~  5.24609e+01 </ham>
+<ke>  5.12717e+01 ~  5.25837e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      137 
+<energyAVG>
+<ham>  5.11585e+01 ~  5.24808e+01 </ham>
+<ke>  5.12814e+01 ~  5.26036e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      138 
+<energyAVG>
+<ham>  5.11682e+01 ~  5.25007e+01 </ham>
+<ke>  5.12910e+01 ~  5.26235e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      139 
+<energyAVG>
+<ham>  5.11778e+01 ~  5.25206e+01 </ham>
+<ke>  5.13007e+01 ~  5.26435e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      140 
+<energyAVG>
+<ham>  5.11875e+01 ~  5.25405e+01 </ham>
+<ke>  5.13104e+01 ~  5.26634e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      141 
+<energyAVG>
+<ham>  5.11972e+01 ~  5.25605e+01 </ham>
+<ke>  5.13200e+01 ~  5.26834e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      142 
+<energyAVG>
+<ham>  5.12068e+01 ~  5.25805e+01 </ham>
+<ke>  5.13297e+01 ~  5.27033e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      143 
+<energyAVG>
+<ham>  5.12165e+01 ~  5.26004e+01 </ham>
+<ke>  5.13394e+01 ~  5.27233e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      144 
+<energyAVG>
+<ham>  5.12262e+01 ~  5.26204e+01 </ham>
+<ke>  5.13491e+01 ~  5.27433e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      145 
+<energyAVG>
+<ham>  5.12359e+01 ~  5.26404e+01 </ham>
+<ke>  5.13588e+01 ~  5.27633e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      146 
+<energyAVG>
+<ham>  5.12456e+01 ~  5.26604e+01 </ham>
+<ke>  5.13685e+01 ~  5.27833e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      147 
+<energyAVG>
+<ham>  5.12553e+01 ~  5.26805e+01 </ham>
+<ke>  5.13781e+01 ~  5.28033e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      148 
+<energyAVG>
+<ham>  5.12650e+01 ~  5.27005e+01 </ham>
+<ke>  5.13878e+01 ~  5.28234e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      149 
+<energyAVG>
+<ham>  5.12747e+01 ~  5.27206e+01 </ham>
+<ke>  5.13975e+01 ~  5.28434e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      150 
+<energyAVG>
+<ham>  5.12844e+01 ~  5.27406e+01 </ham>
+<ke>  5.14073e+01 ~  5.28635e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      151 
+<energyAVG>
+<ham>  5.12941e+01 ~  5.27607e+01 </ham>
+<ke>  5.14170e+01 ~  5.28836e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      152 
+<energyAVG>
+<ham>  5.13038e+01 ~  5.27808e+01 </ham>
+<ke>  5.14267e+01 ~  5.29037e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      153 
+<energyAVG>
+<ham>  5.13135e+01 ~  5.28009e+01 </ham>
+<ke>  5.14364e+01 ~  5.29238e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      154 
+<energyAVG>
+<ham>  5.13233e+01 ~  5.28211e+01 </ham>
+<ke>  5.14461e+01 ~  5.29439e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      155 
+<energyAVG>
+<ham>  5.13330e+01 ~  5.28412e+01 </ham>
+<ke>  5.14559e+01 ~  5.29641e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      156 
+<energyAVG>
+<ham>  5.13427e+01 ~  5.28613e+01 </ham>
+<ke>  5.14656e+01 ~  5.29842e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      157 
+<energyAVG>
+<ham>  5.13525e+01 ~  5.28815e+01 </ham>
+<ke>  5.14753e+01 ~  5.30044e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      158 
+<energyAVG>
+<ham>  5.13622e+01 ~  5.29017e+01 </ham>
+<ke>  5.14851e+01 ~  5.30245e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      159 
+<energyAVG>
+<ham>  5.13720e+01 ~  5.29219e+01 </ham>
+<ke>  5.14948e+01 ~  5.30447e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      160 
+<energyAVG>
+<ham>  5.13817e+01 ~  5.29421e+01 </ham>
+<ke>  5.15046e+01 ~  5.30649e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      161 
+<energyAVG>
+<ham>  5.13915e+01 ~  5.29623e+01 </ham>
+<ke>  5.15143e+01 ~  5.30852e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      162 
+<energyAVG>
+<ham>  5.14012e+01 ~  5.29825e+01 </ham>
+<ke>  5.15241e+01 ~  5.31054e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      163 
+<energyAVG>
+<ham>  5.14110e+01 ~  5.30028e+01 </ham>
+<ke>  5.15339e+01 ~  5.31256e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      164 
+<energyAVG>
+<ham>  5.14208e+01 ~  5.30230e+01 </ham>
+<ke>  5.15436e+01 ~  5.31459e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      165 
+<energyAVG>
+<ham>  5.14305e+01 ~  5.30433e+01 </ham>
+<ke>  5.15534e+01 ~  5.31661e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      166 
+<energyAVG>
+<ham>  5.14403e+01 ~  5.30636e+01 </ham>
+<ke>  5.15632e+01 ~  5.31864e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      167 
+<energyAVG>
+<ham>  5.14501e+01 ~  5.30838e+01 </ham>
+<ke>  5.15730e+01 ~  5.32067e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      168 
+<energyAVG>
+<ham>  5.14599e+01 ~  5.31042e+01 </ham>
+<ke>  5.15828e+01 ~  5.32270e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      169 
+<energyAVG>
+<ham>  5.14697e+01 ~  5.31245e+01 </ham>
+<ke>  5.15926e+01 ~  5.32473e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      170 
+<energyAVG>
+<ham>  5.14795e+01 ~  5.31448e+01 </ham>
+<ke>  5.16023e+01 ~  5.32677e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      171 
+<energyAVG>
+<ham>  5.14893e+01 ~  5.31652e+01 </ham>
+<ke>  5.16121e+01 ~  5.32880e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      172 
+<energyAVG>
+<ham>  5.14991e+01 ~  5.31855e+01 </ham>
+<ke>  5.16220e+01 ~  5.33084e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      173 
+<energyAVG>
+<ham>  5.15089e+01 ~  5.32059e+01 </ham>
+<ke>  5.16318e+01 ~  5.33288e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      174 
+<energyAVG>
+<ham>  5.15187e+01 ~  5.32263e+01 </ham>
+<ke>  5.16416e+01 ~  5.33491e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      175 
+<energyAVG>
+<ham>  5.15285e+01 ~  5.32467e+01 </ham>
+<ke>  5.16514e+01 ~  5.33695e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      176 
+<energyAVG>
+<ham>  5.15383e+01 ~  5.32671e+01 </ham>
+<ke>  5.16612e+01 ~  5.33900e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      177 
+<energyAVG>
+<ham>  5.15482e+01 ~  5.32875e+01 </ham>
+<ke>  5.16710e+01 ~  5.34104e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      178 
+<energyAVG>
+<ham>  5.15580e+01 ~  5.33079e+01 </ham>
+<ke>  5.16809e+01 ~  5.34308e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      179 
+<energyAVG>
+<ham>  5.15678e+01 ~  5.33284e+01 </ham>
+<ke>  5.16907e+01 ~  5.34513e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      180 
+<energyAVG>
+<ham>  5.15777e+01 ~  5.33489e+01 </ham>
+<ke>  5.17005e+01 ~  5.34717e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      181 
+<energyAVG>
+<ham>  5.15875e+01 ~  5.33693e+01 </ham>
+<ke>  5.17104e+01 ~  5.34922e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      182 
+<energyAVG>
+<ham>  5.15974e+01 ~  5.33898e+01 </ham>
+<ke>  5.17202e+01 ~  5.35127e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      183 
+<energyAVG>
+<ham>  5.16072e+01 ~  5.34103e+01 </ham>
+<ke>  5.17301e+01 ~  5.35332e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      184 
+<energyAVG>
+<ham>  5.16171e+01 ~  5.34309e+01 </ham>
+<ke>  5.17400e+01 ~  5.35537e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      185 
+<energyAVG>
+<ham>  5.16269e+01 ~  5.34514e+01 </ham>
+<ke>  5.17498e+01 ~  5.35743e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      186 
+<energyAVG>
+<ham>  5.16368e+01 ~  5.34719e+01 </ham>
+<ke>  5.17597e+01 ~  5.35948e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      187 
+<energyAVG>
+<ham>  5.16467e+01 ~  5.34925e+01 </ham>
+<ke>  5.17696e+01 ~  5.36154e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      188 
+<energyAVG>
+<ham>  5.16566e+01 ~  5.35131e+01 </ham>
+<ke>  5.17794e+01 ~  5.36359e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      189 
+<energyAVG>
+<ham>  5.16664e+01 ~  5.35336e+01 </ham>
+<ke>  5.17893e+01 ~  5.36565e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      190 
+<energyAVG>
+<ham>  5.16763e+01 ~  5.35542e+01 </ham>
+<ke>  5.17992e+01 ~  5.36771e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      191 
+<energyAVG>
+<ham>  5.16862e+01 ~  5.35748e+01 </ham>
+<ke>  5.18091e+01 ~  5.36977e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      192 
+<energyAVG>
+<ham>  5.16961e+01 ~  5.35955e+01 </ham>
+<ke>  5.18190e+01 ~  5.37183e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      193 
+<energyAVG>
+<ham>  5.17060e+01 ~  5.36161e+01 </ham>
+<ke>  5.18289e+01 ~  5.37390e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      194 
+<energyAVG>
+<ham>  5.17159e+01 ~  5.36367e+01 </ham>
+<ke>  5.18388e+01 ~  5.37596e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      195 
+<energyAVG>
+<ham>  5.17258e+01 ~  5.36574e+01 </ham>
+<ke>  5.18487e+01 ~  5.37803e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      196 
+<energyAVG>
+<ham>  5.17357e+01 ~  5.36781e+01 </ham>
+<ke>  5.18586e+01 ~  5.38010e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      197 
+<energyAVG>
+<ham>  5.17456e+01 ~  5.36988e+01 </ham>
+<ke>  5.18685e+01 ~  5.38216e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      198 
+<energyAVG>
+<ham>  5.17555e+01 ~  5.37195e+01 </ham>
+<ke>  5.18784e+01 ~  5.38423e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      199 
+<energyAVG>
+<ham>  5.17655e+01 ~  5.37402e+01 </ham>
+<ke>  5.18883e+01 ~  5.38631e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      200 
+<energyAVG>
+<ham>  5.17754e+01 ~  5.37609e+01 </ham>
+<ke>  5.18983e+01 ~  5.38838e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      201 
+<energyAVG>
+<ham>  5.17853e+01 ~  5.37817e+01 </ham>
+<ke>  5.19082e+01 ~  5.39045e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      202 
+<energyAVG>
+<ham>  5.17953e+01 ~  5.38024e+01 </ham>
+<ke>  5.19181e+01 ~  5.39253e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      203 
+<energyAVG>
+<ham>  5.18052e+01 ~  5.38232e+01 </ham>
+<ke>  5.19281e+01 ~  5.39461e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      204 
+<energyAVG>
+<ham>  5.18151e+01 ~  5.38440e+01 </ham>
+<ke>  5.19380e+01 ~  5.39668e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      205 
+<energyAVG>
+<ham>  5.18251e+01 ~  5.38648e+01 </ham>
+<ke>  5.19480e+01 ~  5.39876e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      206 
+<energyAVG>
+<ham>  5.18351e+01 ~  5.38856e+01 </ham>
+<ke>  5.19579e+01 ~  5.40084e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      207 
+<energyAVG>
+<ham>  5.18450e+01 ~  5.39064e+01 </ham>
+<ke>  5.19679e+01 ~  5.40293e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      208 
+<energyAVG>
+<ham>  5.18550e+01 ~  5.39272e+01 </ham>
+<ke>  5.19778e+01 ~  5.40501e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      209 
+<energyAVG>
+<ham>  5.18649e+01 ~  5.39481e+01 </ham>
+<ke>  5.19878e+01 ~  5.40709e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      210 
+<energyAVG>
+<ham>  5.18749e+01 ~  5.39689e+01 </ham>
+<ke>  5.19978e+01 ~  5.40918e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      211 
+<energyAVG>
+<ham>  5.18849e+01 ~  5.39898e+01 </ham>
+<ke>  5.20078e+01 ~  5.41127e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      212 
+<energyAVG>
+<ham>  5.18949e+01 ~  5.40107e+01 </ham>
+<ke>  5.20177e+01 ~  5.41336e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      213 
+<energyAVG>
+<ham>  5.19049e+01 ~  5.40316e+01 </ham>
+<ke>  5.20277e+01 ~  5.41544e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      214 
+<energyAVG>
+<ham>  5.19148e+01 ~  5.40525e+01 </ham>
+<ke>  5.20377e+01 ~  5.41754e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      215 
+<energyAVG>
+<ham>  5.19248e+01 ~  5.40734e+01 </ham>
+<ke>  5.20477e+01 ~  5.41963e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      216 
+<energyAVG>
+<ham>  5.19348e+01 ~  5.40944e+01 </ham>
+<ke>  5.20577e+01 ~  5.42172e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      217 
+<energyAVG>
+<ham>  5.19448e+01 ~  5.41153e+01 </ham>
+<ke>  5.20677e+01 ~  5.42382e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      218 
+<energyAVG>
+<ham>  5.19548e+01 ~  5.41363e+01 </ham>
+<ke>  5.20777e+01 ~  5.42591e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      219 
+<energyAVG>
+<ham>  5.19649e+01 ~  5.41572e+01 </ham>
+<ke>  5.20877e+01 ~  5.42801e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      220 
+<energyAVG>
+<ham>  5.19749e+01 ~  5.41782e+01 </ham>
+<ke>  5.20977e+01 ~  5.43011e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      221 
+<energyAVG>
+<ham>  5.19849e+01 ~  5.41992e+01 </ham>
+<ke>  5.21078e+01 ~  5.43221e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      222 
+<energyAVG>
+<ham>  5.19949e+01 ~  5.42203e+01 </ham>
+<ke>  5.21178e+01 ~  5.43431e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      223 
+<energyAVG>
+<ham>  5.20049e+01 ~  5.42413e+01 </ham>
+<ke>  5.21278e+01 ~  5.43642e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      224 
+<energyAVG>
+<ham>  5.20150e+01 ~  5.42623e+01 </ham>
+<ke>  5.21378e+01 ~  5.43852e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      225 
+<energyAVG>
+<ham>  5.20250e+01 ~  5.42834e+01 </ham>
+<ke>  5.21479e+01 ~  5.44063e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      226 
+<energyAVG>
+<ham>  5.20351e+01 ~  5.43045e+01 </ham>
+<ke>  5.21579e+01 ~  5.44273e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      227 
+<energyAVG>
+<ham>  5.20451e+01 ~  5.43255e+01 </ham>
+<ke>  5.21680e+01 ~  5.44484e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      228 
+<energyAVG>
+<ham>  5.20551e+01 ~  5.43466e+01 </ham>
+<ke>  5.21780e+01 ~  5.44695e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      229 
+<energyAVG>
+<ham>  5.20652e+01 ~  5.43677e+01 </ham>
+<ke>  5.21881e+01 ~  5.44906e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      230 
+<energyAVG>
+<ham>  5.20753e+01 ~  5.43889e+01 </ham>
+<ke>  5.21981e+01 ~  5.45117e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      231 
+<energyAVG>
+<ham>  5.20853e+01 ~  5.44100e+01 </ham>
+<ke>  5.22082e+01 ~  5.45329e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      232 
+<energyAVG>
+<ham>  5.20954e+01 ~  5.44312e+01 </ham>
+<ke>  5.22183e+01 ~  5.45540e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      233 
+<energyAVG>
+<ham>  5.21055e+01 ~  5.44523e+01 </ham>
+<ke>  5.22283e+01 ~  5.45752e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      234 
+<energyAVG>
+<ham>  5.21155e+01 ~  5.44735e+01 </ham>
+<ke>  5.22384e+01 ~  5.45964e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      235 
+<energyAVG>
+<ham>  5.21256e+01 ~  5.44947e+01 </ham>
+<ke>  5.22485e+01 ~  5.46176e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      236 
+<energyAVG>
+<ham>  5.21357e+01 ~  5.45159e+01 </ham>
+<ke>  5.22586e+01 ~  5.46388e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      237 
+<energyAVG>
+<ham>  5.21458e+01 ~  5.45371e+01 </ham>
+<ke>  5.22687e+01 ~  5.46600e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      238 
+<energyAVG>
+<ham>  5.21559e+01 ~  5.45583e+01 </ham>
+<ke>  5.22788e+01 ~  5.46812e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      239 
+<energyAVG>
+<ham>  5.21660e+01 ~  5.45796e+01 </ham>
+<ke>  5.22889e+01 ~  5.47024e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      240 
+<energyAVG>
+<ham>  5.21761e+01 ~  5.46008e+01 </ham>
+<ke>  5.22990e+01 ~  5.47237e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      241 
+<energyAVG>
+<ham>  5.21862e+01 ~  5.46221e+01 </ham>
+<ke>  5.23091e+01 ~  5.47450e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      242 
+<energyAVG>
+<ham>  5.21963e+01 ~  5.46434e+01 </ham>
+<ke>  5.23192e+01 ~  5.47662e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      243 
+<energyAVG>
+<ham>  5.22064e+01 ~  5.46647e+01 </ham>
+<ke>  5.23293e+01 ~  5.47875e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      244 
+<energyAVG>
+<ham>  5.22166e+01 ~  5.46860e+01 </ham>
+<ke>  5.23394e+01 ~  5.48088e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      245 
+<energyAVG>
+<ham>  5.22267e+01 ~  5.47073e+01 </ham>
+<ke>  5.23495e+01 ~  5.48302e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      246 
+<energyAVG>
+<ham>  5.22368e+01 ~  5.47286e+01 </ham>
+<ke>  5.23597e+01 ~  5.48515e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      247 
+<energyAVG>
+<ham>  5.22469e+01 ~  5.47500e+01 </ham>
+<ke>  5.23698e+01 ~  5.48728e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      248 
+<energyAVG>
+<ham>  5.22571e+01 ~  5.47713e+01 </ham>
+<ke>  5.23799e+01 ~  5.48942e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      249 
+<energyAVG>
+<ham>  5.22672e+01 ~  5.47927e+01 </ham>
+<ke>  5.23901e+01 ~  5.49156e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      250 
+<energyAVG>
+<ham>  5.22774e+01 ~  5.48141e+01 </ham>
+<ke>  5.24002e+01 ~  5.49370e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      251 
+<energyAVG>
+<ham>  5.22875e+01 ~  5.48355e+01 </ham>
+<ke>  5.24104e+01 ~  5.49584e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      252 
+<energyAVG>
+<ham>  5.22977e+01 ~  5.48569e+01 </ham>
+<ke>  5.24205e+01 ~  5.49798e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      253 
+<energyAVG>
+<ham>  5.23078e+01 ~  5.48783e+01 </ham>
+<ke>  5.24307e+01 ~  5.50012e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      254 
+<energyAVG>
+<ham>  5.23180e+01 ~  5.48998e+01 </ham>
+<ke>  5.24409e+01 ~  5.50226e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      255 
+<energyAVG>
+<ham>  5.23282e+01 ~  5.49212e+01 </ham>
+<ke>  5.24510e+01 ~  5.50441e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      256 
+<energyAVG>
+<ham>  5.23383e+01 ~  5.49427e+01 </ham>
+<ke>  5.24612e+01 ~  5.50655e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      257 
+<energyAVG>
+<ham>  5.23485e+01 ~  5.49641e+01 </ham>
+<ke>  5.24714e+01 ~  5.50870e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      258 
+<energyAVG>
+<ham>  5.23587e+01 ~  5.49856e+01 </ham>
+<ke>  5.24816e+01 ~  5.51085e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      259 
+<energyAVG>
+<ham>  5.23689e+01 ~  5.50071e+01 </ham>
+<ke>  5.24918e+01 ~  5.51300e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      260 
+<energyAVG>
+<ham>  5.23791e+01 ~  5.50287e+01 </ham>
+<ke>  5.25019e+01 ~  5.51515e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      261 
+<energyAVG>
+<ham>  5.23893e+01 ~  5.50502e+01 </ham>
+<ke>  5.25121e+01 ~  5.51731e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      262 
+<energyAVG>
+<ham>  5.23995e+01 ~  5.50717e+01 </ham>
+<ke>  5.25223e+01 ~  5.51946e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      263 
+<energyAVG>
+<ham>  5.24097e+01 ~  5.50933e+01 </ham>
+<ke>  5.25325e+01 ~  5.52162e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      264 
+<energyAVG>
+<ham>  5.24199e+01 ~  5.51149e+01 </ham>
+<ke>  5.25428e+01 ~  5.52377e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      265 
+<energyAVG>
+<ham>  5.24301e+01 ~  5.51364e+01 </ham>
+<ke>  5.25530e+01 ~  5.52593e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      266 
+<energyAVG>
+<ham>  5.24403e+01 ~  5.51580e+01 </ham>
+<ke>  5.25632e+01 ~  5.52809e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      267 
+<energyAVG>
+<ham>  5.24505e+01 ~  5.51796e+01 </ham>
+<ke>  5.25734e+01 ~  5.53025e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      268 
+<energyAVG>
+<ham>  5.24608e+01 ~  5.52013e+01 </ham>
+<ke>  5.25836e+01 ~  5.53241e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      269 
+<energyAVG>
+<ham>  5.24710e+01 ~  5.52229e+01 </ham>
+<ke>  5.25939e+01 ~  5.53458e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      270 
+<energyAVG>
+<ham>  5.24812e+01 ~  5.52446e+01 </ham>
+<ke>  5.26041e+01 ~  5.53674e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      271 
+<energyAVG>
+<ham>  5.24915e+01 ~  5.52662e+01 </ham>
+<ke>  5.26143e+01 ~  5.53891e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      272 
+<energyAVG>
+<ham>  5.25017e+01 ~  5.52879e+01 </ham>
+<ke>  5.26246e+01 ~  5.54108e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      273 
+<energyAVG>
+<ham>  5.25120e+01 ~  5.53096e+01 </ham>
+<ke>  5.26348e+01 ~  5.54324e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      274 
+<energyAVG>
+<ham>  5.25222e+01 ~  5.53313e+01 </ham>
+<ke>  5.26451e+01 ~  5.54542e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      275 
+<energyAVG>
+<ham>  5.25325e+01 ~  5.53530e+01 </ham>
+<ke>  5.26553e+01 ~  5.54759e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      276 
+<energyAVG>
+<ham>  5.25427e+01 ~  5.53747e+01 </ham>
+<ke>  5.26656e+01 ~  5.54976e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      277 
+<energyAVG>
+<ham>  5.25530e+01 ~  5.53965e+01 </ham>
+<ke>  5.26759e+01 ~  5.55193e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      278 
+<energyAVG>
+<ham>  5.25633e+01 ~  5.54182e+01 </ham>
+<ke>  5.26861e+01 ~  5.55411e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      279 
+<energyAVG>
+<ham>  5.25735e+01 ~  5.54400e+01 </ham>
+<ke>  5.26964e+01 ~  5.55629e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      280 
+<energyAVG>
+<ham>  5.25838e+01 ~  5.54618e+01 </ham>
+<ke>  5.27067e+01 ~  5.55846e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      281 
+<energyAVG>
+<ham>  5.25941e+01 ~  5.54836e+01 </ham>
+<ke>  5.27170e+01 ~  5.56064e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      282 
+<energyAVG>
+<ham>  5.26044e+01 ~  5.55054e+01 </ham>
+<ke>  5.27273e+01 ~  5.56282e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      283 
+<energyAVG>
+<ham>  5.26147e+01 ~  5.55272e+01 </ham>
+<ke>  5.27375e+01 ~  5.56501e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      284 
+<energyAVG>
+<ham>  5.26250e+01 ~  5.55490e+01 </ham>
+<ke>  5.27478e+01 ~  5.56719e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      285 
+<energyAVG>
+<ham>  5.26353e+01 ~  5.55709e+01 </ham>
+<ke>  5.27581e+01 ~  5.56937e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      286 
+<energyAVG>
+<ham>  5.26456e+01 ~  5.55927e+01 </ham>
+<ke>  5.27684e+01 ~  5.57156e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      287 
+<energyAVG>
+<ham>  5.26559e+01 ~  5.56146e+01 </ham>
+<ke>  5.27788e+01 ~  5.57375e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      288 
+<energyAVG>
+<ham>  5.26662e+01 ~  5.56365e+01 </ham>
+<ke>  5.27891e+01 ~  5.57593e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      289 
+<energyAVG>
+<ham>  5.26765e+01 ~  5.56584e+01 </ham>
+<ke>  5.27994e+01 ~  5.57812e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      290 
+<energyAVG>
+<ham>  5.26868e+01 ~  5.56803e+01 </ham>
+<ke>  5.28097e+01 ~  5.58032e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      291 
+<energyAVG>
+<ham>  5.26972e+01 ~  5.57022e+01 </ham>
+<ke>  5.28200e+01 ~  5.58251e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      292 
+<energyAVG>
+<ham>  5.27075e+01 ~  5.57241e+01 </ham>
+<ke>  5.28304e+01 ~  5.58470e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      293 
+<energyAVG>
+<ham>  5.27178e+01 ~  5.57461e+01 </ham>
+<ke>  5.28407e+01 ~  5.58690e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      294 
+<energyAVG>
+<ham>  5.27282e+01 ~  5.57681e+01 </ham>
+<ke>  5.28510e+01 ~  5.58909e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      295 
+<energyAVG>
+<ham>  5.27385e+01 ~  5.57900e+01 </ham>
+<ke>  5.28614e+01 ~  5.59129e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      296 
+<energyAVG>
+<ham>  5.27489e+01 ~  5.58120e+01 </ham>
+<ke>  5.28717e+01 ~  5.59349e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      297 
+<energyAVG>
+<ham>  5.27592e+01 ~  5.58340e+01 </ham>
+<ke>  5.28821e+01 ~  5.59569e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      298 
+<energyAVG>
+<ham>  5.27696e+01 ~  5.58561e+01 </ham>
+<ke>  5.28924e+01 ~  5.59789e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      299 
+<energyAVG>
+<ham>  5.27799e+01 ~  5.58781e+01 </ham>
+<ke>  5.29028e+01 ~  5.60010e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      300 
+<energyAVG>
+<ham>  5.27903e+01 ~  5.59001e+01 </ham>
+<ke>  5.29132e+01 ~  5.60230e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      301 
+<energyAVG>
+<ham>  5.28007e+01 ~  5.59222e+01 </ham>
+<ke>  5.29235e+01 ~  5.60451e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      302 
+<energyAVG>
+<ham>  5.28110e+01 ~  5.59443e+01 </ham>
+<ke>  5.29339e+01 ~  5.60671e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      303 
+<energyAVG>
+<ham>  5.28214e+01 ~  5.59663e+01 </ham>
+<ke>  5.29443e+01 ~  5.60892e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      304 
+<energyAVG>
+<ham>  5.28318e+01 ~  5.59884e+01 </ham>
+<ke>  5.29547e+01 ~  5.61113e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      305 
+<energyAVG>
+<ham>  5.28422e+01 ~  5.60105e+01 </ham>
+<ke>  5.29651e+01 ~  5.61334e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      306 
+<energyAVG>
+<ham>  5.28526e+01 ~  5.60327e+01 </ham>
+<ke>  5.29755e+01 ~  5.61555e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      307 
+<energyAVG>
+<ham>  5.28630e+01 ~  5.60548e+01 </ham>
+<ke>  5.29859e+01 ~  5.61777e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      308 
+<energyAVG>
+<ham>  5.28734e+01 ~  5.60769e+01 </ham>
+<ke>  5.29963e+01 ~  5.61998e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      309 
+<energyAVG>
+<ham>  5.28838e+01 ~  5.60991e+01 </ham>
+<ke>  5.30067e+01 ~  5.62220e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      310 
+<energyAVG>
+<ham>  5.28942e+01 ~  5.61213e+01 </ham>
+<ke>  5.30171e+01 ~  5.62442e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      311 
+<energyAVG>
+<ham>  5.29046e+01 ~  5.61435e+01 </ham>
+<ke>  5.30275e+01 ~  5.62663e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      312 
+<energyAVG>
+<ham>  5.29150e+01 ~  5.61657e+01 </ham>
+<ke>  5.30379e+01 ~  5.62885e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      313 
+<energyAVG>
+<ham>  5.29255e+01 ~  5.61879e+01 </ham>
+<ke>  5.30483e+01 ~  5.63108e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      314 
+<energyAVG>
+<ham>  5.29359e+01 ~  5.62101e+01 </ham>
+<ke>  5.30588e+01 ~  5.63330e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      315 
+<energyAVG>
+<ham>  5.29463e+01 ~  5.62324e+01 </ham>
+<ke>  5.30692e+01 ~  5.63552e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      316 
+<energyAVG>
+<ham>  5.29568e+01 ~  5.62546e+01 </ham>
+<ke>  5.30796e+01 ~  5.63775e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      317 
+<energyAVG>
+<ham>  5.29672e+01 ~  5.62769e+01 </ham>
+<ke>  5.30901e+01 ~  5.63997e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      318 
+<energyAVG>
+<ham>  5.29776e+01 ~  5.62992e+01 </ham>
+<ke>  5.31005e+01 ~  5.64220e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      319 
+<energyAVG>
+<ham>  5.29881e+01 ~  5.63214e+01 </ham>
+<ke>  5.31110e+01 ~  5.64443e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      320 
+<energyAVG>
+<ham>  5.29985e+01 ~  5.63438e+01 </ham>
+<ke>  5.31214e+01 ~  5.64666e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      321 
+<energyAVG>
+<ham>  5.30090e+01 ~  5.63661e+01 </ham>
+<ke>  5.31319e+01 ~  5.64889e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      322 
+<energyAVG>
+<ham>  5.30195e+01 ~  5.63884e+01 </ham>
+<ke>  5.31423e+01 ~  5.65113e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      323 
+<energyAVG>
+<ham>  5.30299e+01 ~  5.64108e+01 </ham>
+<ke>  5.31528e+01 ~  5.65336e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      324 
+<energyAVG>
+<ham>  5.30404e+01 ~  5.64331e+01 </ham>
+<ke>  5.31633e+01 ~  5.65560e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      325 
+<energyAVG>
+<ham>  5.30509e+01 ~  5.64555e+01 </ham>
+<ke>  5.31737e+01 ~  5.65784e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      326 
+<energyAVG>
+<ham>  5.30614e+01 ~  5.64779e+01 </ham>
+<ke>  5.31842e+01 ~  5.66007e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      327 
+<energyAVG>
+<ham>  5.30718e+01 ~  5.65003e+01 </ham>
+<ke>  5.31947e+01 ~  5.66231e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      328 
+<energyAVG>
+<ham>  5.30823e+01 ~  5.65227e+01 </ham>
+<ke>  5.32052e+01 ~  5.66456e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      329 
+<energyAVG>
+<ham>  5.30928e+01 ~  5.65451e+01 </ham>
+<ke>  5.32157e+01 ~  5.66680e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      330 
+<energyAVG>
+<ham>  5.31033e+01 ~  5.65675e+01 </ham>
+<ke>  5.32262e+01 ~  5.66904e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      331 
+<energyAVG>
+<ham>  5.31138e+01 ~  5.65900e+01 </ham>
+<ke>  5.32367e+01 ~  5.67129e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      332 
+<energyAVG>
+<ham>  5.31243e+01 ~  5.66125e+01 </ham>
+<ke>  5.32472e+01 ~  5.67353e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      333 
+<energyAVG>
+<ham>  5.31348e+01 ~  5.66349e+01 </ham>
+<ke>  5.32577e+01 ~  5.67578e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      334 
+<energyAVG>
+<ham>  5.31454e+01 ~  5.66574e+01 </ham>
+<ke>  5.32682e+01 ~  5.67803e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      335 
+<energyAVG>
+<ham>  5.31559e+01 ~  5.66799e+01 </ham>
+<ke>  5.32787e+01 ~  5.68028e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      336 
+<energyAVG>
+<ham>  5.31664e+01 ~  5.67024e+01 </ham>
+<ke>  5.32893e+01 ~  5.68253e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      337 
+<energyAVG>
+<ham>  5.31769e+01 ~  5.67250e+01 </ham>
+<ke>  5.32998e+01 ~  5.68478e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      338 
+<energyAVG>
+<ham>  5.31875e+01 ~  5.67475e+01 </ham>
+<ke>  5.33103e+01 ~  5.68704e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      339 
+<energyAVG>
+<ham>  5.31980e+01 ~  5.67701e+01 </ham>
+<ke>  5.33209e+01 ~  5.68929e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      340 
+<energyAVG>
+<ham>  5.32085e+01 ~  5.67926e+01 </ham>
+<ke>  5.33314e+01 ~  5.69155e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      341 
+<energyAVG>
+<ham>  5.32191e+01 ~  5.68152e+01 </ham>
+<ke>  5.33420e+01 ~  5.69381e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      342 
+<energyAVG>
+<ham>  5.32296e+01 ~  5.68378e+01 </ham>
+<ke>  5.33525e+01 ~  5.69607e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      343 
+<energyAVG>
+<ham>  5.32402e+01 ~  5.68604e+01 </ham>
+<ke>  5.33631e+01 ~  5.69833e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      344 
+<energyAVG>
+<ham>  5.32507e+01 ~  5.68831e+01 </ham>
+<ke>  5.33736e+01 ~  5.70059e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      345 
+<energyAVG>
+<ham>  5.32613e+01 ~  5.69057e+01 </ham>
+<ke>  5.33842e+01 ~  5.70286e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      346 
+<energyAVG>
+<ham>  5.32719e+01 ~  5.69283e+01 </ham>
+<ke>  5.33948e+01 ~  5.70512e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      347 
+<energyAVG>
+<ham>  5.32825e+01 ~  5.69510e+01 </ham>
+<ke>  5.34053e+01 ~  5.70739e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      348 
+<energyAVG>
+<ham>  5.32930e+01 ~  5.69737e+01 </ham>
+<ke>  5.34159e+01 ~  5.70965e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      349 
+<energyAVG>
+<ham>  5.33036e+01 ~  5.69964e+01 </ham>
+<ke>  5.34265e+01 ~  5.71192e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      350 
+<energyAVG>
+<ham>  5.33142e+01 ~  5.70191e+01 </ham>
+<ke>  5.34371e+01 ~  5.71419e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      351 
+<energyAVG>
+<ham>  5.33248e+01 ~  5.70418e+01 </ham>
+<ke>  5.34477e+01 ~  5.71646e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      352 
+<energyAVG>
+<ham>  5.33354e+01 ~  5.70645e+01 </ham>
+<ke>  5.34583e+01 ~  5.71874e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      353 
+<energyAVG>
+<ham>  5.33460e+01 ~  5.70872e+01 </ham>
+<ke>  5.34688e+01 ~  5.72101e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      354 
+<energyAVG>
+<ham>  5.33566e+01 ~  5.71100e+01 </ham>
+<ke>  5.34795e+01 ~  5.72329e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      355 
+<energyAVG>
+<ham>  5.33672e+01 ~  5.71328e+01 </ham>
+<ke>  5.34901e+01 ~  5.72556e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      356 
+<energyAVG>
+<ham>  5.33778e+01 ~  5.71555e+01 </ham>
+<ke>  5.35007e+01 ~  5.72784e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      357 
+<energyAVG>
+<ham>  5.33884e+01 ~  5.71783e+01 </ham>
+<ke>  5.35113e+01 ~  5.73012e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      358 
+<energyAVG>
+<ham>  5.33990e+01 ~  5.72011e+01 </ham>
+<ke>  5.35219e+01 ~  5.73240e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      359 
+<energyAVG>
+<ham>  5.34097e+01 ~  5.72240e+01 </ham>
+<ke>  5.35325e+01 ~  5.73468e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      360 
+<energyAVG>
+<ham>  5.34203e+01 ~  5.72468e+01 </ham>
+<ke>  5.35432e+01 ~  5.73697e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      361 
+<energyAVG>
+<ham>  5.34309e+01 ~  5.72696e+01 </ham>
+<ke>  5.35538e+01 ~  5.73925e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      362 
+<energyAVG>
+<ham>  5.34416e+01 ~  5.72925e+01 </ham>
+<ke>  5.35644e+01 ~  5.74154e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      363 
+<energyAVG>
+<ham>  5.34522e+01 ~  5.73154e+01 </ham>
+<ke>  5.35751e+01 ~  5.74382e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      364 
+<energyAVG>
+<ham>  5.34628e+01 ~  5.73383e+01 </ham>
+<ke>  5.35857e+01 ~  5.74611e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      365 
+<energyAVG>
+<ham>  5.34735e+01 ~  5.73612e+01 </ham>
+<ke>  5.35964e+01 ~  5.74840e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      366 
+<energyAVG>
+<ham>  5.34842e+01 ~  5.73841e+01 </ham>
+<ke>  5.36070e+01 ~  5.75069e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      367 
+<energyAVG>
+<ham>  5.34948e+01 ~  5.74070e+01 </ham>
+<ke>  5.36177e+01 ~  5.75299e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      368 
+<energyAVG>
+<ham>  5.35055e+01 ~  5.74299e+01 </ham>
+<ke>  5.36284e+01 ~  5.75528e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      369 
+<energyAVG>
+<ham>  5.35161e+01 ~  5.74529e+01 </ham>
+<ke>  5.36390e+01 ~  5.75757e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      370 
+<energyAVG>
+<ham>  5.35268e+01 ~  5.74758e+01 </ham>
+<ke>  5.36497e+01 ~  5.75987e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      371 
+<energyAVG>
+<ham>  5.35375e+01 ~  5.74988e+01 </ham>
+<ke>  5.36604e+01 ~  5.76217e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      372 
+<energyAVG>
+<ham>  5.35482e+01 ~  5.75218e+01 </ham>
+<ke>  5.36711e+01 ~  5.76447e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      373 
+<energyAVG>
+<ham>  5.35589e+01 ~  5.75448e+01 </ham>
+<ke>  5.36817e+01 ~  5.76677e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      374 
+<energyAVG>
+<ham>  5.35696e+01 ~  5.75678e+01 </ham>
+<ke>  5.36924e+01 ~  5.76907e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      375 
+<energyAVG>
+<ham>  5.35803e+01 ~  5.75909e+01 </ham>
+<ke>  5.37031e+01 ~  5.77137e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      376 
+<energyAVG>
+<ham>  5.35910e+01 ~  5.76139e+01 </ham>
+<ke>  5.37138e+01 ~  5.77368e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      377 
+<energyAVG>
+<ham>  5.36017e+01 ~  5.76370e+01 </ham>
+<ke>  5.37245e+01 ~  5.77598e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      378 
+<energyAVG>
+<ham>  5.36124e+01 ~  5.76600e+01 </ham>
+<ke>  5.37352e+01 ~  5.77829e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      379 
+<energyAVG>
+<ham>  5.36231e+01 ~  5.76831e+01 </ham>
+<ke>  5.37459e+01 ~  5.78060e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      380 
+<energyAVG>
+<ham>  5.36338e+01 ~  5.77062e+01 </ham>
+<ke>  5.37567e+01 ~  5.78291e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      381 
+<energyAVG>
+<ham>  5.36445e+01 ~  5.77293e+01 </ham>
+<ke>  5.37674e+01 ~  5.78522e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      382 
+<energyAVG>
+<ham>  5.36552e+01 ~  5.77524e+01 </ham>
+<ke>  5.37781e+01 ~  5.78753e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      383 
+<energyAVG>
+<ham>  5.36660e+01 ~  5.77756e+01 </ham>
+<ke>  5.37888e+01 ~  5.78984e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      384 
+<energyAVG>
+<ham>  5.36767e+01 ~  5.77987e+01 </ham>
+<ke>  5.37996e+01 ~  5.79216e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      385 
+<energyAVG>
+<ham>  5.36874e+01 ~  5.78219e+01 </ham>
+<ke>  5.38103e+01 ~  5.79448e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      386 
+<energyAVG>
+<ham>  5.36982e+01 ~  5.78451e+01 </ham>
+<ke>  5.38211e+01 ~  5.79679e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      387 
+<energyAVG>
+<ham>  5.37089e+01 ~  5.78682e+01 </ham>
+<ke>  5.38318e+01 ~  5.79911e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      388 
+<energyAVG>
+<ham>  5.37197e+01 ~  5.78914e+01 </ham>
+<ke>  5.38426e+01 ~  5.80143e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      389 
+<energyAVG>
+<ham>  5.37304e+01 ~  5.79147e+01 </ham>
+<ke>  5.38533e+01 ~  5.80375e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      390 
+<energyAVG>
+<ham>  5.37412e+01 ~  5.79379e+01 </ham>
+<ke>  5.38641e+01 ~  5.80608e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      391 
+<energyAVG>
+<ham>  5.37520e+01 ~  5.79611e+01 </ham>
+<ke>  5.38748e+01 ~  5.80840e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      392 
+<energyAVG>
+<ham>  5.37627e+01 ~  5.79844e+01 </ham>
+<ke>  5.38856e+01 ~  5.81072e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      393 
+<energyAVG>
+<ham>  5.37735e+01 ~  5.80076e+01 </ham>
+<ke>  5.38964e+01 ~  5.81305e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      394 
+<energyAVG>
+<ham>  5.37843e+01 ~  5.80309e+01 </ham>
+<ke>  5.39072e+01 ~  5.81538e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      395 
+<energyAVG>
+<ham>  5.37951e+01 ~  5.80542e+01 </ham>
+<ke>  5.39179e+01 ~  5.81771e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      396 
+<energyAVG>
+<ham>  5.38059e+01 ~  5.80775e+01 </ham>
+<ke>  5.39287e+01 ~  5.82004e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      397 
+<energyAVG>
+<ham>  5.38167e+01 ~  5.81008e+01 </ham>
+<ke>  5.39395e+01 ~  5.82237e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      398 
+<energyAVG>
+<ham>  5.38274e+01 ~  5.81242e+01 </ham>
+<ke>  5.39503e+01 ~  5.82470e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      399 
+<energyAVG>
+<ham>  5.38382e+01 ~  5.81475e+01 </ham>
+<ke>  5.39611e+01 ~  5.82704e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      400 
+<energyAVG>
+<ham>  5.38491e+01 ~  5.81709e+01 </ham>
+<ke>  5.39719e+01 ~  5.82937e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      401 
+<energyAVG>
+<ham>  5.38599e+01 ~  5.81942e+01 </ham>
+<ke>  5.39827e+01 ~  5.83171e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      402 
+<energyAVG>
+<ham>  5.38707e+01 ~  5.82176e+01 </ham>
+<ke>  5.39935e+01 ~  5.83405e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      403 
+<energyAVG>
+<ham>  5.38815e+01 ~  5.82410e+01 </ham>
+<ke>  5.40044e+01 ~  5.83639e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      404 
+<energyAVG>
+<ham>  5.38923e+01 ~  5.82644e+01 </ham>
+<ke>  5.40152e+01 ~  5.83873e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      405 
+<energyAVG>
+<ham>  5.39031e+01 ~  5.82879e+01 </ham>
+<ke>  5.40260e+01 ~  5.84107e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      406 
+<energyAVG>
+<ham>  5.39140e+01 ~  5.83113e+01 </ham>
+<ke>  5.40368e+01 ~  5.84342e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      407 
+<energyAVG>
+<ham>  5.39248e+01 ~  5.83348e+01 </ham>
+<ke>  5.40477e+01 ~  5.84576e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      408 
+<energyAVG>
+<ham>  5.39356e+01 ~  5.83582e+01 </ham>
+<ke>  5.40585e+01 ~  5.84811e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      409 
+<energyAVG>
+<ham>  5.39465e+01 ~  5.83817e+01 </ham>
+<ke>  5.40694e+01 ~  5.85046e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      410 
+<energyAVG>
+<ham>  5.39573e+01 ~  5.84052e+01 </ham>
+<ke>  5.40802e+01 ~  5.85281e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      411 
+<energyAVG>
+<ham>  5.39682e+01 ~  5.84287e+01 </ham>
+<ke>  5.40911e+01 ~  5.85516e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      412 
+<energyAVG>
+<ham>  5.39790e+01 ~  5.84522e+01 </ham>
+<ke>  5.41019e+01 ~  5.85751e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      413 
+<energyAVG>
+<ham>  5.39899e+01 ~  5.84757e+01 </ham>
+<ke>  5.41128e+01 ~  5.85986e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      414 
+<energyAVG>
+<ham>  5.40008e+01 ~  5.84993e+01 </ham>
+<ke>  5.41236e+01 ~  5.86222e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      415 
+<energyAVG>
+<ham>  5.40116e+01 ~  5.85228e+01 </ham>
+<ke>  5.41345e+01 ~  5.86457e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      416 
+<energyAVG>
+<ham>  5.40225e+01 ~  5.85464e+01 </ham>
+<ke>  5.41454e+01 ~  5.86693e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      417 
+<energyAVG>
+<ham>  5.40334e+01 ~  5.85700e+01 </ham>
+<ke>  5.41563e+01 ~  5.86929e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      418 
+<energyAVG>
+<ham>  5.40443e+01 ~  5.85936e+01 </ham>
+<ke>  5.41672e+01 ~  5.87165e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      419 
+<energyAVG>
+<ham>  5.40552e+01 ~  5.86172e+01 </ham>
+<ke>  5.41780e+01 ~  5.87401e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      420 
+<energyAVG>
+<ham>  5.40661e+01 ~  5.86408e+01 </ham>
+<ke>  5.41889e+01 ~  5.87637e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      421 
+<energyAVG>
+<ham>  5.40770e+01 ~  5.86644e+01 </ham>
+<ke>  5.41998e+01 ~  5.87873e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      422 
+<energyAVG>
+<ham>  5.40879e+01 ~  5.86881e+01 </ham>
+<ke>  5.42107e+01 ~  5.88110e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      423 
+<energyAVG>
+<ham>  5.40988e+01 ~  5.87118e+01 </ham>
+<ke>  5.42216e+01 ~  5.88346e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      424 
+<energyAVG>
+<ham>  5.41097e+01 ~  5.87354e+01 </ham>
+<ke>  5.42325e+01 ~  5.88583e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      425 
+<energyAVG>
+<ham>  5.41206e+01 ~  5.87591e+01 </ham>
+<ke>  5.42435e+01 ~  5.88820e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      426 
+<energyAVG>
+<ham>  5.41315e+01 ~  5.87828e+01 </ham>
+<ke>  5.42544e+01 ~  5.89057e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      427 
+<energyAVG>
+<ham>  5.41424e+01 ~  5.88065e+01 </ham>
+<ke>  5.42653e+01 ~  5.89294e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      428 
+<energyAVG>
+<ham>  5.41534e+01 ~  5.88303e+01 </ham>
+<ke>  5.42762e+01 ~  5.89531e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      429 
+<energyAVG>
+<ham>  5.41643e+01 ~  5.88540e+01 </ham>
+<ke>  5.42872e+01 ~  5.89769e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      430 
+<energyAVG>
+<ham>  5.41752e+01 ~  5.88778e+01 </ham>
+<ke>  5.42981e+01 ~  5.90006e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      431 
+<energyAVG>
+<ham>  5.41862e+01 ~  5.89015e+01 </ham>
+<ke>  5.43090e+01 ~  5.90244e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      432 
+<energyAVG>
+<ham>  5.41971e+01 ~  5.89253e+01 </ham>
+<ke>  5.43200e+01 ~  5.90482e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      433 
+<energyAVG>
+<ham>  5.42081e+01 ~  5.89491e+01 </ham>
+<ke>  5.43309e+01 ~  5.90720e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      434 
+<energyAVG>
+<ham>  5.42190e+01 ~  5.89729e+01 </ham>
+<ke>  5.43419e+01 ~  5.90958e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      435 
+<energyAVG>
+<ham>  5.42300e+01 ~  5.89967e+01 </ham>
+<ke>  5.43528e+01 ~  5.91196e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      436 
+<energyAVG>
+<ham>  5.42409e+01 ~  5.90205e+01 </ham>
+<ke>  5.43638e+01 ~  5.91434e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      437 
+<energyAVG>
+<ham>  5.42519e+01 ~  5.90444e+01 </ham>
+<ke>  5.43748e+01 ~  5.91673e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      438 
+<energyAVG>
+<ham>  5.42629e+01 ~  5.90683e+01 </ham>
+<ke>  5.43857e+01 ~  5.91911e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      439 
+<energyAVG>
+<ham>  5.42738e+01 ~  5.90921e+01 </ham>
+<ke>  5.43967e+01 ~  5.92150e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      440 
+<energyAVG>
+<ham>  5.42848e+01 ~  5.91160e+01 </ham>
+<ke>  5.44077e+01 ~  5.92389e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      441 
+<energyAVG>
+<ham>  5.42958e+01 ~  5.91399e+01 </ham>
+<ke>  5.44187e+01 ~  5.92628e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      442 
+<energyAVG>
+<ham>  5.43068e+01 ~  5.91638e+01 </ham>
+<ke>  5.44297e+01 ~  5.92867e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      443 
+<energyAVG>
+<ham>  5.43178e+01 ~  5.91877e+01 </ham>
+<ke>  5.44407e+01 ~  5.93106e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      444 
+<energyAVG>
+<ham>  5.43288e+01 ~  5.92117e+01 </ham>
+<ke>  5.44517e+01 ~  5.93346e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      445 
+<energyAVG>
+<ham>  5.43398e+01 ~  5.92356e+01 </ham>
+<ke>  5.44627e+01 ~  5.93585e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      446 
+<energyAVG>
+<ham>  5.43508e+01 ~  5.92596e+01 </ham>
+<ke>  5.44737e+01 ~  5.93825e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      447 
+<energyAVG>
+<ham>  5.43618e+01 ~  5.92836e+01 </ham>
+<ke>  5.44847e+01 ~  5.94064e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      448 
+<energyAVG>
+<ham>  5.43728e+01 ~  5.93076e+01 </ham>
+<ke>  5.44957e+01 ~  5.94304e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      449 
+<energyAVG>
+<ham>  5.43838e+01 ~  5.93316e+01 </ham>
+<ke>  5.45067e+01 ~  5.94544e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      450 
+<energyAVG>
+<ham>  5.43949e+01 ~  5.93556e+01 </ham>
+<ke>  5.45177e+01 ~  5.94785e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      451 
+<energyAVG>
+<ham>  5.44059e+01 ~  5.93796e+01 </ham>
+<ke>  5.45288e+01 ~  5.95025e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      452 
+<energyAVG>
+<ham>  5.44169e+01 ~  5.94037e+01 </ham>
+<ke>  5.45398e+01 ~  5.95265e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      453 
+<energyAVG>
+<ham>  5.44280e+01 ~  5.94277e+01 </ham>
+<ke>  5.45508e+01 ~  5.95506e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      454 
+<energyAVG>
+<ham>  5.44390e+01 ~  5.94518e+01 </ham>
+<ke>  5.45619e+01 ~  5.95747e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      455 
+<energyAVG>
+<ham>  5.44501e+01 ~  5.94759e+01 </ham>
+<ke>  5.45729e+01 ~  5.95987e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      456 
+<energyAVG>
+<ham>  5.44611e+01 ~  5.95000e+01 </ham>
+<ke>  5.45840e+01 ~  5.96228e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      457 
+<energyAVG>
+<ham>  5.44722e+01 ~  5.95241e+01 </ham>
+<ke>  5.45950e+01 ~  5.96469e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      458 
+<energyAVG>
+<ham>  5.44832e+01 ~  5.95482e+01 </ham>
+<ke>  5.46061e+01 ~  5.96711e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      459 
+<energyAVG>
+<ham>  5.44943e+01 ~  5.95723e+01 </ham>
+<ke>  5.46172e+01 ~  5.96952e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      460 
+<energyAVG>
+<ham>  5.45053e+01 ~  5.95965e+01 </ham>
+<ke>  5.46282e+01 ~  5.97193e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      461 
+<energyAVG>
+<ham>  5.45164e+01 ~  5.96206e+01 </ham>
+<ke>  5.46393e+01 ~  5.97435e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      462 
+<energyAVG>
+<ham>  5.45275e+01 ~  5.96448e+01 </ham>
+<ke>  5.46504e+01 ~  5.97677e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      463 
+<energyAVG>
+<ham>  5.45386e+01 ~  5.96690e+01 </ham>
+<ke>  5.46615e+01 ~  5.97919e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      464 
+<energyAVG>
+<ham>  5.45497e+01 ~  5.96932e+01 </ham>
+<ke>  5.46725e+01 ~  5.98161e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      465 
+<energyAVG>
+<ham>  5.45608e+01 ~  5.97174e+01 </ham>
+<ke>  5.46836e+01 ~  5.98403e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      466 
+<energyAVG>
+<ham>  5.45718e+01 ~  5.97416e+01 </ham>
+<ke>  5.46947e+01 ~  5.98645e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      467 
+<energyAVG>
+<ham>  5.45829e+01 ~  5.97659e+01 </ham>
+<ke>  5.47058e+01 ~  5.98887e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      468 
+<energyAVG>
+<ham>  5.45940e+01 ~  5.97901e+01 </ham>
+<ke>  5.47169e+01 ~  5.99130e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      469 
+<energyAVG>
+<ham>  5.46052e+01 ~  5.98144e+01 </ham>
+<ke>  5.47280e+01 ~  5.99373e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      470 
+<energyAVG>
+<ham>  5.46163e+01 ~  5.98387e+01 </ham>
+<ke>  5.47391e+01 ~  5.99615e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      471 
+<energyAVG>
+<ham>  5.46274e+01 ~  5.98630e+01 </ham>
+<ke>  5.47503e+01 ~  5.99858e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      472 
+<energyAVG>
+<ham>  5.46385e+01 ~  5.98873e+01 </ham>
+<ke>  5.47614e+01 ~  6.00101e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      473 
+<energyAVG>
+<ham>  5.46496e+01 ~  5.99116e+01 </ham>
+<ke>  5.47725e+01 ~  6.00345e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      474 
+<energyAVG>
+<ham>  5.46608e+01 ~  5.99359e+01 </ham>
+<ke>  5.47836e+01 ~  6.00588e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      475 
+<energyAVG>
+<ham>  5.46719e+01 ~  5.99603e+01 </ham>
+<ke>  5.47948e+01 ~  6.00831e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      476 
+<energyAVG>
+<ham>  5.46830e+01 ~  5.99846e+01 </ham>
+<ke>  5.48059e+01 ~  6.01075e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      477 
+<energyAVG>
+<ham>  5.46942e+01 ~  6.00090e+01 </ham>
+<ke>  5.48170e+01 ~  6.01319e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      478 
+<energyAVG>
+<ham>  5.47053e+01 ~  6.00334e+01 </ham>
+<ke>  5.48282e+01 ~  6.01563e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      479 
+<energyAVG>
+<ham>  5.47165e+01 ~  6.00578e+01 </ham>
+<ke>  5.48393e+01 ~  6.01806e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      480 
+<energyAVG>
+<ham>  5.47276e+01 ~  6.00822e+01 </ham>
+<ke>  5.48505e+01 ~  6.02051e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      481 
+<energyAVG>
+<ham>  5.47388e+01 ~  6.01066e+01 </ham>
+<ke>  5.48617e+01 ~  6.02295e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      482 
+<energyAVG>
+<ham>  5.47499e+01 ~  6.01310e+01 </ham>
+<ke>  5.48728e+01 ~  6.02539e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      483 
+<energyAVG>
+<ham>  5.47611e+01 ~  6.01555e+01 </ham>
+<ke>  5.48840e+01 ~  6.02784e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      484 
+<energyAVG>
+<ham>  5.47723e+01 ~  6.01800e+01 </ham>
+<ke>  5.48952e+01 ~  6.03028e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      485 
+<energyAVG>
+<ham>  5.47835e+01 ~  6.02044e+01 </ham>
+<ke>  5.49063e+01 ~  6.03273e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      486 
+<energyAVG>
+<ham>  5.47946e+01 ~  6.02289e+01 </ham>
+<ke>  5.49175e+01 ~  6.03518e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      487 
+<energyAVG>
+<ham>  5.48058e+01 ~  6.02534e+01 </ham>
+<ke>  5.49287e+01 ~  6.03763e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      488 
+<energyAVG>
+<ham>  5.48170e+01 ~  6.02779e+01 </ham>
+<ke>  5.49399e+01 ~  6.04008e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      489 
+<energyAVG>
+<ham>  5.48282e+01 ~  6.03025e+01 </ham>
+<ke>  5.49511e+01 ~  6.04254e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      490 
+<energyAVG>
+<ham>  5.48394e+01 ~  6.03270e+01 </ham>
+<ke>  5.49623e+01 ~  6.04499e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      491 
+<energyAVG>
+<ham>  5.48506e+01 ~  6.03516e+01 </ham>
+<ke>  5.49735e+01 ~  6.04744e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      492 
+<energyAVG>
+<ham>  5.48618e+01 ~  6.03761e+01 </ham>
+<ke>  5.49847e+01 ~  6.04990e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      493 
+<energyAVG>
+<ham>  5.48730e+01 ~  6.04007e+01 </ham>
+<ke>  5.49959e+01 ~  6.05236e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      494 
+<energyAVG>
+<ham>  5.48843e+01 ~  6.04253e+01 </ham>
+<ke>  5.50071e+01 ~  6.05482e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      495 
+<energyAVG>
+<ham>  5.48955e+01 ~  6.04499e+01 </ham>
+<ke>  5.50184e+01 ~  6.05728e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      496 
+<energyAVG>
+<ham>  5.49067e+01 ~  6.04746e+01 </ham>
+<ke>  5.50296e+01 ~  6.05974e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      497 
+<energyAVG>
+<ham>  5.49179e+01 ~  6.04992e+01 </ham>
+<ke>  5.50408e+01 ~  6.06221e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      498 
+<energyAVG>
+<ham>  5.49292e+01 ~  6.05238e+01 </ham>
+<ke>  5.50520e+01 ~  6.06467e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      499 
+<energyAVG>
+<ham>  5.49404e+01 ~  6.05485e+01 </ham>
+<ke>  5.50633e+01 ~  6.06714e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      500 
+<energyAVG>
+<ham>  5.49517e+01 ~  6.05732e+01 </ham>
+<ke>  5.50745e+01 ~  6.06960e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      501 
+<energyAVG>
+<ham>  5.49629e+01 ~  6.05979e+01 </ham>
+<ke>  5.50858e+01 ~  6.07207e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      502 
+<energyAVG>
+<ham>  5.49742e+01 ~  6.06226e+01 </ham>
+<ke>  5.50970e+01 ~  6.07454e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      503 
+<energyAVG>
+<ham>  5.49854e+01 ~  6.06473e+01 </ham>
+<ke>  5.51083e+01 ~  6.07701e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      504 
+<energyAVG>
+<ham>  5.49967e+01 ~  6.06720e+01 </ham>
+<ke>  5.51195e+01 ~  6.07949e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      505 
+<energyAVG>
+<ham>  5.50079e+01 ~  6.06967e+01 </ham>
+<ke>  5.51308e+01 ~  6.08196e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      506 
+<energyAVG>
+<ham>  5.50192e+01 ~  6.07215e+01 </ham>
+<ke>  5.51421e+01 ~  6.08444e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      507 
+<energyAVG>
+<ham>  5.50305e+01 ~  6.07463e+01 </ham>
+<ke>  5.51533e+01 ~  6.08691e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      508 
+<energyAVG>
+<ham>  5.50418e+01 ~  6.07710e+01 </ham>
+<ke>  5.51646e+01 ~  6.08939e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      509 
+<energyAVG>
+<ham>  5.50530e+01 ~  6.07958e+01 </ham>
+<ke>  5.51759e+01 ~  6.09187e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      510 
+<energyAVG>
+<ham>  5.50643e+01 ~  6.08206e+01 </ham>
+<ke>  5.51872e+01 ~  6.09435e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      511 
+<energyAVG>
+<ham>  5.50756e+01 ~  6.08455e+01 </ham>
+<ke>  5.51985e+01 ~  6.09683e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      512 
+<energyAVG>
+<ham>  5.50869e+01 ~  6.08703e+01 </ham>
+<ke>  5.52098e+01 ~  6.09932e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      513 
+<energyAVG>
+<ham>  5.50982e+01 ~  6.08951e+01 </ham>
+<ke>  5.52211e+01 ~  6.10180e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      514 
+<energyAVG>
+<ham>  5.51095e+01 ~  6.09200e+01 </ham>
+<ke>  5.52324e+01 ~  6.10429e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      515 
+<energyAVG>
+<ham>  5.51208e+01 ~  6.09449e+01 </ham>
+<ke>  5.52437e+01 ~  6.10677e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      516 
+<energyAVG>
+<ham>  5.51321e+01 ~  6.09697e+01 </ham>
+<ke>  5.52550e+01 ~  6.10926e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      517 
+<energyAVG>
+<ham>  5.51435e+01 ~  6.09946e+01 </ham>
+<ke>  5.52663e+01 ~  6.11175e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      518 
+<energyAVG>
+<ham>  5.51548e+01 ~  6.10196e+01 </ham>
+<ke>  5.52776e+01 ~  6.11424e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      519 
+<energyAVG>
+<ham>  5.51661e+01 ~  6.10445e+01 </ham>
+<ke>  5.52890e+01 ~  6.11673e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      520 
+<energyAVG>
+<ham>  5.51774e+01 ~  6.10694e+01 </ham>
+<ke>  5.53003e+01 ~  6.11923e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      521 
+<energyAVG>
+<ham>  5.51888e+01 ~  6.10944e+01 </ham>
+<ke>  5.53116e+01 ~  6.12172e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      522 
+<energyAVG>
+<ham>  5.52001e+01 ~  6.11193e+01 </ham>
+<ke>  5.53230e+01 ~  6.12422e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      523 
+<energyAVG>
+<ham>  5.52115e+01 ~  6.11443e+01 </ham>
+<ke>  5.53343e+01 ~  6.12672e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      524 
+<energyAVG>
+<ham>  5.52228e+01 ~  6.11693e+01 </ham>
+<ke>  5.53457e+01 ~  6.12922e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      525 
+<energyAVG>
+<ham>  5.52342e+01 ~  6.11943e+01 </ham>
+<ke>  5.53570e+01 ~  6.13172e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      526 
+<energyAVG>
+<ham>  5.52455e+01 ~  6.12193e+01 </ham>
+<ke>  5.53684e+01 ~  6.13422e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      527 
+<energyAVG>
+<ham>  5.52569e+01 ~  6.12443e+01 </ham>
+<ke>  5.53797e+01 ~  6.13672e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      528 
+<energyAVG>
+<ham>  5.52682e+01 ~  6.12694e+01 </ham>
+<ke>  5.53911e+01 ~  6.13923e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      529 
+<energyAVG>
+<ham>  5.52796e+01 ~  6.12944e+01 </ham>
+<ke>  5.54025e+01 ~  6.14173e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      530 
+<energyAVG>
+<ham>  5.52910e+01 ~  6.13195e+01 </ham>
+<ke>  5.54139e+01 ~  6.14424e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      531 
+<energyAVG>
+<ham>  5.53024e+01 ~  6.13446e+01 </ham>
+<ke>  5.54252e+01 ~  6.14675e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      532 
+<energyAVG>
+<ham>  5.53137e+01 ~  6.13697e+01 </ham>
+<ke>  5.54366e+01 ~  6.14926e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      533 
+<energyAVG>
+<ham>  5.53251e+01 ~  6.13948e+01 </ham>
+<ke>  5.54480e+01 ~  6.15177e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      534 
+<energyAVG>
+<ham>  5.53365e+01 ~  6.14199e+01 </ham>
+<ke>  5.54594e+01 ~  6.15428e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      535 
+<energyAVG>
+<ham>  5.53479e+01 ~  6.14450e+01 </ham>
+<ke>  5.54708e+01 ~  6.15679e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      536 
+<energyAVG>
+<ham>  5.53593e+01 ~  6.14702e+01 </ham>
+<ke>  5.54822e+01 ~  6.15931e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      537 
+<energyAVG>
+<ham>  5.53707e+01 ~  6.14954e+01 </ham>
+<ke>  5.54936e+01 ~  6.16182e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      538 
+<energyAVG>
+<ham>  5.53821e+01 ~  6.15205e+01 </ham>
+<ke>  5.55050e+01 ~  6.16434e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      539 
+<energyAVG>
+<ham>  5.53935e+01 ~  6.15457e+01 </ham>
+<ke>  5.55164e+01 ~  6.16686e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      540 
+<energyAVG>
+<ham>  5.54050e+01 ~  6.15709e+01 </ham>
+<ke>  5.55278e+01 ~  6.16938e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      541 
+<energyAVG>
+<ham>  5.54164e+01 ~  6.15961e+01 </ham>
+<ke>  5.55393e+01 ~  6.17190e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      542 
+<energyAVG>
+<ham>  5.54278e+01 ~  6.16214e+01 </ham>
+<ke>  5.55507e+01 ~  6.17442e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      543 
+<energyAVG>
+<ham>  5.54392e+01 ~  6.16466e+01 </ham>
+<ke>  5.55621e+01 ~  6.17695e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      544 
+<energyAVG>
+<ham>  5.54507e+01 ~  6.16719e+01 </ham>
+<ke>  5.55736e+01 ~  6.17947e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      545 
+<energyAVG>
+<ham>  5.54621e+01 ~  6.16971e+01 </ham>
+<ke>  5.55850e+01 ~  6.18200e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      546 
+<energyAVG>
+<ham>  5.54736e+01 ~  6.17224e+01 </ham>
+<ke>  5.55964e+01 ~  6.18453e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      547 
+<energyAVG>
+<ham>  5.54850e+01 ~  6.17477e+01 </ham>
+<ke>  5.56079e+01 ~  6.18706e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      548 
+<energyAVG>
+<ham>  5.54965e+01 ~  6.17730e+01 </ham>
+<ke>  5.56193e+01 ~  6.18959e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      549 
+<energyAVG>
+<ham>  5.55079e+01 ~  6.17983e+01 </ham>
+<ke>  5.56308e+01 ~  6.19212e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      550 
+<energyAVG>
+<ham>  5.55194e+01 ~  6.18236e+01 </ham>
+<ke>  5.56423e+01 ~  6.19465e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      551 
+<energyAVG>
+<ham>  5.55309e+01 ~  6.18490e+01 </ham>
+<ke>  5.56537e+01 ~  6.19719e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      552 
+<energyAVG>
+<ham>  5.55423e+01 ~  6.18743e+01 </ham>
+<ke>  5.56652e+01 ~  6.19972e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      553 
+<energyAVG>
+<ham>  5.55538e+01 ~  6.18997e+01 </ham>
+<ke>  5.56767e+01 ~  6.20226e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      554 
+<energyAVG>
+<ham>  5.55653e+01 ~  6.19251e+01 </ham>
+<ke>  5.56882e+01 ~  6.20480e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      555 
+<energyAVG>
+<ham>  5.55768e+01 ~  6.19505e+01 </ham>
+<ke>  5.56996e+01 ~  6.20734e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      556 
+<energyAVG>
+<ham>  5.55883e+01 ~  6.19759e+01 </ham>
+<ke>  5.57111e+01 ~  6.20988e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      557 
+<energyAVG>
+<ham>  5.55998e+01 ~  6.20013e+01 </ham>
+<ke>  5.57226e+01 ~  6.21242e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      558 
+<energyAVG>
+<ham>  5.56112e+01 ~  6.20268e+01 </ham>
+<ke>  5.57341e+01 ~  6.21496e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      559 
+<energyAVG>
+<ham>  5.56228e+01 ~  6.20522e+01 </ham>
+<ke>  5.57456e+01 ~  6.21751e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      560 
+<energyAVG>
+<ham>  5.56343e+01 ~  6.20777e+01 </ham>
+<ke>  5.57571e+01 ~  6.22006e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      561 
+<energyAVG>
+<ham>  5.56458e+01 ~  6.21032e+01 </ham>
+<ke>  5.57686e+01 ~  6.22260e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      562 
+<energyAVG>
+<ham>  5.56573e+01 ~  6.21287e+01 </ham>
+<ke>  5.57802e+01 ~  6.22515e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      563 
+<energyAVG>
+<ham>  5.56688e+01 ~  6.21542e+01 </ham>
+<ke>  5.57917e+01 ~  6.22770e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      564 
+<energyAVG>
+<ham>  5.56803e+01 ~  6.21797e+01 </ham>
+<ke>  5.58032e+01 ~  6.23025e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      565 
+<energyAVG>
+<ham>  5.56919e+01 ~  6.22052e+01 </ham>
+<ke>  5.58147e+01 ~  6.23281e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      566 
+<energyAVG>
+<ham>  5.57034e+01 ~  6.22307e+01 </ham>
+<ke>  5.58263e+01 ~  6.23536e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      567 
+<energyAVG>
+<ham>  5.57149e+01 ~  6.22563e+01 </ham>
+<ke>  5.58378e+01 ~  6.23792e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      568 
+<energyAVG>
+<ham>  5.57265e+01 ~  6.22819e+01 </ham>
+<ke>  5.58493e+01 ~  6.24047e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      569 
+<energyAVG>
+<ham>  5.57380e+01 ~  6.23074e+01 </ham>
+<ke>  5.58609e+01 ~  6.24303e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      570 
+<energyAVG>
+<ham>  5.57496e+01 ~  6.23330e+01 </ham>
+<ke>  5.58724e+01 ~  6.24559e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      571 
+<energyAVG>
+<ham>  5.57611e+01 ~  6.23587e+01 </ham>
+<ke>  5.58840e+01 ~  6.24815e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      572 
+<energyAVG>
+<ham>  5.57727e+01 ~  6.23843e+01 </ham>
+<ke>  5.58955e+01 ~  6.25071e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      573 
+<energyAVG>
+<ham>  5.57842e+01 ~  6.24099e+01 </ham>
+<ke>  5.59071e+01 ~  6.25328e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      574 
+<energyAVG>
+<ham>  5.57958e+01 ~  6.24356e+01 </ham>
+<ke>  5.59187e+01 ~  6.25584e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      575 
+<energyAVG>
+<ham>  5.58074e+01 ~  6.24612e+01 </ham>
+<ke>  5.59302e+01 ~  6.25841e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      576 
+<energyAVG>
+<ham>  5.58190e+01 ~  6.24869e+01 </ham>
+<ke>  5.59418e+01 ~  6.26098e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      577 
+<energyAVG>
+<ham>  5.58305e+01 ~  6.25126e+01 </ham>
+<ke>  5.59534e+01 ~  6.26354e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      578 
+<energyAVG>
+<ham>  5.58421e+01 ~  6.25383e+01 </ham>
+<ke>  5.59650e+01 ~  6.26611e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      579 
+<energyAVG>
+<ham>  5.58537e+01 ~  6.25640e+01 </ham>
+<ke>  5.59766e+01 ~  6.26869e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      580 
+<energyAVG>
+<ham>  5.58653e+01 ~  6.25897e+01 </ham>
+<ke>  5.59882e+01 ~  6.27126e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      581 
+<energyAVG>
+<ham>  5.58769e+01 ~  6.26155e+01 </ham>
+<ke>  5.59998e+01 ~  6.27383e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      582 
+<energyAVG>
+<ham>  5.58885e+01 ~  6.26412e+01 </ham>
+<ke>  5.60114e+01 ~  6.27641e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      583 
+<energyAVG>
+<ham>  5.59001e+01 ~  6.26670e+01 </ham>
+<ke>  5.60230e+01 ~  6.27898e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      584 
+<energyAVG>
+<ham>  5.59117e+01 ~  6.26928e+01 </ham>
+<ke>  5.60346e+01 ~  6.28156e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      585 
+<energyAVG>
+<ham>  5.59233e+01 ~  6.27185e+01 </ham>
+<ke>  5.60462e+01 ~  6.28414e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      586 
+<energyAVG>
+<ham>  5.59350e+01 ~  6.27443e+01 </ham>
+<ke>  5.60578e+01 ~  6.28672e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      587 
+<energyAVG>
+<ham>  5.59466e+01 ~  6.27702e+01 </ham>
+<ke>  5.60695e+01 ~  6.28930e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      588 
+<energyAVG>
+<ham>  5.59582e+01 ~  6.27960e+01 </ham>
+<ke>  5.60811e+01 ~  6.29189e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      589 
+<energyAVG>
+<ham>  5.59698e+01 ~  6.28218e+01 </ham>
+<ke>  5.60927e+01 ~  6.29447e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      590 
+<energyAVG>
+<ham>  5.59815e+01 ~  6.28477e+01 </ham>
+<ke>  5.61044e+01 ~  6.29706e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      591 
+<energyAVG>
+<ham>  5.59931e+01 ~  6.28736e+01 </ham>
+<ke>  5.61160e+01 ~  6.29964e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      592 
+<energyAVG>
+<ham>  5.60048e+01 ~  6.28995e+01 </ham>
+<ke>  5.61276e+01 ~  6.30223e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      593 
+<energyAVG>
+<ham>  5.60164e+01 ~  6.29254e+01 </ham>
+<ke>  5.61393e+01 ~  6.30482e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      594 
+<energyAVG>
+<ham>  5.60281e+01 ~  6.29513e+01 </ham>
+<ke>  5.61509e+01 ~  6.30741e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      595 
+<energyAVG>
+<ham>  5.60397e+01 ~  6.29772e+01 </ham>
+<ke>  5.61626e+01 ~  6.31001e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      596 
+<energyAVG>
+<ham>  5.60514e+01 ~  6.30031e+01 </ham>
+<ke>  5.61743e+01 ~  6.31260e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      597 
+<energyAVG>
+<ham>  5.60631e+01 ~  6.30291e+01 </ham>
+<ke>  5.61859e+01 ~  6.31519e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      598 
+<energyAVG>
+<ham>  5.60747e+01 ~  6.30550e+01 </ham>
+<ke>  5.61976e+01 ~  6.31779e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      599 
+<energyAVG>
+<ham>  5.60864e+01 ~  6.30810e+01 </ham>
+<ke>  5.62093e+01 ~  6.32039e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      600 
+<energyAVG>
+<ham>  5.60981e+01 ~  6.31070e+01 </ham>
+<ke>  5.62210e+01 ~  6.32299e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      601 
+<energyAVG>
+<ham>  5.61098e+01 ~  6.31330e+01 </ham>
+<ke>  5.62327e+01 ~  6.32559e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      602 
+<energyAVG>
+<ham>  5.61215e+01 ~  6.31590e+01 </ham>
+<ke>  5.62443e+01 ~  6.32819e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      603 
+<energyAVG>
+<ham>  5.61332e+01 ~  6.31851e+01 </ham>
+<ke>  5.62560e+01 ~  6.33079e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      604 
+<energyAVG>
+<ham>  5.61449e+01 ~  6.32111e+01 </ham>
+<ke>  5.62677e+01 ~  6.33340e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      605 
+<energyAVG>
+<ham>  5.61566e+01 ~  6.32371e+01 </ham>
+<ke>  5.62794e+01 ~  6.33600e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      606 
+<energyAVG>
+<ham>  5.61683e+01 ~  6.32632e+01 </ham>
+<ke>  5.62912e+01 ~  6.33861e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      607 
+<energyAVG>
+<ham>  5.61800e+01 ~  6.32893e+01 </ham>
+<ke>  5.63029e+01 ~  6.34122e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      608 
+<energyAVG>
+<ham>  5.61917e+01 ~  6.33154e+01 </ham>
+<ke>  5.63146e+01 ~  6.34383e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      609 
+<energyAVG>
+<ham>  5.62034e+01 ~  6.33415e+01 </ham>
+<ke>  5.63263e+01 ~  6.34644e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      610 
+<energyAVG>
+<ham>  5.62152e+01 ~  6.33676e+01 </ham>
+<ke>  5.63380e+01 ~  6.34905e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      611 
+<energyAVG>
+<ham>  5.62269e+01 ~  6.33938e+01 </ham>
+<ke>  5.63498e+01 ~  6.35166e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      612 
+<energyAVG>
+<ham>  5.62386e+01 ~  6.34199e+01 </ham>
+<ke>  5.63615e+01 ~  6.35428e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      613 
+<energyAVG>
+<ham>  5.62504e+01 ~  6.34461e+01 </ham>
+<ke>  5.63732e+01 ~  6.35689e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      614 
+<energyAVG>
+<ham>  5.62621e+01 ~  6.34722e+01 </ham>
+<ke>  5.63850e+01 ~  6.35951e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      615 
+<energyAVG>
+<ham>  5.62738e+01 ~  6.34984e+01 </ham>
+<ke>  5.63967e+01 ~  6.36213e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      616 
+<energyAVG>
+<ham>  5.62856e+01 ~  6.35246e+01 </ham>
+<ke>  5.64085e+01 ~  6.36475e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      617 
+<energyAVG>
+<ham>  5.62974e+01 ~  6.35508e+01 </ham>
+<ke>  5.64202e+01 ~  6.36737e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      618 
+<energyAVG>
+<ham>  5.63091e+01 ~  6.35771e+01 </ham>
+<ke>  5.64320e+01 ~  6.36999e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      619 
+<energyAVG>
+<ham>  5.63209e+01 ~  6.36033e+01 </ham>
+<ke>  5.64438e+01 ~  6.37262e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      620 
+<energyAVG>
+<ham>  5.63326e+01 ~  6.36296e+01 </ham>
+<ke>  5.64555e+01 ~  6.37524e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      621 
+<energyAVG>
+<ham>  5.63444e+01 ~  6.36558e+01 </ham>
+<ke>  5.64673e+01 ~  6.37787e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      622 
+<energyAVG>
+<ham>  5.63562e+01 ~  6.36821e+01 </ham>
+<ke>  5.64791e+01 ~  6.38050e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      623 
+<energyAVG>
+<ham>  5.63680e+01 ~  6.37084e+01 </ham>
+<ke>  5.64909e+01 ~  6.38313e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      624 
+<energyAVG>
+<ham>  5.63798e+01 ~  6.37347e+01 </ham>
+<ke>  5.65026e+01 ~  6.38576e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      625 
+<energyAVG>
+<ham>  5.63916e+01 ~  6.37610e+01 </ham>
+<ke>  5.65144e+01 ~  6.38839e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      626 
+<energyAVG>
+<ham>  5.64034e+01 ~  6.37873e+01 </ham>
+<ke>  5.65262e+01 ~  6.39102e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      627 
+<energyAVG>
+<ham>  5.64152e+01 ~  6.38137e+01 </ham>
+<ke>  5.65380e+01 ~  6.39366e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      628 
+<energyAVG>
+<ham>  5.64270e+01 ~  6.38401e+01 </ham>
+<ke>  5.65498e+01 ~  6.39629e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      629 
+<energyAVG>
+<ham>  5.64388e+01 ~  6.38664e+01 </ham>
+<ke>  5.65616e+01 ~  6.39893e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      630 
+<energyAVG>
+<ham>  5.64506e+01 ~  6.38928e+01 </ham>
+<ke>  5.65735e+01 ~  6.40157e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      631 
+<energyAVG>
+<ham>  5.64624e+01 ~  6.39192e+01 </ham>
+<ke>  5.65853e+01 ~  6.40421e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      632 
+<energyAVG>
+<ham>  5.64742e+01 ~  6.39456e+01 </ham>
+<ke>  5.65971e+01 ~  6.40685e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      633 
+<energyAVG>
+<ham>  5.64860e+01 ~  6.39720e+01 </ham>
+<ke>  5.66089e+01 ~  6.40949e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      634 
+<energyAVG>
+<ham>  5.64979e+01 ~  6.39985e+01 </ham>
+<ke>  5.66208e+01 ~  6.41213e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      635 
+<energyAVG>
+<ham>  5.65097e+01 ~  6.40249e+01 </ham>
+<ke>  5.66326e+01 ~  6.41478e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      636 
+<energyAVG>
+<ham>  5.65216e+01 ~  6.40514e+01 </ham>
+<ke>  5.66444e+01 ~  6.41743e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      637 
+<energyAVG>
+<ham>  5.65334e+01 ~  6.40779e+01 </ham>
+<ke>  5.66563e+01 ~  6.42007e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      638 
+<energyAVG>
+<ham>  5.65452e+01 ~  6.41044e+01 </ham>
+<ke>  5.66681e+01 ~  6.42272e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      639 
+<energyAVG>
+<ham>  5.65571e+01 ~  6.41309e+01 </ham>
+<ke>  5.66800e+01 ~  6.42537e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      640 
+<energyAVG>
+<ham>  5.65690e+01 ~  6.41574e+01 </ham>
+<ke>  5.66918e+01 ~  6.42802e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      641 
+<energyAVG>
+<ham>  5.65808e+01 ~  6.41839e+01 </ham>
+<ke>  5.67037e+01 ~  6.43068e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      642 
+<energyAVG>
+<ham>  5.65927e+01 ~  6.42104e+01 </ham>
+<ke>  5.67156e+01 ~  6.43333e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      643 
+<energyAVG>
+<ham>  5.66046e+01 ~  6.42370e+01 </ham>
+<ke>  5.67274e+01 ~  6.43599e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      644 
+<energyAVG>
+<ham>  5.66164e+01 ~  6.42636e+01 </ham>
+<ke>  5.67393e+01 ~  6.43864e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      645 
+<energyAVG>
+<ham>  5.66283e+01 ~  6.42901e+01 </ham>
+<ke>  5.67512e+01 ~  6.44130e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      646 
+<energyAVG>
+<ham>  5.66402e+01 ~  6.43167e+01 </ham>
+<ke>  5.67631e+01 ~  6.44396e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      647 
+<energyAVG>
+<ham>  5.66521e+01 ~  6.43433e+01 </ham>
+<ke>  5.67749e+01 ~  6.44662e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      648 
+<energyAVG>
+<ham>  5.66640e+01 ~  6.43700e+01 </ham>
+<ke>  5.67868e+01 ~  6.44928e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      649 
+<energyAVG>
+<ham>  5.66759e+01 ~  6.43966e+01 </ham>
+<ke>  5.67987e+01 ~  6.45195e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      650 
+<energyAVG>
+<ham>  5.66878e+01 ~  6.44233e+01 </ham>
+<ke>  5.68106e+01 ~  6.45461e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      651 
+<energyAVG>
+<ham>  5.66997e+01 ~  6.44499e+01 </ham>
+<ke>  5.68225e+01 ~  6.45728e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      652 
+<energyAVG>
+<ham>  5.67116e+01 ~  6.44766e+01 </ham>
+<ke>  5.68345e+01 ~  6.45995e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      653 
+<energyAVG>
+<ham>  5.67235e+01 ~  6.45033e+01 </ham>
+<ke>  5.68464e+01 ~  6.46261e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      654 
+<energyAVG>
+<ham>  5.67354e+01 ~  6.45300e+01 </ham>
+<ke>  5.68583e+01 ~  6.46528e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      655 
+<energyAVG>
+<ham>  5.67473e+01 ~  6.45567e+01 </ham>
+<ke>  5.68702e+01 ~  6.46796e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      656 
+<energyAVG>
+<ham>  5.67593e+01 ~  6.45834e+01 </ham>
+<ke>  5.68821e+01 ~  6.47063e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      657 
+<energyAVG>
+<ham>  5.67712e+01 ~  6.46101e+01 </ham>
+<ke>  5.68941e+01 ~  6.47330e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      658 
+<energyAVG>
+<ham>  5.67831e+01 ~  6.46369e+01 </ham>
+<ke>  5.69060e+01 ~  6.47598e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      659 
+<energyAVG>
+<ham>  5.67951e+01 ~  6.46637e+01 </ham>
+<ke>  5.69179e+01 ~  6.47865e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      660 
+<energyAVG>
+<ham>  5.68070e+01 ~  6.46904e+01 </ham>
+<ke>  5.69299e+01 ~  6.48133e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      661 
+<energyAVG>
+<ham>  5.68190e+01 ~  6.47172e+01 </ham>
+<ke>  5.69418e+01 ~  6.48401e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      662 
+<energyAVG>
+<ham>  5.68309e+01 ~  6.47440e+01 </ham>
+<ke>  5.69538e+01 ~  6.48669e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      663 
+<energyAVG>
+<ham>  5.68429e+01 ~  6.47709e+01 </ham>
+<ke>  5.69657e+01 ~  6.48937e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      664 
+<energyAVG>
+<ham>  5.68548e+01 ~  6.47977e+01 </ham>
+<ke>  5.69777e+01 ~  6.49206e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      665 
+<energyAVG>
+<ham>  5.68668e+01 ~  6.48245e+01 </ham>
+<ke>  5.69897e+01 ~  6.49474e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      666 
+<energyAVG>
+<ham>  5.68788e+01 ~  6.48514e+01 </ham>
+<ke>  5.70016e+01 ~  6.49743e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      667 
+<energyAVG>
+<ham>  5.68907e+01 ~  6.48783e+01 </ham>
+<ke>  5.70136e+01 ~  6.50011e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      668 
+<energyAVG>
+<ham>  5.69027e+01 ~  6.49051e+01 </ham>
+<ke>  5.70256e+01 ~  6.50280e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      669 
+<energyAVG>
+<ham>  5.69147e+01 ~  6.49320e+01 </ham>
+<ke>  5.70376e+01 ~  6.50549e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      670 
+<energyAVG>
+<ham>  5.69267e+01 ~  6.49590e+01 </ham>
+<ke>  5.70496e+01 ~  6.50818e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      671 
+<energyAVG>
+<ham>  5.69387e+01 ~  6.49859e+01 </ham>
+<ke>  5.70616e+01 ~  6.51088e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      672 
+<energyAVG>
+<ham>  5.69507e+01 ~  6.50128e+01 </ham>
+<ke>  5.70736e+01 ~  6.51357e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      673 
+<energyAVG>
+<ham>  5.69627e+01 ~  6.50398e+01 </ham>
+<ke>  5.70856e+01 ~  6.51626e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      674 
+<energyAVG>
+<ham>  5.69747e+01 ~  6.50667e+01 </ham>
+<ke>  5.70976e+01 ~  6.51896e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      675 
+<energyAVG>
+<ham>  5.69867e+01 ~  6.50937e+01 </ham>
+<ke>  5.71096e+01 ~  6.52166e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      676 
+<energyAVG>
+<ham>  5.69987e+01 ~  6.51207e+01 </ham>
+<ke>  5.71216e+01 ~  6.52436e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      677 
+<energyAVG>
+<ham>  5.70107e+01 ~  6.51477e+01 </ham>
+<ke>  5.71336e+01 ~  6.52706e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      678 
+<energyAVG>
+<ham>  5.70228e+01 ~  6.51747e+01 </ham>
+<ke>  5.71456e+01 ~  6.52976e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      679 
+<energyAVG>
+<ham>  5.70348e+01 ~  6.52017e+01 </ham>
+<ke>  5.71577e+01 ~  6.53246e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      680 
+<energyAVG>
+<ham>  5.70468e+01 ~  6.52288e+01 </ham>
+<ke>  5.71697e+01 ~  6.53517e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      681 
+<energyAVG>
+<ham>  5.70589e+01 ~  6.52558e+01 </ham>
+<ke>  5.71817e+01 ~  6.53787e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      682 
+<energyAVG>
+<ham>  5.70709e+01 ~  6.52829e+01 </ham>
+<ke>  5.71938e+01 ~  6.54058e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      683 
+<energyAVG>
+<ham>  5.70829e+01 ~  6.53100e+01 </ham>
+<ke>  5.72058e+01 ~  6.54329e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      684 
+<energyAVG>
+<ham>  5.70950e+01 ~  6.53371e+01 </ham>
+<ke>  5.72179e+01 ~  6.54600e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      685 
+<energyAVG>
+<ham>  5.71071e+01 ~  6.53642e+01 </ham>
+<ke>  5.72299e+01 ~  6.54871e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      686 
+<energyAVG>
+<ham>  5.71191e+01 ~  6.53913e+01 </ham>
+<ke>  5.72420e+01 ~  6.55142e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      687 
+<energyAVG>
+<ham>  5.71312e+01 ~  6.54184e+01 </ham>
+<ke>  5.72540e+01 ~  6.55413e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      688 
+<energyAVG>
+<ham>  5.71432e+01 ~  6.54456e+01 </ham>
+<ke>  5.72661e+01 ~  6.55685e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      689 
+<energyAVG>
+<ham>  5.71553e+01 ~  6.54728e+01 </ham>
+<ke>  5.72782e+01 ~  6.55956e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      690 
+<energyAVG>
+<ham>  5.71674e+01 ~  6.54999e+01 </ham>
+<ke>  5.72903e+01 ~  6.56228e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      691 
+<energyAVG>
+<ham>  5.71795e+01 ~  6.55271e+01 </ham>
+<ke>  5.73023e+01 ~  6.56500e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      692 
+<energyAVG>
+<ham>  5.71916e+01 ~  6.55543e+01 </ham>
+<ke>  5.73144e+01 ~  6.56772e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      693 
+<energyAVG>
+<ham>  5.72036e+01 ~  6.55815e+01 </ham>
+<ke>  5.73265e+01 ~  6.57044e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      694 
+<energyAVG>
+<ham>  5.72157e+01 ~  6.56087e+01 </ham>
+<ke>  5.73386e+01 ~  6.57316e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      695 
+<energyAVG>
+<ham>  5.72278e+01 ~  6.56360e+01 </ham>
+<ke>  5.73507e+01 ~  6.57589e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      696 
+<energyAVG>
+<ham>  5.72399e+01 ~  6.56632e+01 </ham>
+<ke>  5.73628e+01 ~  6.57861e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      697 
+<energyAVG>
+<ham>  5.72520e+01 ~  6.56905e+01 </ham>
+<ke>  5.73749e+01 ~  6.58134e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      698 
+<energyAVG>
+<ham>  5.72642e+01 ~  6.57178e+01 </ham>
+<ke>  5.73870e+01 ~  6.58407e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      699 
+<energyAVG>
+<ham>  5.72763e+01 ~  6.57451e+01 </ham>
+<ke>  5.73991e+01 ~  6.58679e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      700 
+<energyAVG>
+<ham>  5.72884e+01 ~  6.57724e+01 </ham>
+<ke>  5.74113e+01 ~  6.58953e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      701 
+<energyAVG>
+<ham>  5.73005e+01 ~  6.57997e+01 </ham>
+<ke>  5.74234e+01 ~  6.59226e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      702 
+<energyAVG>
+<ham>  5.73126e+01 ~  6.58270e+01 </ham>
+<ke>  5.74355e+01 ~  6.59499e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      703 
+<energyAVG>
+<ham>  5.73248e+01 ~  6.58544e+01 </ham>
+<ke>  5.74477e+01 ~  6.59772e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      704 
+<energyAVG>
+<ham>  5.73369e+01 ~  6.58817e+01 </ham>
+<ke>  5.74598e+01 ~  6.60046e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      705 
+<energyAVG>
+<ham>  5.73491e+01 ~  6.59091e+01 </ham>
+<ke>  5.74719e+01 ~  6.60320e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      706 
+<energyAVG>
+<ham>  5.73612e+01 ~  6.59365e+01 </ham>
+<ke>  5.74841e+01 ~  6.60594e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      707 
+<energyAVG>
+<ham>  5.73734e+01 ~  6.59639e+01 </ham>
+<ke>  5.74962e+01 ~  6.60868e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      708 
+<energyAVG>
+<ham>  5.73855e+01 ~  6.59913e+01 </ham>
+<ke>  5.75084e+01 ~  6.61142e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      709 
+<energyAVG>
+<ham>  5.73977e+01 ~  6.60187e+01 </ham>
+<ke>  5.75205e+01 ~  6.61416e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      710 
+<energyAVG>
+<ham>  5.74098e+01 ~  6.60462e+01 </ham>
+<ke>  5.75327e+01 ~  6.61690e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      711 
+<energyAVG>
+<ham>  5.74220e+01 ~  6.60736e+01 </ham>
+<ke>  5.75449e+01 ~  6.61965e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      712 
+<energyAVG>
+<ham>  5.74342e+01 ~  6.61011e+01 </ham>
+<ke>  5.75570e+01 ~  6.62239e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      713 
+<energyAVG>
+<ham>  5.74464e+01 ~  6.61285e+01 </ham>
+<ke>  5.75692e+01 ~  6.62514e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      714 
+<energyAVG>
+<ham>  5.74585e+01 ~  6.61560e+01 </ham>
+<ke>  5.75814e+01 ~  6.62789e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      715 
+<energyAVG>
+<ham>  5.74707e+01 ~  6.61835e+01 </ham>
+<ke>  5.75936e+01 ~  6.63064e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      716 
+<energyAVG>
+<ham>  5.74829e+01 ~  6.62110e+01 </ham>
+<ke>  5.76058e+01 ~  6.63339e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      717 
+<energyAVG>
+<ham>  5.74951e+01 ~  6.62386e+01 </ham>
+<ke>  5.76180e+01 ~  6.63614e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      718 
+<energyAVG>
+<ham>  5.75073e+01 ~  6.62661e+01 </ham>
+<ke>  5.76302e+01 ~  6.63890e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      719 
+<energyAVG>
+<ham>  5.75195e+01 ~  6.62937e+01 </ham>
+<ke>  5.76424e+01 ~  6.64165e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      720 
+<energyAVG>
+<ham>  5.75317e+01 ~  6.63212e+01 </ham>
+<ke>  5.76546e+01 ~  6.64441e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      721 
+<energyAVG>
+<ham>  5.75439e+01 ~  6.63488e+01 </ham>
+<ke>  5.76668e+01 ~  6.64717e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      722 
+<energyAVG>
+<ham>  5.75561e+01 ~  6.63764e+01 </ham>
+<ke>  5.76790e+01 ~  6.64993e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      723 
+<energyAVG>
+<ham>  5.75684e+01 ~  6.64040e+01 </ham>
+<ke>  5.76912e+01 ~  6.65269e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      724 
+<energyAVG>
+<ham>  5.75806e+01 ~  6.64316e+01 </ham>
+<ke>  5.77035e+01 ~  6.65545e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      725 
+<energyAVG>
+<ham>  5.75928e+01 ~  6.64593e+01 </ham>
+<ke>  5.77157e+01 ~  6.65822e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      726 
+<energyAVG>
+<ham>  5.76051e+01 ~  6.64869e+01 </ham>
+<ke>  5.77279e+01 ~  6.66098e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      727 
+<energyAVG>
+<ham>  5.76173e+01 ~  6.65146e+01 </ham>
+<ke>  5.77402e+01 ~  6.66375e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      728 
+<energyAVG>
+<ham>  5.76295e+01 ~  6.65423e+01 </ham>
+<ke>  5.77524e+01 ~  6.66651e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      729 
+<energyAVG>
+<ham>  5.76418e+01 ~  6.65699e+01 </ham>
+<ke>  5.77647e+01 ~  6.66928e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      730 
+<energyAVG>
+<ham>  5.76540e+01 ~  6.65976e+01 </ham>
+<ke>  5.77769e+01 ~  6.67205e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      731 
+<energyAVG>
+<ham>  5.76663e+01 ~  6.66254e+01 </ham>
+<ke>  5.77892e+01 ~  6.67482e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      732 
+<energyAVG>
+<ham>  5.76785e+01 ~  6.66531e+01 </ham>
+<ke>  5.78014e+01 ~  6.67760e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      733 
+<energyAVG>
+<ham>  5.76908e+01 ~  6.66808e+01 </ham>
+<ke>  5.78137e+01 ~  6.68037e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      734 
+<energyAVG>
+<ham>  5.77031e+01 ~  6.67086e+01 </ham>
+<ke>  5.78260e+01 ~  6.68314e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      735 
+<energyAVG>
+<ham>  5.77154e+01 ~  6.67363e+01 </ham>
+<ke>  5.78382e+01 ~  6.68592e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      736 
+<energyAVG>
+<ham>  5.77276e+01 ~  6.67641e+01 </ham>
+<ke>  5.78505e+01 ~  6.68870e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      737 
+<energyAVG>
+<ham>  5.77399e+01 ~  6.67919e+01 </ham>
+<ke>  5.78628e+01 ~  6.69148e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      738 
+<energyAVG>
+<ham>  5.77522e+01 ~  6.68197e+01 </ham>
+<ke>  5.78751e+01 ~  6.69426e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      739 
+<energyAVG>
+<ham>  5.77645e+01 ~  6.68475e+01 </ham>
+<ke>  5.78874e+01 ~  6.69704e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      740 
+<energyAVG>
+<ham>  5.77768e+01 ~  6.68754e+01 </ham>
+<ke>  5.78997e+01 ~  6.69982e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      741 
+<energyAVG>
+<ham>  5.77891e+01 ~  6.69032e+01 </ham>
+<ke>  5.79120e+01 ~  6.70261e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      742 
+<energyAVG>
+<ham>  5.78014e+01 ~  6.69311e+01 </ham>
+<ke>  5.79243e+01 ~  6.70539e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      743 
+<energyAVG>
+<ham>  5.78137e+01 ~  6.69589e+01 </ham>
+<ke>  5.79366e+01 ~  6.70818e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      744 
+<energyAVG>
+<ham>  5.78260e+01 ~  6.69868e+01 </ham>
+<ke>  5.79489e+01 ~  6.71097e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      745 
+<energyAVG>
+<ham>  5.78383e+01 ~  6.70147e+01 </ham>
+<ke>  5.79612e+01 ~  6.71376e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      746 
+<energyAVG>
+<ham>  5.78507e+01 ~  6.70426e+01 </ham>
+<ke>  5.79735e+01 ~  6.71655e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      747 
+<energyAVG>
+<ham>  5.78630e+01 ~  6.70705e+01 </ham>
+<ke>  5.79858e+01 ~  6.71934e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      748 
+<energyAVG>
+<ham>  5.78753e+01 ~  6.70985e+01 </ham>
+<ke>  5.79982e+01 ~  6.72214e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      749 
+<energyAVG>
+<ham>  5.78876e+01 ~  6.71264e+01 </ham>
+<ke>  5.80105e+01 ~  6.72493e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      750 
+<energyAVG>
+<ham>  5.79000e+01 ~  6.71544e+01 </ham>
+<ke>  5.80229e+01 ~  6.72773e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      751 
+<energyAVG>
+<ham>  5.79123e+01 ~  6.71824e+01 </ham>
+<ke>  5.80352e+01 ~  6.73052e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      752 
+<energyAVG>
+<ham>  5.79247e+01 ~  6.72104e+01 </ham>
+<ke>  5.80475e+01 ~  6.73332e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      753 
+<energyAVG>
+<ham>  5.79370e+01 ~  6.72384e+01 </ham>
+<ke>  5.80599e+01 ~  6.73612e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      754 
+<energyAVG>
+<ham>  5.79494e+01 ~  6.72664e+01 </ham>
+<ke>  5.80723e+01 ~  6.73893e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      755 
+<energyAVG>
+<ham>  5.79617e+01 ~  6.72944e+01 </ham>
+<ke>  5.80846e+01 ~  6.74173e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      756 
+<energyAVG>
+<ham>  5.79741e+01 ~  6.73225e+01 </ham>
+<ke>  5.80970e+01 ~  6.74453e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      757 
+<energyAVG>
+<ham>  5.79865e+01 ~  6.73505e+01 </ham>
+<ke>  5.81094e+01 ~  6.74734e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      758 
+<energyAVG>
+<ham>  5.79989e+01 ~  6.73786e+01 </ham>
+<ke>  5.81217e+01 ~  6.75014e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      759 
+<energyAVG>
+<ham>  5.80112e+01 ~  6.74067e+01 </ham>
+<ke>  5.81341e+01 ~  6.75295e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      760 
+<energyAVG>
+<ham>  5.80236e+01 ~  6.74347e+01 </ham>
+<ke>  5.81465e+01 ~  6.75576e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      761 
+<energyAVG>
+<ham>  5.80360e+01 ~  6.74629e+01 </ham>
+<ke>  5.81589e+01 ~  6.75857e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      762 
+<energyAVG>
+<ham>  5.80484e+01 ~  6.74910e+01 </ham>
+<ke>  5.81713e+01 ~  6.76138e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      763 
+<energyAVG>
+<ham>  5.80608e+01 ~  6.75191e+01 </ham>
+<ke>  5.81837e+01 ~  6.76420e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      764 
+<energyAVG>
+<ham>  5.80732e+01 ~  6.75473e+01 </ham>
+<ke>  5.81961e+01 ~  6.76701e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      765 
+<energyAVG>
+<ham>  5.80856e+01 ~  6.75754e+01 </ham>
+<ke>  5.82085e+01 ~  6.76983e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      766 
+<energyAVG>
+<ham>  5.80980e+01 ~  6.76036e+01 </ham>
+<ke>  5.82209e+01 ~  6.77265e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      767 
+<energyAVG>
+<ham>  5.81104e+01 ~  6.76318e+01 </ham>
+<ke>  5.82333e+01 ~  6.77546e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      768 
+<energyAVG>
+<ham>  5.81228e+01 ~  6.76600e+01 </ham>
+<ke>  5.82457e+01 ~  6.77828e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      769 
+<energyAVG>
+<ham>  5.81353e+01 ~  6.76882e+01 </ham>
+<ke>  5.82581e+01 ~  6.78111e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      770 
+<energyAVG>
+<ham>  5.81477e+01 ~  6.77164e+01 </ham>
+<ke>  5.82706e+01 ~  6.78393e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      771 
+<energyAVG>
+<ham>  5.81601e+01 ~  6.77447e+01 </ham>
+<ke>  5.82830e+01 ~  6.78675e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      772 
+<energyAVG>
+<ham>  5.81726e+01 ~  6.77729e+01 </ham>
+<ke>  5.82954e+01 ~  6.78958e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      773 
+<energyAVG>
+<ham>  5.81850e+01 ~  6.78012e+01 </ham>
+<ke>  5.83079e+01 ~  6.79240e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      774 
+<energyAVG>
+<ham>  5.81974e+01 ~  6.78294e+01 </ham>
+<ke>  5.83203e+01 ~  6.79523e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      775 
+<energyAVG>
+<ham>  5.82099e+01 ~  6.78577e+01 </ham>
+<ke>  5.83328e+01 ~  6.79806e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      776 
+<energyAVG>
+<ham>  5.82223e+01 ~  6.78860e+01 </ham>
+<ke>  5.83452e+01 ~  6.80089e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      777 
+<energyAVG>
+<ham>  5.82348e+01 ~  6.79144e+01 </ham>
+<ke>  5.83577e+01 ~  6.80372e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      778 
+<energyAVG>
+<ham>  5.82473e+01 ~  6.79427e+01 </ham>
+<ke>  5.83701e+01 ~  6.80656e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      779 
+<energyAVG>
+<ham>  5.82597e+01 ~  6.79710e+01 </ham>
+<ke>  5.83826e+01 ~  6.80939e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      780 
+<energyAVG>
+<ham>  5.82722e+01 ~  6.79994e+01 </ham>
+<ke>  5.83951e+01 ~  6.81223e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      781 
+<energyAVG>
+<ham>  5.82847e+01 ~  6.80278e+01 </ham>
+<ke>  5.84075e+01 ~  6.81506e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      782 
+<energyAVG>
+<ham>  5.82972e+01 ~  6.80561e+01 </ham>
+<ke>  5.84200e+01 ~  6.81790e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      783 
+<energyAVG>
+<ham>  5.83096e+01 ~  6.80845e+01 </ham>
+<ke>  5.84325e+01 ~  6.82074e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      784 
+<energyAVG>
+<ham>  5.83221e+01 ~  6.81130e+01 </ham>
+<ke>  5.84450e+01 ~  6.82358e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      785 
+<energyAVG>
+<ham>  5.83346e+01 ~  6.81414e+01 </ham>
+<ke>  5.84575e+01 ~  6.82642e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      786 
+<energyAVG>
+<ham>  5.83471e+01 ~  6.81698e+01 </ham>
+<ke>  5.84700e+01 ~  6.82927e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      787 
+<energyAVG>
+<ham>  5.83596e+01 ~  6.81983e+01 </ham>
+<ke>  5.84825e+01 ~  6.83211e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      788 
+<energyAVG>
+<ham>  5.83721e+01 ~  6.82267e+01 </ham>
+<ke>  5.84950e+01 ~  6.83496e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      789 
+<energyAVG>
+<ham>  5.83846e+01 ~  6.82552e+01 </ham>
+<ke>  5.85075e+01 ~  6.83781e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      790 
+<energyAVG>
+<ham>  5.83971e+01 ~  6.82837e+01 </ham>
+<ke>  5.85200e+01 ~  6.84066e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      791 
+<energyAVG>
+<ham>  5.84097e+01 ~  6.83122e+01 </ham>
+<ke>  5.85325e+01 ~  6.84351e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      792 
+<energyAVG>
+<ham>  5.84222e+01 ~  6.83407e+01 </ham>
+<ke>  5.85451e+01 ~  6.84636e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      793 
+<energyAVG>
+<ham>  5.84347e+01 ~  6.83692e+01 </ham>
+<ke>  5.85576e+01 ~  6.84921e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      794 
+<energyAVG>
+<ham>  5.84472e+01 ~  6.83978e+01 </ham>
+<ke>  5.85701e+01 ~  6.85206e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      795 
+<energyAVG>
+<ham>  5.84598e+01 ~  6.84263e+01 </ham>
+<ke>  5.85827e+01 ~  6.85492e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      796 
+<energyAVG>
+<ham>  5.84723e+01 ~  6.84549e+01 </ham>
+<ke>  5.85952e+01 ~  6.85778e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      797 
+<energyAVG>
+<ham>  5.84849e+01 ~  6.84835e+01 </ham>
+<ke>  5.86077e+01 ~  6.86064e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      798 
+<energyAVG>
+<ham>  5.84974e+01 ~  6.85121e+01 </ham>
+<ke>  5.86203e+01 ~  6.86349e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      799 
+<energyAVG>
+<ham>  5.85100e+01 ~  6.85407e+01 </ham>
+<ke>  5.86328e+01 ~  6.86636e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      800 
+<energyAVG>
+<ham>  5.85225e+01 ~  6.85693e+01 </ham>
+<ke>  5.86454e+01 ~  6.86922e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      801 
+<energyAVG>
+<ham>  5.85351e+01 ~  6.85979e+01 </ham>
+<ke>  5.86580e+01 ~  6.87208e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      802 
+<energyAVG>
+<ham>  5.85477e+01 ~  6.86266e+01 </ham>
+<ke>  5.86705e+01 ~  6.87495e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      803 
+<energyAVG>
+<ham>  5.85602e+01 ~  6.86552e+01 </ham>
+<ke>  5.86831e+01 ~  6.87781e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      804 
+<energyAVG>
+<ham>  5.85728e+01 ~  6.86839e+01 </ham>
+<ke>  5.86957e+01 ~  6.88068e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      805 
+<energyAVG>
+<ham>  5.85854e+01 ~  6.87126e+01 </ham>
+<ke>  5.87083e+01 ~  6.88355e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      806 
+<energyAVG>
+<ham>  5.85980e+01 ~  6.87413e+01 </ham>
+<ke>  5.87208e+01 ~  6.88642e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      807 
+<energyAVG>
+<ham>  5.86106e+01 ~  6.87700e+01 </ham>
+<ke>  5.87334e+01 ~  6.88929e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      808 
+<energyAVG>
+<ham>  5.86232e+01 ~  6.87987e+01 </ham>
+<ke>  5.87460e+01 ~  6.89216e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      809 
+<energyAVG>
+<ham>  5.86358e+01 ~  6.88275e+01 </ham>
+<ke>  5.87586e+01 ~  6.89503e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      810 
+<energyAVG>
+<ham>  5.86484e+01 ~  6.88562e+01 </ham>
+<ke>  5.87712e+01 ~  6.89791e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      811 
+<energyAVG>
+<ham>  5.86610e+01 ~  6.88850e+01 </ham>
+<ke>  5.87838e+01 ~  6.90079e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      812 
+<energyAVG>
+<ham>  5.86736e+01 ~  6.89138e+01 </ham>
+<ke>  5.87964e+01 ~  6.90366e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      813 
+<energyAVG>
+<ham>  5.86862e+01 ~  6.89426e+01 </ham>
+<ke>  5.88091e+01 ~  6.90654e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      814 
+<energyAVG>
+<ham>  5.86988e+01 ~  6.89714e+01 </ham>
+<ke>  5.88217e+01 ~  6.90942e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      815 
+<energyAVG>
+<ham>  5.87114e+01 ~  6.90002e+01 </ham>
+<ke>  5.88343e+01 ~  6.91231e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      816 
+<energyAVG>
+<ham>  5.87241e+01 ~  6.90290e+01 </ham>
+<ke>  5.88469e+01 ~  6.91519e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      817 
+<energyAVG>
+<ham>  5.87367e+01 ~  6.90579e+01 </ham>
+<ke>  5.88596e+01 ~  6.91807e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      818 
+<energyAVG>
+<ham>  5.87493e+01 ~  6.90867e+01 </ham>
+<ke>  5.88722e+01 ~  6.92096e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      819 
+<energyAVG>
+<ham>  5.87620e+01 ~  6.91156e+01 </ham>
+<ke>  5.88848e+01 ~  6.92385e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      820 
+<energyAVG>
+<ham>  5.87746e+01 ~  6.91445e+01 </ham>
+<ke>  5.88975e+01 ~  6.92673e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      821 
+<energyAVG>
+<ham>  5.87873e+01 ~  6.91734e+01 </ham>
+<ke>  5.89101e+01 ~  6.92962e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      822 
+<energyAVG>
+<ham>  5.87999e+01 ~  6.92023e+01 </ham>
+<ke>  5.89228e+01 ~  6.93251e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      823 
+<energyAVG>
+<ham>  5.88126e+01 ~  6.92312e+01 </ham>
+<ke>  5.89355e+01 ~  6.93541e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      824 
+<energyAVG>
+<ham>  5.88253e+01 ~  6.92601e+01 </ham>
+<ke>  5.89481e+01 ~  6.93830e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      825 
+<energyAVG>
+<ham>  5.88379e+01 ~  6.92891e+01 </ham>
+<ke>  5.89608e+01 ~  6.94120e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      826 
+<energyAVG>
+<ham>  5.88506e+01 ~  6.93180e+01 </ham>
+<ke>  5.89735e+01 ~  6.94409e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      827 
+<energyAVG>
+<ham>  5.88633e+01 ~  6.93470e+01 </ham>
+<ke>  5.89861e+01 ~  6.94699e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      828 
+<energyAVG>
+<ham>  5.88760e+01 ~  6.93760e+01 </ham>
+<ke>  5.89988e+01 ~  6.94989e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      829 
+<energyAVG>
+<ham>  5.88886e+01 ~  6.94050e+01 </ham>
+<ke>  5.90115e+01 ~  6.95279e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      830 
+<energyAVG>
+<ham>  5.89013e+01 ~  6.94340e+01 </ham>
+<ke>  5.90242e+01 ~  6.95569e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      831 
+<energyAVG>
+<ham>  5.89140e+01 ~  6.94631e+01 </ham>
+<ke>  5.90369e+01 ~  6.95859e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      832 
+<energyAVG>
+<ham>  5.89267e+01 ~  6.94921e+01 </ham>
+<ke>  5.90496e+01 ~  6.96150e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      833 
+<energyAVG>
+<ham>  5.89394e+01 ~  6.95212e+01 </ham>
+<ke>  5.90623e+01 ~  6.96440e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      834 
+<energyAVG>
+<ham>  5.89521e+01 ~  6.95502e+01 </ham>
+<ke>  5.90750e+01 ~  6.96731e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      835 
+<energyAVG>
+<ham>  5.89648e+01 ~  6.95793e+01 </ham>
+<ke>  5.90877e+01 ~  6.97022e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      836 
+<energyAVG>
+<ham>  5.89776e+01 ~  6.96084e+01 </ham>
+<ke>  5.91004e+01 ~  6.97313e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      837 
+<energyAVG>
+<ham>  5.89903e+01 ~  6.96375e+01 </ham>
+<ke>  5.91132e+01 ~  6.97604e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      838 
+<energyAVG>
+<ham>  5.90030e+01 ~  6.96666e+01 </ham>
+<ke>  5.91259e+01 ~  6.97895e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      839 
+<energyAVG>
+<ham>  5.90157e+01 ~  6.96958e+01 </ham>
+<ke>  5.91386e+01 ~  6.98186e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      840 
+<energyAVG>
+<ham>  5.90285e+01 ~  6.97249e+01 </ham>
+<ke>  5.91513e+01 ~  6.98478e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      841 
+<energyAVG>
+<ham>  5.90412e+01 ~  6.97541e+01 </ham>
+<ke>  5.91641e+01 ~  6.98769e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      842 
+<energyAVG>
+<ham>  5.90539e+01 ~  6.97832e+01 </ham>
+<ke>  5.91768e+01 ~  6.99061e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      843 
+<energyAVG>
+<ham>  5.90667e+01 ~  6.98124e+01 </ham>
+<ke>  5.91896e+01 ~  6.99353e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      844 
+<energyAVG>
+<ham>  5.90794e+01 ~  6.98416e+01 </ham>
+<ke>  5.92023e+01 ~  6.99645e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      845 
+<energyAVG>
+<ham>  5.90922e+01 ~  6.98708e+01 </ham>
+<ke>  5.92151e+01 ~  6.99937e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      846 
+<energyAVG>
+<ham>  5.91050e+01 ~  6.99001e+01 </ham>
+<ke>  5.92278e+01 ~  7.00229e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      847 
+<energyAVG>
+<ham>  5.91177e+01 ~  6.99293e+01 </ham>
+<ke>  5.92406e+01 ~  7.00522e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      848 
+<energyAVG>
+<ham>  5.91305e+01 ~  6.99585e+01 </ham>
+<ke>  5.92534e+01 ~  7.00814e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      849 
+<energyAVG>
+<ham>  5.91433e+01 ~  6.99878e+01 </ham>
+<ke>  5.92661e+01 ~  7.01107e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      850 
+<energyAVG>
+<ham>  5.91560e+01 ~  7.00171e+01 </ham>
+<ke>  5.92789e+01 ~  7.01400e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      851 
+<energyAVG>
+<ham>  5.91688e+01 ~  7.00464e+01 </ham>
+<ke>  5.92917e+01 ~  7.01693e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      852 
+<energyAVG>
+<ham>  5.91816e+01 ~  7.00757e+01 </ham>
+<ke>  5.93045e+01 ~  7.01986e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      853 
+<energyAVG>
+<ham>  5.91944e+01 ~  7.01050e+01 </ham>
+<ke>  5.93173e+01 ~  7.02279e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      854 
+<energyAVG>
+<ham>  5.92072e+01 ~  7.01343e+01 </ham>
+<ke>  5.93301e+01 ~  7.02572e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      855 
+<energyAVG>
+<ham>  5.92200e+01 ~  7.01637e+01 </ham>
+<ke>  5.93429e+01 ~  7.02865e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      856 
+<energyAVG>
+<ham>  5.92328e+01 ~  7.01930e+01 </ham>
+<ke>  5.93557e+01 ~  7.03159e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      857 
+<energyAVG>
+<ham>  5.92456e+01 ~  7.02224e+01 </ham>
+<ke>  5.93685e+01 ~  7.03453e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      858 
+<energyAVG>
+<ham>  5.92584e+01 ~  7.02518e+01 </ham>
+<ke>  5.93813e+01 ~  7.03747e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      859 
+<energyAVG>
+<ham>  5.92712e+01 ~  7.02812e+01 </ham>
+<ke>  5.93941e+01 ~  7.04041e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      860 
+<energyAVG>
+<ham>  5.92841e+01 ~  7.03106e+01 </ham>
+<ke>  5.94069e+01 ~  7.04335e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      861 
+<energyAVG>
+<ham>  5.92969e+01 ~  7.03400e+01 </ham>
+<ke>  5.94198e+01 ~  7.04629e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      862 
+<energyAVG>
+<ham>  5.93097e+01 ~  7.03695e+01 </ham>
+<ke>  5.94326e+01 ~  7.04923e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      863 
+<energyAVG>
+<ham>  5.93226e+01 ~  7.03989e+01 </ham>
+<ke>  5.94454e+01 ~  7.05218e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      864 
+<energyAVG>
+<ham>  5.93354e+01 ~  7.04284e+01 </ham>
+<ke>  5.94583e+01 ~  7.05512e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      865 
+<energyAVG>
+<ham>  5.93482e+01 ~  7.04578e+01 </ham>
+<ke>  5.94711e+01 ~  7.05807e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      866 
+<energyAVG>
+<ham>  5.93611e+01 ~  7.04873e+01 </ham>
+<ke>  5.94840e+01 ~  7.06102e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      867 
+<energyAVG>
+<ham>  5.93739e+01 ~  7.05168e+01 </ham>
+<ke>  5.94968e+01 ~  7.06397e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      868 
+<energyAVG>
+<ham>  5.93868e+01 ~  7.05463e+01 </ham>
+<ke>  5.95097e+01 ~  7.06692e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      869 
+<energyAVG>
+<ham>  5.93997e+01 ~  7.05759e+01 </ham>
+<ke>  5.95225e+01 ~  7.06987e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      870 
+<energyAVG>
+<ham>  5.94125e+01 ~  7.06054e+01 </ham>
+<ke>  5.95354e+01 ~  7.07283e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      871 
+<energyAVG>
+<ham>  5.94254e+01 ~  7.06350e+01 </ham>
+<ke>  5.95483e+01 ~  7.07578e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      872 
+<energyAVG>
+<ham>  5.94383e+01 ~  7.06645e+01 </ham>
+<ke>  5.95611e+01 ~  7.07874e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      873 
+<energyAVG>
+<ham>  5.94511e+01 ~  7.06941e+01 </ham>
+<ke>  5.95740e+01 ~  7.08170e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      874 
+<energyAVG>
+<ham>  5.94640e+01 ~  7.07237e+01 </ham>
+<ke>  5.95869e+01 ~  7.08466e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      875 
+<energyAVG>
+<ham>  5.94769e+01 ~  7.07533e+01 </ham>
+<ke>  5.95998e+01 ~  7.08762e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      876 
+<energyAVG>
+<ham>  5.94898e+01 ~  7.07829e+01 </ham>
+<ke>  5.96127e+01 ~  7.09058e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      877 
+<energyAVG>
+<ham>  5.95027e+01 ~  7.08126e+01 </ham>
+<ke>  5.96256e+01 ~  7.09354e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      878 
+<energyAVG>
+<ham>  5.95156e+01 ~  7.08422e+01 </ham>
+<ke>  5.96385e+01 ~  7.09651e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      879 
+<energyAVG>
+<ham>  5.95285e+01 ~  7.08719e+01 </ham>
+<ke>  5.96514e+01 ~  7.09947e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      880 
+<energyAVG>
+<ham>  5.95414e+01 ~  7.09015e+01 </ham>
+<ke>  5.96643e+01 ~  7.10244e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      881 
+<energyAVG>
+<ham>  5.95543e+01 ~  7.09312e+01 </ham>
+<ke>  5.96772e+01 ~  7.10541e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      882 
+<energyAVG>
+<ham>  5.95672e+01 ~  7.09609e+01 </ham>
+<ke>  5.96901e+01 ~  7.10838e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      883 
+<energyAVG>
+<ham>  5.95802e+01 ~  7.09906e+01 </ham>
+<ke>  5.97030e+01 ~  7.11135e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      884 
+<energyAVG>
+<ham>  5.95931e+01 ~  7.10204e+01 </ham>
+<ke>  5.97160e+01 ~  7.11432e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      885 
+<energyAVG>
+<ham>  5.96060e+01 ~  7.10501e+01 </ham>
+<ke>  5.97289e+01 ~  7.11730e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      886 
+<energyAVG>
+<ham>  5.96190e+01 ~  7.10799e+01 </ham>
+<ke>  5.97418e+01 ~  7.12027e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      887 
+<energyAVG>
+<ham>  5.96319e+01 ~  7.11096e+01 </ham>
+<ke>  5.97548e+01 ~  7.12325e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      888 
+<energyAVG>
+<ham>  5.96448e+01 ~  7.11394e+01 </ham>
+<ke>  5.97677e+01 ~  7.12623e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      889 
+<energyAVG>
+<ham>  5.96578e+01 ~  7.11692e+01 </ham>
+<ke>  5.97807e+01 ~  7.12921e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      890 
+<energyAVG>
+<ham>  5.96708e+01 ~  7.11990e+01 </ham>
+<ke>  5.97936e+01 ~  7.13219e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      891 
+<energyAVG>
+<ham>  5.96837e+01 ~  7.12288e+01 </ham>
+<ke>  5.98066e+01 ~  7.13517e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      892 
+<energyAVG>
+<ham>  5.96967e+01 ~  7.12586e+01 </ham>
+<ke>  5.98195e+01 ~  7.13815e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      893 
+<energyAVG>
+<ham>  5.97096e+01 ~  7.12885e+01 </ham>
+<ke>  5.98325e+01 ~  7.14114e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      894 
+<energyAVG>
+<ham>  5.97226e+01 ~  7.13183e+01 </ham>
+<ke>  5.98455e+01 ~  7.14412e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      895 
+<energyAVG>
+<ham>  5.97356e+01 ~  7.13482e+01 </ham>
+<ke>  5.98585e+01 ~  7.14711e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      896 
+<energyAVG>
+<ham>  5.97486e+01 ~  7.13781e+01 </ham>
+<ke>  5.98714e+01 ~  7.15010e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      897 
+<energyAVG>
+<ham>  5.97615e+01 ~  7.14080e+01 </ham>
+<ke>  5.98844e+01 ~  7.15309e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      898 
+<energyAVG>
+<ham>  5.97745e+01 ~  7.14379e+01 </ham>
+<ke>  5.98974e+01 ~  7.15608e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      899 
+<energyAVG>
+<ham>  5.97875e+01 ~  7.14678e+01 </ham>
+<ke>  5.99104e+01 ~  7.15907e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      900 
+<energyAVG>
+<ham>  5.98005e+01 ~  7.14978e+01 </ham>
+<ke>  5.99234e+01 ~  7.16206e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      901 
+<energyAVG>
+<ham>  5.98135e+01 ~  7.15277e+01 </ham>
+<ke>  5.99364e+01 ~  7.16506e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      902 
+<energyAVG>
+<ham>  5.98265e+01 ~  7.15577e+01 </ham>
+<ke>  5.99494e+01 ~  7.16805e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      903 
+<energyAVG>
+<ham>  5.98395e+01 ~  7.15876e+01 </ham>
+<ke>  5.99624e+01 ~  7.17105e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      904 
+<energyAVG>
+<ham>  5.98526e+01 ~  7.16176e+01 </ham>
+<ke>  5.99754e+01 ~  7.17405e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      905 
+<energyAVG>
+<ham>  5.98656e+01 ~  7.16476e+01 </ham>
+<ke>  5.99884e+01 ~  7.17705e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      906 
+<energyAVG>
+<ham>  5.98786e+01 ~  7.16777e+01 </ham>
+<ke>  6.00015e+01 ~  7.18005e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      907 
+<energyAVG>
+<ham>  5.98916e+01 ~  7.17077e+01 </ham>
+<ke>  6.00145e+01 ~  7.18306e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      908 
+<energyAVG>
+<ham>  5.99047e+01 ~  7.17377e+01 </ham>
+<ke>  6.00275e+01 ~  7.18606e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      909 
+<energyAVG>
+<ham>  5.99177e+01 ~  7.17678e+01 </ham>
+<ke>  6.00406e+01 ~  7.18906e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      910 
+<energyAVG>
+<ham>  5.99307e+01 ~  7.17978e+01 </ham>
+<ke>  6.00536e+01 ~  7.19207e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      911 
+<energyAVG>
+<ham>  5.99438e+01 ~  7.18279e+01 </ham>
+<ke>  6.00667e+01 ~  7.19508e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      912 
+<energyAVG>
+<ham>  5.99568e+01 ~  7.18580e+01 </ham>
+<ke>  6.00797e+01 ~  7.19809e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      913 
+<energyAVG>
+<ham>  5.99699e+01 ~  7.18881e+01 </ham>
+<ke>  6.00928e+01 ~  7.20110e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      914 
+<energyAVG>
+<ham>  5.99829e+01 ~  7.19182e+01 </ham>
+<ke>  6.01058e+01 ~  7.20411e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      915 
+<energyAVG>
+<ham>  5.99960e+01 ~  7.19484e+01 </ham>
+<ke>  6.01189e+01 ~  7.20712e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      916 
+<energyAVG>
+<ham>  6.00091e+01 ~  7.19785e+01 </ham>
+<ke>  6.01319e+01 ~  7.21014e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      917 
+<energyAVG>
+<ham>  6.00221e+01 ~  7.20087e+01 </ham>
+<ke>  6.01450e+01 ~  7.21316e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      918 
+<energyAVG>
+<ham>  6.00352e+01 ~  7.20389e+01 </ham>
+<ke>  6.01581e+01 ~  7.21617e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      919 
+<energyAVG>
+<ham>  6.00483e+01 ~  7.20690e+01 </ham>
+<ke>  6.01712e+01 ~  7.21919e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      920 
+<energyAVG>
+<ham>  6.00614e+01 ~  7.20992e+01 </ham>
+<ke>  6.01843e+01 ~  7.22221e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      921 
+<energyAVG>
+<ham>  6.00745e+01 ~  7.21295e+01 </ham>
+<ke>  6.01973e+01 ~  7.22523e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      922 
+<energyAVG>
+<ham>  6.00876e+01 ~  7.21597e+01 </ham>
+<ke>  6.02104e+01 ~  7.22825e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      923 
+<energyAVG>
+<ham>  6.01007e+01 ~  7.21899e+01 </ham>
+<ke>  6.02235e+01 ~  7.23128e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      924 
+<energyAVG>
+<ham>  6.01138e+01 ~  7.22202e+01 </ham>
+<ke>  6.02366e+01 ~  7.23430e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      925 
+<energyAVG>
+<ham>  6.01269e+01 ~  7.22504e+01 </ham>
+<ke>  6.02497e+01 ~  7.23733e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      926 
+<energyAVG>
+<ham>  6.01400e+01 ~  7.22807e+01 </ham>
+<ke>  6.02629e+01 ~  7.24036e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      927 
+<energyAVG>
+<ham>  6.01531e+01 ~  7.23110e+01 </ham>
+<ke>  6.02760e+01 ~  7.24339e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      928 
+<energyAVG>
+<ham>  6.01662e+01 ~  7.23413e+01 </ham>
+<ke>  6.02891e+01 ~  7.24642e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      929 
+<energyAVG>
+<ham>  6.01793e+01 ~  7.23716e+01 </ham>
+<ke>  6.03022e+01 ~  7.24945e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      930 
+<energyAVG>
+<ham>  6.01925e+01 ~  7.24020e+01 </ham>
+<ke>  6.03153e+01 ~  7.25248e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      931 
+<energyAVG>
+<ham>  6.02056e+01 ~  7.24323e+01 </ham>
+<ke>  6.03285e+01 ~  7.25552e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      932 
+<energyAVG>
+<ham>  6.02187e+01 ~  7.24627e+01 </ham>
+<ke>  6.03416e+01 ~  7.25855e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      933 
+<energyAVG>
+<ham>  6.02319e+01 ~  7.24930e+01 </ham>
+<ke>  6.03548e+01 ~  7.26159e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      934 
+<energyAVG>
+<ham>  6.02450e+01 ~  7.25234e+01 </ham>
+<ke>  6.03679e+01 ~  7.26463e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      935 
+<energyAVG>
+<ham>  6.02582e+01 ~  7.25538e+01 </ham>
+<ke>  6.03810e+01 ~  7.26767e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      936 
+<energyAVG>
+<ham>  6.02713e+01 ~  7.25842e+01 </ham>
+<ke>  6.03942e+01 ~  7.27071e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      937 
+<energyAVG>
+<ham>  6.02845e+01 ~  7.26146e+01 </ham>
+<ke>  6.04074e+01 ~  7.27375e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      938 
+<energyAVG>
+<ham>  6.02977e+01 ~  7.26451e+01 </ham>
+<ke>  6.04205e+01 ~  7.27679e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      939 
+<energyAVG>
+<ham>  6.03108e+01 ~  7.26755e+01 </ham>
+<ke>  6.04337e+01 ~  7.27984e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      940 
+<energyAVG>
+<ham>  6.03240e+01 ~  7.27060e+01 </ham>
+<ke>  6.04469e+01 ~  7.28288e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      941 
+<energyAVG>
+<ham>  6.03372e+01 ~  7.27365e+01 </ham>
+<ke>  6.04600e+01 ~  7.28593e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      942 
+<energyAVG>
+<ham>  6.03504e+01 ~  7.27669e+01 </ham>
+<ke>  6.04732e+01 ~  7.28898e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      943 
+<energyAVG>
+<ham>  6.03635e+01 ~  7.27974e+01 </ham>
+<ke>  6.04864e+01 ~  7.29203e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      944 
+<energyAVG>
+<ham>  6.03767e+01 ~  7.28280e+01 </ham>
+<ke>  6.04996e+01 ~  7.29508e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      945 
+<energyAVG>
+<ham>  6.03899e+01 ~  7.28585e+01 </ham>
+<ke>  6.05128e+01 ~  7.29814e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      946 
+<energyAVG>
+<ham>  6.04031e+01 ~  7.28890e+01 </ham>
+<ke>  6.05260e+01 ~  7.30119e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      947 
+<energyAVG>
+<ham>  6.04163e+01 ~  7.29196e+01 </ham>
+<ke>  6.05392e+01 ~  7.30425e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      948 
+<energyAVG>
+<ham>  6.04295e+01 ~  7.29501e+01 </ham>
+<ke>  6.05524e+01 ~  7.30730e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      949 
+<energyAVG>
+<ham>  6.04427e+01 ~  7.29807e+01 </ham>
+<ke>  6.05656e+01 ~  7.31036e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      950 
+<energyAVG>
+<ham>  6.04560e+01 ~  7.30113e+01 </ham>
+<ke>  6.05788e+01 ~  7.31342e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      951 
+<energyAVG>
+<ham>  6.04692e+01 ~  7.30419e+01 </ham>
+<ke>  6.05921e+01 ~  7.31648e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      952 
+<energyAVG>
+<ham>  6.04824e+01 ~  7.30725e+01 </ham>
+<ke>  6.06053e+01 ~  7.31954e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      953 
+<energyAVG>
+<ham>  6.04956e+01 ~  7.31032e+01 </ham>
+<ke>  6.06185e+01 ~  7.32261e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      954 
+<energyAVG>
+<ham>  6.05089e+01 ~  7.31338e+01 </ham>
+<ke>  6.06317e+01 ~  7.32567e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      955 
+<energyAVG>
+<ham>  6.05221e+01 ~  7.31645e+01 </ham>
+<ke>  6.06450e+01 ~  7.32874e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      956 
+<energyAVG>
+<ham>  6.05353e+01 ~  7.31952e+01 </ham>
+<ke>  6.06582e+01 ~  7.33180e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      957 
+<energyAVG>
+<ham>  6.05486e+01 ~  7.32258e+01 </ham>
+<ke>  6.06715e+01 ~  7.33487e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      958 
+<energyAVG>
+<ham>  6.05618e+01 ~  7.32565e+01 </ham>
+<ke>  6.06847e+01 ~  7.33794e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      959 
+<energyAVG>
+<ham>  6.05751e+01 ~  7.32873e+01 </ham>
+<ke>  6.06980e+01 ~  7.34101e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      960 
+<energyAVG>
+<ham>  6.05884e+01 ~  7.33180e+01 </ham>
+<ke>  6.07112e+01 ~  7.34409e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      961 
+<energyAVG>
+<ham>  6.06016e+01 ~  7.33487e+01 </ham>
+<ke>  6.07245e+01 ~  7.34716e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      962 
+<energyAVG>
+<ham>  6.06149e+01 ~  7.33795e+01 </ham>
+<ke>  6.07378e+01 ~  7.35023e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      963 
+<energyAVG>
+<ham>  6.06282e+01 ~  7.34102e+01 </ham>
+<ke>  6.07510e+01 ~  7.35331e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      964 
+<energyAVG>
+<ham>  6.06414e+01 ~  7.34410e+01 </ham>
+<ke>  6.07643e+01 ~  7.35639e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      965 
+<energyAVG>
+<ham>  6.06547e+01 ~  7.34718e+01 </ham>
+<ke>  6.07776e+01 ~  7.35947e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      966 
+<energyAVG>
+<ham>  6.06680e+01 ~  7.35026e+01 </ham>
+<ke>  6.07909e+01 ~  7.36255e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      967 
+<energyAVG>
+<ham>  6.06813e+01 ~  7.35334e+01 </ham>
+<ke>  6.08042e+01 ~  7.36563e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      968 
+<energyAVG>
+<ham>  6.06946e+01 ~  7.35643e+01 </ham>
+<ke>  6.08175e+01 ~  7.36871e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      969 
+<energyAVG>
+<ham>  6.07079e+01 ~  7.35951e+01 </ham>
+<ke>  6.08308e+01 ~  7.37180e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      970 
+<energyAVG>
+<ham>  6.07212e+01 ~  7.36260e+01 </ham>
+<ke>  6.08441e+01 ~  7.37488e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      971 
+<energyAVG>
+<ham>  6.07345e+01 ~  7.36568e+01 </ham>
+<ke>  6.08574e+01 ~  7.37797e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      972 
+<energyAVG>
+<ham>  6.07478e+01 ~  7.36877e+01 </ham>
+<ke>  6.08707e+01 ~  7.38106e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      973 
+<energyAVG>
+<ham>  6.07611e+01 ~  7.37186e+01 </ham>
+<ke>  6.08840e+01 ~  7.38415e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      974 
+<energyAVG>
+<ham>  6.07745e+01 ~  7.37495e+01 </ham>
+<ke>  6.08973e+01 ~  7.38724e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      975 
+<energyAVG>
+<ham>  6.07878e+01 ~  7.37804e+01 </ham>
+<ke>  6.09107e+01 ~  7.39033e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      976 
+<energyAVG>
+<ham>  6.08011e+01 ~  7.38114e+01 </ham>
+<ke>  6.09240e+01 ~  7.39342e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      977 
+<energyAVG>
+<ham>  6.08145e+01 ~  7.38423e+01 </ham>
+<ke>  6.09373e+01 ~  7.39652e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      978 
+<energyAVG>
+<ham>  6.08278e+01 ~  7.38733e+01 </ham>
+<ke>  6.09507e+01 ~  7.39961e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      979 
+<energyAVG>
+<ham>  6.08411e+01 ~  7.39043e+01 </ham>
+<ke>  6.09640e+01 ~  7.40271e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      980 
+<energyAVG>
+<ham>  6.08545e+01 ~  7.39352e+01 </ham>
+<ke>  6.09774e+01 ~  7.40581e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      981 
+<energyAVG>
+<ham>  6.08678e+01 ~  7.39662e+01 </ham>
+<ke>  6.09907e+01 ~  7.40891e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      982 
+<energyAVG>
+<ham>  6.08812e+01 ~  7.39973e+01 </ham>
+<ke>  6.10041e+01 ~  7.41201e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      983 
+<energyAVG>
+<ham>  6.08946e+01 ~  7.40283e+01 </ham>
+<ke>  6.10174e+01 ~  7.41512e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      984 
+<energyAVG>
+<ham>  6.09079e+01 ~  7.40593e+01 </ham>
+<ke>  6.10308e+01 ~  7.41822e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      985 
+<energyAVG>
+<ham>  6.09213e+01 ~  7.40904e+01 </ham>
+<ke>  6.10442e+01 ~  7.42133e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      986 
+<energyAVG>
+<ham>  6.09347e+01 ~  7.41214e+01 </ham>
+<ke>  6.10575e+01 ~  7.42443e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      987 
+<energyAVG>
+<ham>  6.09480e+01 ~  7.41525e+01 </ham>
+<ke>  6.10709e+01 ~  7.42754e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      988 
+<energyAVG>
+<ham>  6.09614e+01 ~  7.41836e+01 </ham>
+<ke>  6.10843e+01 ~  7.43065e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      989 
+<energyAVG>
+<ham>  6.09748e+01 ~  7.42147e+01 </ham>
+<ke>  6.10977e+01 ~  7.43376e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      990 
+<energyAVG>
+<ham>  6.09882e+01 ~  7.42458e+01 </ham>
+<ke>  6.11111e+01 ~  7.43687e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      991 
+<energyAVG>
+<ham>  6.10016e+01 ~  7.42770e+01 </ham>
+<ke>  6.11245e+01 ~  7.43998e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      992 
+<energyAVG>
+<ham>  6.10150e+01 ~  7.43081e+01 </ham>
+<ke>  6.11379e+01 ~  7.44310e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      993 
+<energyAVG>
+<ham>  6.10284e+01 ~  7.43393e+01 </ham>
+<ke>  6.11513e+01 ~  7.44622e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      994 
+<energyAVG>
+<ham>  6.10418e+01 ~  7.43705e+01 </ham>
+<ke>  6.11647e+01 ~  7.44933e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      995 
+<energyAVG>
+<ham>  6.10552e+01 ~  7.44016e+01 </ham>
+<ke>  6.11781e+01 ~  7.45245e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      996 
+<energyAVG>
+<ham>  6.10686e+01 ~  7.44328e+01 </ham>
+<ke>  6.11915e+01 ~  7.45557e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      997 
+<energyAVG>
+<ham>  6.10821e+01 ~  7.44641e+01 </ham>
+<ke>  6.12049e+01 ~  7.45869e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      998 
+<energyAVG>
+<ham>  6.10955e+01 ~  7.44953e+01 </ham>
+<ke>  6.12184e+01 ~  7.46181e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>      999 
+<energyAVG>
+<ham>  6.11089e+01 ~  7.45265e+01 </ham>
+<ke>  6.12318e+01 ~  7.46494e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+<step>     1000 
+<energyAVG>
+<ham>  6.11224e+01 ~  7.45578e+01 </ham>
+<ke>  6.12452e+01 ~  7.46806e+01 </ke> 
+<pe> -1.22872e-01 ~ -1.22872e-01 </pe>
+</energyAVG>
+</step>
+
+Timing of ../mdmol.mpi on radon (id=8500)
+(id=8500) cputime = 0.24 sec, walltime = 0.498356 sec

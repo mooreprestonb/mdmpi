@@ -1,0 +1,18 @@
+natoms 4         number of molecules
+nsteps 1000      number of steps
+#calculation_type continue
+calculation_type initial
+timestep 0.01      dt 
+box_length 10        box lenght
+neighbor_type 0  type of list (0,1) n^2, (2,3) verlet, (4,5) link lists
+periodicity 3         periodicity 0-3
+initial_file lj.4.coord  initial coordininate file
+restart_file lj.rest   restart file
+trajectory_file lj.traj   trajectory configurations
+energy_file lj.eng    energy file
+ncell_link 3         ncell (number of cells for the link list)
+rcut 5         rcut shortrange cut off distance
+skin 1         skin skin for neighbor list
+kmax 10        kmax max of |k| vectors for ewald sum 
+alpha 1         alpha ~ alpha = 3/rcut
+zerotm off

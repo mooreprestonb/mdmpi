@@ -1,0 +1,23 @@
+<simulation>
+<natoms> 32 </natoms>        number of molecules
+<nsteps> 10000 </nsteps>      number of steps
+<timestep> 0.001 </timestep>      dt 
+<box> 10 </box>        box lenght
+<neighbor> 2 </neighbor> type of neighbor  (0,1) n^2, (2,3) verlet, (4,5) link
+<periodicity> 3 </periodicity>         periodicity 0-3
+<coordsfile> toroid.coord </coordsfile> 	  initial coordininate file
+<restartfile> toroid.rest2 </restartfile> 	   restart file
+<trajectoryfile> toroid.traj2 </trajectoryfile>    trajectory configurations
+<energyfile> toroid.eng </energyfile> 	    energy file
+<systemfile> toroid.sys </systemfile>
+<paramfile> toroid.parm </paramfile>
+<logfile>  	toroid.log </logfile >
+<errorfile>  	toroid.err  </errorfile>
+<ncell> 3 </ncell>         ncell (number of cells for the link list)
+<rcut> 3 </rcut>         rcut shortrange cut off distance
+<skin> 1 </skin>         skin skin for neighbor list
+<kmax> 10 </kmax>        kmax max of |k| vectors for ewald sum 
+<alpha> 1 </alpha>         alpha ~ alpha = 3/rcut
+<nfreeze> 16 </nfreeze>         nfreeze the first N are frozen
+<writefreq> 100 </writefreq>
+</simulation>

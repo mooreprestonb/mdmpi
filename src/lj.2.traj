@@ -1,0 +1,13 @@
+<trajectoryFile>
+<coords>
+<nmol> 2 </nmol> <step> 0 </step> <time> 0 </time>
+<xyz id="0"> 0 0 0 </xyz> <vxyz id="0"> 0 0 0 </vxyz>
+<xyz id="1"> 0 0 0 </xyz> <vxyz id="1"> 0 0 0 </vxyz>
+<hmatrix> 10 0 0  0 10 0  0 0 10 </hmatrix>
+</coords>
+<coords>
+<nmol> 2 </nmol> <step> 10 </step> <time> 0.1 </time>
+<xyz id="0"> nan nan nan </xyz> <vxyz id="0"> nan nan nan </vxyz>
+<xyz id="1"> nan nan nan </xyz> <vxyz id="1"> nan nan nan </vxyz>
+<hmatrix> 10 0 0  0 10 0  0 0 10 </hmatrix>
+</coords>

@@ -1,0 +1,7 @@
+<coords>
+<natoms> 4 </natoms> <step> 0 </step>
+<xyz> 0.999009 0     0           </xyz><vxyz> 10 0 0</vxyz><charge> 1 </charge>
+<xyz> 2.99999  0   -9.08203e-06  </xyz><vxyz>0 0 0  </vxyz><charge>-1 </charge>
+<xyz> 0.999    0     3           </xyz><vxyz>0 0 0  </vxyz><charge> 1 </charge>
+<xyz> 3        0.001 -1.99999    </xyz><vxyz>0 0 0  </vxyz><charge>-1 </charge>
+</coords>

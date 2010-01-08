@@ -1,0 +1,19 @@
+<parameterfile>
+
+<interparm>
+<atom1> lj </atom1> <atom2> lj </atom2> 
+<pottype> lennard-jones 
+<eps> 1 </eps> <sigma> 1 </sigma> 
+</pottype>
+
+<maxdist> 10 </maxdist> 
+<mindist> 1 <mindist>
+</interparm>
+
+<bondparm>
+<atom1> lj </atom1> <atom2> lj </atom2> 
+<pottype> harm </pottype>
+
+</bondparm>
+
+</parameterfile>

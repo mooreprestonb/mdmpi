@@ -1,0 +1,16 @@
+32        number of molecules
+10000      number of steps
+0.01      dt 
+10        box lenght
+2         type of neighbor list (0,1) n^2, (2,3) verlet, (4,5) link lists
+3         periodicity 0-3
+toroid.coord  initial coordininate file
+toroid.rest   restart file
+toroid.traj   trajectory configurations
+toroid.eng    energy file
+3         ncell (number of cells for the link list)
+3         rcut shortrange cut off distance
+1         skin skin for neighbor list
+10        kmax max of |k| vectors for ewald sum 
+1         alpha ~ alpha = 3/rcut
+16         nfreeze the first N are frozen

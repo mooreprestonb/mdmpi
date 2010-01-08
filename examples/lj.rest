@@ -1,0 +1,23 @@
+<coords>
+<natoms> 4 </natoms>
+<step> 1001 </step>
+<timestep> 0.01 </timestep>
+<boxsize> 10 </boxsize>
+<coordFileName> lj.4.in </coordFileName>
+<restartFileName> lj.rest</restartFileName>
+<energyFileName> lj.eng </energyFileName>
+<trajectorFileName> lj.traj </trajectorFileName>
+<xyz id="0"> 0.999009 0 0 	</xyz> 
+ <vxyz id="0"> 7.5 0 0 	</vxyz> 
+ <charge id="0"> 0 </charge> <mass id="0"> 1 </mass>
+<xyz id="1"> 2.99999 0 -9.08203e-06 	</xyz> 
+ <vxyz id="1"> -2.5 0 0 	</vxyz> 
+ <charge id="1"> 0 </charge> <mass id="1"> 1 </mass>
+<xyz id="2"> 0.999 0 3 	</xyz> 
+ <vxyz id="2"> -2.5 0 0 	</vxyz> 
+ <charge id="2"> 0 </charge> <mass id="2"> 1 </mass>
+<xyz id="3"> 3 0.001 -1.99999 	</xyz> 
+ <vxyz id="3"> -2.5 0 0 	</vxyz> 
+ <charge id="3"> 0 </charge> <mass id="3"> 1 </mass>
+<hmatrix> 10 0 0  0 10 0  0 0 10 </hmatrix>
+<energy> <dof> 12 </dof> <navg> 1001 </navg> <tke> 61306.5 </tke> <tpe> -122.995 </tpe> </energy></coords>

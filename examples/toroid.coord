@@ -1,0 +1,36 @@
+<coords> 
+<natoms> 32 </natoms> <step> 10 </step>  
+<xyz>  2  0 0  </xyz><vxyz>  0 0 0  </vxyz><charge> 1 </charge>
+<xyz>  0  2 0  </xyz><vxyz>  0 0 0  </vxyz><charge> 1 </charge>
+<xyz> -2  0 0  </xyz><vxyz>  0 0 0  </vxyz><charge> 1 </charge>
+<xyz>  0 -2 0  </xyz><vxyz>  0 0 0  </vxyz><charge> 1 </charge>
+<xyz>  1.41421  1.41421 0  </xyz><vxyz>   0 0 0  </vxyz><charge> 1 </charge>
+<xyz> -1.41421  1.41421 0  </xyz><vxyz>   0 0 0  </vxyz><charge> 1 </charge>
+<xyz>  1.41421 -1.41421 0  </xyz><vxyz>   0 0 0  </vxyz><charge> 1 </charge>
+<xyz> -1.41421 -1.41421 0   </xyz><vxyz>  0 0 0  </vxyz><charge> 1 </charge>
+<xyz>  1.84776  .7653668 0  </xyz><vxyz>  0 0 0  </vxyz><charge> 1 </charge>
+<xyz> -1.84776  .7653668 0  </xyz><vxyz>  0 0 0  </vxyz><charge> 1 </charge>
+<xyz>  1.84776 -.7653668 0  </xyz><vxyz>  0 0 0  </vxyz><charge> 1 </charge>
+<xyz> -1.84776 -.7653668 0  </xyz><vxyz>  0 0 0  </vxyz><charge> 1 </charge>
+<xyz>  .7653668  1.84776 0  </xyz><vxyz>  0 0 0 </vxyz><charge>  1 </charge>
+<xyz> -.7653668  1.84776 0  </xyz><vxyz>  0 0 0 </vxyz><charge>  1 </charge>
+<xyz>  .7653668 -1.84776 0  </xyz><vxyz>  0 0 0  </vxyz><charge> 1 </charge>
+<xyz> -.7653668 -1.84776 0  </xyz><vxyz>  0 0 0  </vxyz><charge> 1 </charge>
+<xyz>  2  0 2   </xyz><vxyz> 1 0 0 </vxyz><charge> -1 </charge>
+<xyz>  0  2 2   </xyz><vxyz> 0 1 0 </vxyz><charge> -1 </charge>
+<xyz> -2  0 2   </xyz><vxyz> 0 0 1 </vxyz><charge> -1 </charge>
+<xyz>  0 -2 2   </xyz><vxyz> 1 1 0 </vxyz><charge> -1 </charge>
+<xyz>  2  0 -2  </xyz><vxyz> 0 1 1 </vxyz><charge> -1 </charge>
+<xyz>  0  2 -2  </xyz><vxyz> 1 0 1 </vxyz><charge> -1 </charge>
+<xyz> -2  0 -2  </xyz><vxyz> 1 1 1 </vxyz><charge> -1 </charge>
+<xyz>  0 -2 -2  </xyz><vxyz> 0 0 0 </vxyz><charge> -1 </charge>
+<xyz>  2  0 -4  </xyz><vxyz> 0 1 1 </vxyz><charge> -1 </charge>
+<xyz>  0  2 -4  </xyz><vxyz> 1 0 1 </vxyz><charge> -1 </charge>
+<xyz> -2  0 -4  </xyz><vxyz> 1 1 1 </vxyz><charge> -1 </charge>
+<xyz>  0 -2 -4  </xyz><vxyz> 0 0 0 </vxyz><charge> -1 </charge>
+<xyz>  2  0  4  </xyz><vxyz> 0 1 1 </vxyz><charge> -1 </charge>
+<xyz>  0  2  4  </xyz><vxyz> 1 0 1 </vxyz><charge> -1 </charge>
+<xyz> -2  0  4  </xyz><vxyz> 1 1 1 </vxyz><charge> -1 </charge>
+<xyz>  0 -2  4  </xyz><vxyz> 0 0 0 </vxyz><charge> -1 </charge>
+10 0 0 0 10 0 0 0 10
+</coords>

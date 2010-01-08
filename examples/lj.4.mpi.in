@@ -1,0 +1,29 @@
+
+<simulation>
+
+<natoms> 4 </natoms>
+<nsteps> 1000 </nsteps>
+<timestep> 0.01 </timestep>
+<box> 10 </box>
+<systemfile> lj.sys </systemfile>
+<paramfile> lj.parm </paramfile>
+<neighbor> 0 </neighbor>
+<periodicity> 4 </periodicity>
+<coordsfile> lj.4.coords </coordsfile>
+<restartfile> ljmpi.rest </restartfile>
+<trajectoryfile> ljmpi.traj </trajectoryfile>
+<energyfile> ljmpi.eng </energyfile>
+<logfile> ljmpi.log </logfile>
+<ncell> 3 </ncell>
+<rcut> 2.5 </rcut>
+<skin> 1 </skin>
+<writefreq> 1 </writefreq>
+</simulation>
+
+<coords>
+<natoms> 4 </natoms> <step> 0 </step>
+<xyz> 0.999009 0 0  </xyz><vxyz> 10 0 0</vxyz><charge> 0 </charge>
+<xyz> 2.99999 0 -9.08203e-06 </xyz><vxyz>0 0 0 </vxyz><charge> 0 </charge>
+<xyz> 0.999  0 3 </xyz><vxyz>0 0 0 </vxyz><charge> 0 </charge>
+<xyz> 3 0.001 -1.99999 </xyz><vxyz> 0 0 0 </vxyz><charge> 0 </charge>
+</coords>
